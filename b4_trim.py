@@ -2,8 +2,8 @@ import pandas as pd
 key_num = 3  # 削除する前後3s
 del_index = []  # 前後3s間の行番号を格納
 end_num = 10  # 削除する作業終了直前の10s
-someone = ['hayakawa/', 'yamanaka/', 'yurikusa/', 'kurata/']
-file_name = ['syuchu', 'sogai', 'hirou']
+someone = ['watanabe/','suzuki/','shigenawa/','maeda/','kobayasi/','kawasaki/','tamura/','tamaru/','nomura/','motoyama/','ota/','kawamura/','imahashi/','yashiro/','tabata/']
+file_name = ['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2',]
 day = ['01', '02']
 gfi = ''
 
@@ -58,7 +58,3 @@ for sm in someone:
             df = pd.DataFrame()
             del_index.clear()
 # print(df)
-
-
-
-
