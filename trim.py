@@ -15,7 +15,7 @@ for sm in someone:
                 input_book = pd.ExcelFile('gap fill in/' + sm + fn + dy + ' Data Export.xlsx')
             else:
                 input_book = pd.ExcelFile('./00/ignore invalid/' + sm + fn + dy + ' Data Export.xlsx')
-            input_df = input_book.parse('Data')
+            input_df = input_book.parse('Data')#Dataシートを取得
 
             # textstartまでを削除
             text_start_index = input_df.index[(input_df['Event'] == 'Eye tracker Calibration end')].tolist()
