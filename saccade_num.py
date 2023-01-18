@@ -14,7 +14,7 @@ day = ['01', '02']
 pre=[]
 post=[]
 
-pass_time=[]
+saccase_pers=[]
 #========================アンケート結果読み込み=====================#
 task01=pd.read_excel('task01.xlsx',index_col=None)#ファイルの読み込み
 task02=pd.read_excel('task02.xlsx',index_col=None)#ファイルの読み込み
@@ -22,6 +22,7 @@ task02=pd.read_excel('task02.xlsx',index_col=None)#ファイルの読み込み
 for sm in someone:
     for dy in day:
         for fn in file_name:
+            saccade=0
             #=================アンケートの結果=================
             if dy=='01':
                 index=(task01.index[task01['被験者']==sm])[0]
@@ -39,8 +40,8 @@ for sm in someone:
             #================================================
             eye_index=0
 
-            #各マウスデータについて，その時刻の直前に見ていた点とのユークリッド距離を算出
-            input_mouse=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'mouse.csv', index_col=None)#マウスデータ読み込み
+            #視線データ読み込み
+            input_mouse=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'eye_valid.csv', index_col=None)#マウスデータ読み込み
             start=input_mouse.iloc[0,0] #○○○○‐○○‐○○ ○○:○○:○○,○○○○
             start_dt=dt.datetime.strptime(start,'%Y-%m-%d %H:%M:%S.%f') #datetime型に
             start_unix=start_dt.timestamp() #UNIX時間に
@@ -49,7 +50,6 @@ for sm in someone:
             end_dt=dt.datetime.strptime(end,'%Y-%m-%d %H:%M:%S.%f')
             end_unix=end_dt.timestamp() #UNIX時間に
             pass_time.append(end_unix-start_unix)
-            #print((look_100/total)*100)
 
 someone=['watanabe','tamura'] 
 day=['02']           

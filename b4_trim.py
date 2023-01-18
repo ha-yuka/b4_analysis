@@ -4,8 +4,7 @@ from decimal import *
 
 someone = ['tamura']#'imahashi','kawamura','kawasaki','kobayashi','maeda','motoyama','nomura','ota','shigenawa','suzuki','tabata','tamaru','watanabe','yashiro'
 file_name = ['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']#,
-day = ['02']#'01', 
-df=pd.DataFrame(columns=file_name)
+day = ['02']#'01'
 for sm in someone:
     for dy in day:
         l_sm=[]
@@ -88,7 +87,3 @@ for sm in someone:
             input_data.to_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'mouse.csv',  index=False)#ファイルに出力
             print(sm+dy+fn)
             
-
-        df.loc[sm+dy]=l_sm#被験者smのdy日目の時間をデータフレームに追加
-        
-df.to_csv('test.csv')#時間の情報をcsvに

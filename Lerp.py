@@ -43,4 +43,3 @@ for sm in someone:
                 output_df.to_excel('lerp invalid/' + sm + fn + dy + ' Data Export Lerp.xlsx', sheet_name='Data', index=False)
                 print('lerp invalid/' + sm + fn + dy + ' Data Export Lerp.xlsx')
             output_df = pd.DataFrame()
-
