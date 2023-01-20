@@ -1,22 +1,13 @@
-import pygame
-from pygame.locals import *
-import sys
+import pandas as pd
 
-def event():
-    # イベント処理
-    for event in pygame.event.get():  # イベントを取得
-        if event.type == QUIT:        # 閉じるボタンが押されたら
-            pygame.quit()             
-            sys.exit()                # 終了
+input_eye=pd.read_csv('exp_data/'+'imahashi'+'01'+'/remove/' + 'iraira1-1'+'_'+ 'eye_all.csv', index_col=None)#マウスデータ読み込み
+output_eye = input_eye.copy()  # 補間の必要がない列を保持するため，とりあえず全部コピーしておく
+output_eye['Gaze point X'] = input_eye['Gaze point X'].interpolate().tolist() #補間
+output_eye['Gaze point Y'] = input_eye['Gaze point Y'].interpolate().tolist() #補間
+if not output_eye['Gaze point X'].equals(input_eye['Gaze point X']):  # 出力用のDFが変更されたか一応確認
+        print('x-succeed')
+if not output_eye['Gaze point Y'].equals(input_eye['Gaze point Y']):  # 出力用のDFが変更されたか一応確認
+        print('y-succeed')
 
-
-pygame.init()                                 # Pygameの初期化
-screen = pygame.display.set_mode((800, 600))  # 800*600の画面
-px=120
-py=100
-while True:
-    screen.fill((255,255,255))                                     # 背景を白に
-    pygame.draw.circle(screen,(10,10,10),(px,py),50)               # ●
-    px += 1
-    pygame.display.update()                                        # 画面更新
-    event()
+output_eye.to_csv('exp_data/'+'imahashi'+'01'+'/remove/' + 'iraira1-1'+'_'+ 'lerp.csv',  index=False)#ファイルに出力
+print('exp_data/'+'imahashi'+'01'+'/remove/' + 'iraira1-1'+'_'+ 'lerp.csv')
