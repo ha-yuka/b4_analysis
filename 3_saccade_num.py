@@ -14,7 +14,7 @@ day = ['01', '02']
 pre=[]
 post=[]
 
-saccase_pers=[]
+saccade_pers=[]
 #========================アンケート結果読み込み=====================#
 task01=pd.read_excel('task01.xlsx',index_col=None)#ファイルの読み込み
 task02=pd.read_excel('task02.xlsx',index_col=None)#ファイルの読み込み
@@ -37,19 +37,21 @@ for sm in someone:
                 pre.append(task02.loc[index,pre_q])
                 post.append(task02.loc[index,post_q])
             #print(index)
-            #================================================
-            eye_index=0
-
-            #視線データ読み込み
-            input_mouse=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'eye_valid.csv', index_col=None)#マウスデータ読み込み
-            start=input_mouse.iloc[0,0] #○○○○‐○○‐○○ ○○:○○:○○,○○○○
+            #===============================================
+            input_eye=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'eye_all.csv', index_col=None)#視線データ
+            #======================所要時間計算=========================
+            start=input_eye.iloc[0,0] #○○○○‐○○‐○○ ○○:○○:○○,○○○○
             start_dt=dt.datetime.strptime(start,'%Y-%m-%d %H:%M:%S.%f') #datetime型に
             start_unix=start_dt.timestamp() #UNIX時間に
-
-            end=input_mouse.iloc[-1,0]
+            end=input_eye.iloc[-1,0]
             end_dt=dt.datetime.strptime(end,'%Y-%m-%d %H:%M:%S.%f')
             end_unix=end_dt.timestamp() #UNIX時間に
-            pass_time.append(end_unix-start_unix)
+            pass_time=(end_unix-start_unix)
+            #===========================サッカード回数計算==============================
+            for i in range(len(input_eye)-1):
+                if input_eye.loc[i,'Eye movement type']=='Saccade':
+                    saccade=saccade+1
+            saccade_pers.append(saccade/pass_time)
 
 someone=['watanabe','tamura'] 
 day=['02']           
@@ -71,55 +73,53 @@ for sm in someone:
                 post.append(task02.loc[index,post_q])
             #print(index)
             #================================================
-            eye_index=0
-
-            #各マウスデータについて，その時刻の直前に見ていた点とのユークリッド距離を算出
-            input_mouse=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'mouse.csv', index_col=None)#マウスデータ読み込み
+            input_mouse=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'eye_all.csv', index_col=None)#マウスデータ読み込み
+            #===============================================
             start=input_mouse.iloc[0,0] #○○○○‐○○‐○○ ○○:○○:○○,○○○○
             start_dt=dt.datetime.strptime(start,'%Y-%m-%d %H:%M:%S.%f') #datetime型に
             start_unix=start_dt.timestamp() #UNIX時間に
-
             end=input_mouse.iloc[-1,0]
             end_dt=dt.datetime.strptime(end,'%Y-%m-%d %H:%M:%S.%f')
             end_unix=end_dt.timestamp() #UNIX時間に
-            pass_time.append(end_unix-start_unix)
-            #print((look_100/total)*100)
-
+            pass_time=(end_unix-start_unix)
+            #================================================
+            for i in range(len(input_eye)-1):
+                if input_eye.loc[i,'Eye movement type']=='Saccade':
+                    saccade=saccade+1
+            saccade_pers.append(saccade/pass_time)
 
 print("-------------------pre--------------------")
-plt.scatter(pass_time,pre)
+plt.scatter(saccade_pers,pre)
 #plt.xlim(0,100)
 plt.ylim(0,100)
 clf = linear_model.LinearRegression()
-X2 = [[x] for x in pass_time]
+X2 = [[x] for x in saccade_pers]
 clf.fit(X2, pre) # 予測モデルを作成
 plt.plot(X2, clf.predict(X2))
-#ax.text(19.0, 0.6, '$ R^{2} $=' + str(round(r2_lin, 4)))
-#plt.plot(df_x, y_lin_fit, color = '#000000', linewidth=0.5)
-plt.xlabel("実行時間", fontname="MS Gothic")
+plt.xlabel("単位時間当たりのサッカード回数", fontname="MS Gothic")
 plt.ylabel("事前自己効力感", fontname="MS Gothic")
 plt.show()
 print("回帰係数= ", clf.coef_)
 print("切片= ", clf.intercept_)
 print("決定係数= ", clf.score(X2, pre))
-s1=pd.Series(pass_time)
+s1=pd.Series(saccade_pers)
 s2=pd.Series(pre)
 print(s1.corr(s2))
 
 print("----------------post----------------")
-plt.scatter(pass_time,post)
+plt.scatter(saccade_pers,post)
 #plt.xlim(0,100)
 plt.ylim(0,100)
 clf = linear_model.LinearRegression()
-X2 = [[x] for x in pass_time]
+X2 = [[x] for x in saccade_pers]
 clf.fit(X2, post) # 予測モデルを作成
 plt.plot(X2, clf.predict(X2))
-plt.xlabel("実行時間", fontname="MS Gothic")
+plt.xlabel("単位時間当たりのサッカード回数", fontname="MS Gothic")
 plt.ylabel("事後自己効力感", fontname="MS Gothic")
 plt.show()
 print("回帰係数= ", clf.coef_)
 print("切片= ", clf.intercept_)
 print("決定係数= ", clf.score(X2, post))
-s1=pd.Series(pass_time)
+s1=pd.Series(saccade_pers)
 s2=pd.Series(post)
 print(s1.corr(s2))
