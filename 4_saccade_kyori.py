@@ -1,55 +1,145 @@
-import numpy as np
 import pandas as pd
+from decimal import *
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import linear_model
 from scipy.spatial import distance
 import datetime as dt
 
-P_START = [[]]  # サッカードの開始点を全て格納（相対サッカード角度の計算で使う）
-P_END = [[]]  # サッカードの終了点を全て格納（相対サッカード角度の計算で使う）
-p_start = []  # サッカードの開始点を格納（サッカード振幅）
-p_end = []  # サッカードの終了点を格納（サッカード振幅）
-SAC_START = []  # サッカードの開始時刻を全て格納
-SAC_END = []  # サッカードの終了時刻を全て格納
-amp_list = []  # サッカード振幅を格納
-drt_list_s = []  # ウィンドウ内のサッカード時間を格納
+#サッカード回数
 
-input_df=pd.read_csv('exp_data/'+'imahashi'+'01'+'/remove/' + 'iraira1-1'+'_'+ 'eye_all.csv', index_col=None)
-# ウィンドウ内のsaccadeに該当するindexを格納
-sac_index = input_df.index[((input_df['Eye movement type'] == 'Saccade') | (
-         input_df['Eye movement type'] == 'Unclassified'))].tolist()
+someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','motoyama','tamaru','nomura','ota','shigenawa','suzuki','tabata','yashiro']#'tamura',,'watanabe',,
+file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
+#file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
+day = ['01', '02']
+pre=[]
+post=[]
 
-for k in range(1, len(sac_index) - 1):
-    if sac_index[k - 1] + 1 != sac_index[k]:
-        x = input_df.at[input_df.index[sac_index[k] - 1], 'Gaze point X']  # 視点のx座標
-        y = input_df.at[input_df.index[sac_index[k] - 1], 'Gaze point Y']  # 視点のy座標
-        p_start = [x, y]
-        P_START.append(p_start)
-        sac_start = input_df.at[input_df.index[sac_index[k] - 1], 'Recording timestamp']  # サッカード開始時刻
-        start_dt=dt.datetime.strptime(sac_start,'%Y-%m-%d %H:%M:%S.%f') #datetime型に
-        start_unix=start_dt.timestamp() #UNIX時間に
-        SAC_START.append(start_unix)
-
-    if sac_index[k] + 1 != sac_index[k + 1]:
-        if P_START:
-            x = input_df.at[input_df.index[sac_index[k] + 1], 'Gaze point X']  # 視点のx座標
-            y = input_df.at[input_df.index[sac_index[k] + 1], 'Gaze point Y']  # 視点のy座標
-            p_end = [x, y]
-            P_END.append(p_end)
-            sac_end = input_df.at[input_df.index[sac_index[k] + 1], 'Recording timestamp']  # サッカード終了時刻
-            end_dt=dt.datetime.strptime(sac_end,'%Y-%m-%d %H:%M:%S.%f') #datetime型に
-            end_unix=end_dt.timestamp() #UNIX時間に
-            SAC_END.append(end_unix)
-            # print('=======================')
-            # print('p_start: ', p_start)
-            # print('p_end', p_end)
-            # print('sac_start: ', sac_start)
-            # print('sac_end: ', sac_end)
-            #print('win_start: ',input_df.at[input_df.index[win_index[0]], 'Recording timestamp'])
-            if not (np.isnan(p_start).any() or np.isnan(p_end).any()):
-                amp_list.append(distance.euclidean(p_start, p_end))  # サッカード振幅を計算
+saccade_kyori=[]
+#========================アンケート結果読み込み=====================#
+task01=pd.read_excel('task01.xlsx',index_col=None)#ファイルの読み込み
+task02=pd.read_excel('task02.xlsx',index_col=None)#ファイルの読み込み
+#=================================================================#
+for sm in someone:
+    for dy in day:
+        for fn in file_name:
+            saccade=0
+            #=================アンケートの結果=================
+            if dy=='01':
+                index=(task01.index[task01['被験者']==sm])[0]
+                pre_q=fn+'_pre'
+                post_q=fn+'_post'
+                pre.append(task01.loc[index,pre_q])
+                post.append(task01.loc[index,post_q])
             else:
-                amp_list.append(np.nan)
-            
-            jikan=(end_unix - start_unix)
-            drt_list_s.append(jikan / 1000)  # サッカード時間を計算
+                index=(task02.index[task02['被験者']==sm])[0]
+                pre_q=fn+'_pre'
+                post_q=fn+'_post'
+                pre.append(task02.loc[index,pre_q])
+                post.append(task02.loc[index,post_q])
+            #print(index)
+            #===============================================
+            input_df=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'eye_all.csv', index_col=None)#視線データ
 
-sp_list = [m / n for (m, n) in zip(amp_list, drt_list_s)]  # サッカード速度
+            P_START = [[]]  # サッカードの開始点を全て格納（相対サッカード角度の計算で使う）
+            p_start = []  # サッカードの開始点を格納（サッカード振幅）
+            p_end = []  # サッカードの終了点を格納（サッカード振幅）
+            amp_list = []  # サッカード振幅を格納
+            drt_list_s = []  # ウィンドウ内のサッカード時間を格納
+
+            sac_index = input_df.index[((input_df['Eye movement type'] == 'Saccade') | (input_df['Eye movement type'] == 'Unclassified'))].tolist()# ウィンドウ内の
+            print(sac_index)
+            #saccadeに該当するindexを格納
+            if sac_index[0]==0:
+                x = input_df.at[input_df.index[0], 'Gaze point X']  # 視点のx座標
+                y = input_df.at[input_df.index[0], 'Gaze point Y']  # 視点のy座標
+                p_start =  [x, y]
+                P_START.append(p_start)
+            if sac_index[0]+1 == sac_index[1]:#最初が連番のとき
+                x = input_df.at[input_df.index[sac_index[0] - 1], 'Gaze point X']  # 視点のx座標
+                y = input_df.at[input_df.index[sac_index[0] - 1], 'Gaze point Y']  # 視点のy座標
+                p_start =  [x, y]
+                P_START.append(p_start)
+            for k in range(1, len(sac_index) - 1):
+                if sac_index[k - 1] + 1 != sac_index[k]:
+                    x = input_df.at[input_df.index[sac_index[k] - 1], 'Gaze point X']  # 視点のx座標
+                    y = input_df.at[input_df.index[sac_index[k] - 1], 'Gaze point Y']  # 視点のy座標
+                    p_start =  [x, y]
+                    P_START.append(p_start)
+                    
+                if sac_index[k] + 1 != sac_index[k + 1]:
+                    if P_START:#saccadeがあるとき
+                        x = input_df.at[input_df.index[sac_index[k] + 1], 'Gaze point X']  # 視点のx座標
+                        y = input_df.at[input_df.index[sac_index[k] + 1], 'Gaze point Y']  # 視点のy座標
+                        p_end = [x, y]
+                        if not (np.isnan(p_start).any() or np.isnan(p_end).any()):
+                            #amp_list.append(np.linalg.norm(p_end-p_start))
+                            amp_list.append(distance.euclidean(p_start, p_end))  # サッカード振幅を計算
+                        #else:
+                        #    amp_list.append(np.nan)
+
+            if (sac_index[-2] + 1 != sac_index[-1]) and (sac_index[-1] < len(input_df)-1):#ケツが連続でない
+                x = input_df.at[input_df.index[sac_index[-1] - 1], 'Gaze point X']  # 視点のx座標
+                y = input_df.at[input_df.index[sac_index[-1] - 1], 'Gaze point Y']  # 視点のy座標
+                p_start = [x, y]
+                x = input_df.at[input_df.index[sac_index[-1] + 1], 'Gaze point X']  # 視点のx座標
+                y = input_df.at[input_df.index[sac_index[-1] + 1], 'Gaze point Y']  # 視点のy座標
+                p_end = [x, y]
+                if not (np.isnan(p_start).any() or np.isnan(p_end).any()):
+                    amp_list.append(distance.euclidean(p_start, p_end))  # サッカード振幅を計算
+            elif (sac_index[-2] + 1 != sac_index[-1]) and (sac_index[-1] == len(input_df)-1):#ケツが連続でない
+                x = input_df.at[input_df.index[len(input_df)-1], 'Gaze point X']  # 視点のx座標
+                y = input_df.at[input_df.index[len(input_df)-1], 'Gaze point Y']  # 視点のy座標
+                p_end = [x, y]
+                if not (np.isnan(p_start).any() or np.isnan(p_end).any()):
+                    amp_list.append(distance.euclidean(p_start, p_end))  # サッカード振幅を計算
+            elif (sac_index[-2] + 1 == sac_index[-1]):#ケツが連続
+                if (sac_index[-1] == len(input_df)-1):
+                    x = input_df.at[input_df.index[len(input_df)-1], 'Gaze point X']  # 視点のx座標
+                    y = input_df.at[input_df.index[len(input_df)-1], 'Gaze point Y']  # 視点のy座標
+                    p_end = [x, y]
+                else:
+                    x = input_df.at[input_df.index[sac_index[-1]+1], 'Gaze point X']  # 視点のx座標
+                    y = input_df.at[input_df.index[sac_index[-1]+1], 'Gaze point Y']  # 視点のy座標
+                    p_end = [x, y]
+                if not (np.isnan(p_start).any() or np.isnan(p_end).any()):
+                    amp_list.append(distance.euclidean(p_start, p_end))  # サッカード振幅を計算
+
+            
+            saccade_kyori.append(sum(amp_list)/len(amp_list))  # 平均サッカード距離
+
+print("-------------------pre--------------------")
+plt.scatter(saccade_kyori,pre)
+#plt.xlim(0,100)
+plt.ylim(0,100)
+clf = linear_model.LinearRegression()
+X2 = [[x] for x in saccade_kyori]
+clf.fit(X2, pre) # 予測モデルを作成
+plt.plot(X2, clf.predict(X2))
+plt.xlabel("平均サッカード距離", fontname="MS Gothic")
+plt.ylabel("事前自己効力感", fontname="MS Gothic")
+plt.show()
+print("回帰係数= ", clf.coef_)
+print("切片= ", clf.intercept_)
+print("決定係数= ", clf.score(X2, pre))
+s1=pd.Series(saccade_kyori)
+s2=pd.Series(pre)
+print(s1.corr(s2))
+
+print("----------------post----------------")
+plt.scatter(saccade_kyori,post)
+#plt.xlim(0,100)
+plt.ylim(0,100)
+clf = linear_model.LinearRegression()
+X2 = [[x] for x in saccade_kyori]
+clf.fit(X2, post) # 予測モデルを作成
+plt.plot(X2, clf.predict(X2))
+plt.xlabel("平均サッカード距離", fontname="MS Gothic")
+plt.ylabel("事後自己効力感", fontname="MS Gothic")
+plt.show()
+print("回帰係数= ", clf.coef_)
+print("切片= ", clf.intercept_)
+print("決定係数= ", clf.score(X2, post))
+s1=pd.Series(saccade_kyori)
+s2=pd.Series(post)
+print(s1.corr(s2))
