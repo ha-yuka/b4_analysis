@@ -38,7 +38,7 @@ for sm in someone:
             total=0 #視線データの数
             eye_index=0
 
-            input_touch=pd.read_csv('exp_data/'+sm+dy+'/'+sm+dy+'_obj/touch.csv', index_col=None,header=None)#視線データ読み込み
+            input_touch=pd.read_csv('exp_data/'+sm+dy+'/'+sm+dy+'_obj/touch.csv', index_col=None,header=None)#接触回数データ読み込み
             index=(input_touch.index[input_touch[1]==fn])[0]
             #print(index)
 

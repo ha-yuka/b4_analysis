@@ -1,1298 +1,1298 @@
 Recording timestamp,Event,Sensor,Gaze point X,Gaze point Y,Validity left,Validity right,Eye movement type
-2022-11-23 14:34:53.906662,,Eye Tracker,600.0,754.0,Valid,Valid,Fixation
-2022-11-23 14:34:53.923317,,Eye Tracker,608.0,758.0,Valid,Valid,Fixation
-2022-11-23 14:34:53.939971,,Eye Tracker,609.0,756.0,Valid,Valid,Fixation
-2022-11-23 14:34:53.956627,,Eye Tracker,607.0,754.0,Valid,Valid,Fixation
-2022-11-23 14:34:53.973282,,Eye Tracker,607.0,754.0,Valid,Valid,Fixation
-2022-11-23 14:34:53.989936,,Eye Tracker,607.0,757.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.006591,,Eye Tracker,607.0,754.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.023246,,Eye Tracker,611.0,755.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.039900,,Eye Tracker,614.0,756.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.056555,,Eye Tracker,590.0,767.0,Valid,Valid,Saccade
-2022-11-23 14:34:54.073210,,Eye Tracker,496.0,813.0,Valid,Valid,Saccade
-2022-11-23 14:34:54.089865,,Eye Tracker,397.0,885.0,Valid,Valid,Saccade
-2022-11-23 14:34:54.106520,,Eye Tracker,366.0,936.0,Valid,Valid,Saccade
-2022-11-23 14:34:54.123176,,Eye Tracker,362.0,944.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.139830,,Eye Tracker,360.0,946.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.156485,,Eye Tracker,358.0,939.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.173140,,Eye Tracker,357.0,939.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.189795,,Eye Tracker,355.0,943.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.206449,,Eye Tracker,356.0,942.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.223104,,Eye Tracker,359.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.239759,,Eye Tracker,360.0,940.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.256413,,Eye Tracker,360.0,934.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.273068,,Eye Tracker,357.0,936.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.289724,,Eye Tracker,358.0,940.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.306378,,Eye Tracker,361.0,935.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.323033,,Eye Tracker,364.0,936.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.339688,,Eye Tracker,366.0,937.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.356342,,Eye Tracker,360.0,937.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.372998,,Eye Tracker,359.0,935.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.389653,,Eye Tracker,360.0,938.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.406307,,Eye Tracker,362.0,940.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.422962,,Eye Tracker,366.0,939.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.439617,,Eye Tracker,365.0,938.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.456272,,Eye Tracker,367.0,938.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.472926,,Eye Tracker,365.0,937.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.489581,,Eye Tracker,365.0,934.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.506237,,Eye Tracker,364.0,935.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.522891,,Eye Tracker,364.0,932.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.539546,,Eye Tracker,365.0,933.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.556201,,Eye Tracker,362.0,936.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.572855,,Eye Tracker,363.0,935.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.589511,,Eye Tracker,369.0,935.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.606166,,Eye Tracker,371.0,936.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.622820,,Eye Tracker,369.0,940.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.639475,,Eye Tracker,369.0,942.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.656130,,Eye Tracker,367.0,940.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.672785,,Eye Tracker,370.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.689440,,Eye Tracker,371.0,942.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.706095,,Eye Tracker,373.0,943.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.722750,,Eye Tracker,378.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.739404,,Eye Tracker,377.0,939.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.756059,,Eye Tracker,378.0,944.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.772714,,Eye Tracker,379.0,946.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.789368,,Eye Tracker,376.0,942.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.806024,,Eye Tracker,346.0,949.0,Valid,Valid,Saccade
-2022-11-23 14:34:54.822679,,Eye Tracker,285.0,974.0,Valid,Valid,Saccade
-2022-11-23 14:34:54.839333,,Eye Tracker,237.0,983.0,Valid,Valid,Saccade
-2022-11-23 14:34:54.855988,,Eye Tracker,234.0,981.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.872643,,Eye Tracker,233.0,982.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.889297,,Eye Tracker,235.0,984.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.905953,,Eye Tracker,234.0,985.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.922608,,Eye Tracker,229.0,984.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.939262,,Eye Tracker,228.0,985.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.955917,,Eye Tracker,236.0,984.0,Valid,Valid,Fixation
-2022-11-23 14:34:54.972572,,Eye Tracker,263.0,982.0,Valid,Valid,Saccade
-2022-11-23 14:34:54.989227,,Eye Tracker,274.0,986.0,Valid,Valid,Unclassified
-2022-11-23 14:34:55.005881,,Eye Tracker,554.0,933.0,Valid,Valid,Saccade
-2022-11-23 14:34:55.022537,,Eye Tracker,560.0,933.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.039192,,Eye Tracker,564.0,932.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.055846,,Eye Tracker,559.0,934.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.072501,,Eye Tracker,558.0,936.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.089157,,Eye Tracker,563.0,938.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.105811,,Eye Tracker,565.0,940.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.122466,,Eye Tracker,565.0,938.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.139121,,Eye Tracker,565.0,938.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.155775,,Eye Tracker,565.0,935.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.172430,,Eye Tracker,564.0,936.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.189085,,Eye Tracker,570.0,937.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.205739,,Eye Tracker,570.0,937.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.222394,,Eye Tracker,569.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.239050,,Eye Tracker,572.0,940.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.255705,,Eye Tracker,568.0,940.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.272359,,Eye Tracker,568.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.289014,,Eye Tracker,567.0,942.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.305669,,Eye Tracker,567.0,943.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.322323,,Eye Tracker,568.0,943.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.338978,,Eye Tracker,566.0,946.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.355633,,Eye Tracker,567.0,945.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.372288,,Eye Tracker,571.0,943.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.388944,,Eye Tracker,577.0,943.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.405599,,Eye Tracker,573.0,943.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.422253,,Eye Tracker,571.0,942.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.438908,,Eye Tracker,575.0,942.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.455563,,Eye Tracker,575.0,942.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.472217,,Eye Tracker,575.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.488872,,Eye Tracker,573.0,938.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.505527,,Eye Tracker,573.0,935.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.522183,,Eye Tracker,571.0,937.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.538837,,Eye Tracker,570.0,938.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.555492,,Eye Tracker,578.0,940.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.572147,,Eye Tracker,573.0,944.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.588801,,Eye Tracker,569.0,938.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.605456,,Eye Tracker,571.0,939.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.622111,,Eye Tracker,566.0,944.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.638765,,Eye Tracker,570.0,943.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.655420,,Eye Tracker,575.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.672076,,Eye Tracker,576.0,942.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.688730,,Eye Tracker,578.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.705385,,Eye Tracker,577.0,940.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.722040,,Eye Tracker,575.0,940.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.738695,,Eye Tracker,577.0,936.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.755350,,Eye Tracker,577.0,937.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.772005,,Eye Tracker,578.0,939.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.788660,,Eye Tracker,577.0,939.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.805314,,Eye Tracker,575.0,939.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.821970,,Eye Tracker,578.0,936.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.838625,,Eye Tracker,576.0,935.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.855279,,Eye Tracker,573.0,935.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.871934,,Eye Tracker,577.0,934.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.888589,,Eye Tracker,580.0,935.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.905243,,Eye Tracker,581.0,937.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.921898,,Eye Tracker,581.0,936.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.938553,,Eye Tracker,579.0,937.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.955208,,Eye Tracker,581.0,938.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.971863,,Eye Tracker,585.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:34:55.988518,,Eye Tracker,592.0,924.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.005172,,Eye Tracker,590.0,886.0,Valid,Valid,Saccade
-2022-11-23 14:34:56.021827,,Eye Tracker,581.0,866.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.038482,,Eye Tracker,585.0,869.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.055137,,Eye Tracker,586.0,868.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.071791,,Eye Tracker,585.0,864.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.088446,,Eye Tracker,585.0,861.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.105102,,Eye Tracker,586.0,862.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.121756,,Eye Tracker,589.0,863.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.138412,,Eye Tracker,590.0,864.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.155067,,Eye Tracker,583.0,866.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.171721,,Eye Tracker,581.0,868.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.188376,,Eye Tracker,586.0,866.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.205031,,Eye Tracker,585.0,861.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.221685,,Eye Tracker,585.0,858.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.238340,,Eye Tracker,584.0,861.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.254996,,Eye Tracker,580.0,863.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.271650,,Eye Tracker,582.0,863.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.288305,,Eye Tracker,587.0,864.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.304960,,Eye Tracker,589.0,861.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.321615,,Eye Tracker,588.0,859.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.338269,,Eye Tracker,574.0,810.0,Valid,Valid,Saccade
-2022-11-23 14:34:56.354924,,Eye Tracker,562.0,737.0,Valid,Valid,Saccade
-2022-11-23 14:34:56.371579,,Eye Tracker,560.0,704.0,Valid,Valid,Saccade
-2022-11-23 14:34:56.388234,,Eye Tracker,564.0,704.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.404889,,Eye Tracker,564.0,702.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.421544,,Eye Tracker,560.0,698.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.438198,,Eye Tracker,559.0,695.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.454854,,Eye Tracker,564.0,700.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.471509,,Eye Tracker,566.0,700.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.488163,,Eye Tracker,559.0,692.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.504818,,Eye Tracker,557.0,691.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.521473,,Eye Tracker,560.0,694.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.538128,,Eye Tracker,561.0,695.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.554783,,Eye Tracker,560.0,688.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.571438,,Eye Tracker,560.0,684.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.588093,,Eye Tracker,558.0,690.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.604747,,Eye Tracker,556.0,691.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.621402,,Eye Tracker,551.0,685.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.638057,,Eye Tracker,549.0,684.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.654711,,Eye Tracker,552.0,687.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.671366,,Eye Tracker,555.0,686.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.688022,,Eye Tracker,557.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.704676,,Eye Tracker,555.0,682.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.721331,,Eye Tracker,557.0,688.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.737986,,Eye Tracker,556.0,686.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.754640,,Eye Tracker,551.0,681.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.771295,,Eye Tracker,552.0,681.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.787950,,Eye Tracker,551.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.804604,,Eye Tracker,553.0,679.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.821261,,Eye Tracker,550.0,675.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.837916,,Eye Tracker,549.0,673.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.854571,,Eye Tracker,549.0,677.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.871225,,Eye Tracker,547.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.887880,,Eye Tracker,550.0,677.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.904535,,Eye Tracker,552.0,674.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.921189,,Eye Tracker,552.0,672.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.937844,,Eye Tracker,554.0,671.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.954499,,Eye Tracker,551.0,672.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.971154,,Eye Tracker,550.0,668.0,Valid,Valid,Fixation
-2022-11-23 14:34:56.987809,,Eye Tracker,549.0,667.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.004464,,Eye Tracker,550.0,673.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.021118,,Eye Tracker,551.0,676.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.037773,,Eye Tracker,549.0,674.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.054428,,Eye Tracker,555.0,669.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.071082,,Eye Tracker,525.0,664.0,Valid,Valid,Saccade
-2022-11-23 14:34:57.087737,,Eye Tracker,441.0,668.0,Valid,Valid,Saccade
-2022-11-23 14:34:57.104392,,Eye Tracker,400.0,669.0,Valid,Valid,Saccade
-2022-11-23 14:34:57.121048,,Eye Tracker,398.0,666.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.137702,,Eye Tracker,397.0,664.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.154357,,Eye Tracker,398.0,667.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.171012,,Eye Tracker,402.0,670.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.187666,,Eye Tracker,406.0,671.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.204321,,Eye Tracker,405.0,667.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.220976,,Eye Tracker,406.0,664.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.237630,,Eye Tracker,408.0,667.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.254286,,Eye Tracker,411.0,670.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.270941,,Eye Tracker,411.0,670.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.287595,,Eye Tracker,407.0,670.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.304250,,Eye Tracker,408.0,672.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.320905,,Eye Tracker,411.0,675.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.337559,,Eye Tracker,409.0,672.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.354214,,Eye Tracker,409.0,669.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.370869,,Eye Tracker,413.0,673.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.387524,,Eye Tracker,412.0,681.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.404179,,Eye Tracker,411.0,683.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.420834,,Eye Tracker,412.0,679.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.437489,,Eye Tracker,414.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.454143,,Eye Tracker,420.0,683.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.470798,,Eye Tracker,420.0,685.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.487453,,Eye Tracker,414.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.504107,,Eye Tracker,414.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.520762,,Eye Tracker,416.0,684.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.537417,,Eye Tracker,417.0,687.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.554072,,Eye Tracker,419.0,690.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.570727,,Eye Tracker,417.0,689.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.587382,,Eye Tracker,383.0,689.0,Valid,Valid,Saccade
-2022-11-23 14:34:57.604036,,Eye Tracker,276.0,693.0,Valid,Valid,Saccade
-2022-11-23 14:34:57.620691,,Eye Tracker,197.0,688.0,Valid,Valid,Saccade
-2022-11-23 14:34:57.637346,,Eye Tracker,179.0,687.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.654001,,Eye Tracker,172.0,684.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.670655,,Eye Tracker,165.0,682.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.687311,,Eye Tracker,163.0,684.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.703966,,Eye Tracker,165.0,682.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.720620,,Eye Tracker,161.0,678.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.737275,,Eye Tracker,164.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.753930,,Eye Tracker,164.0,681.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.770584,,Eye Tracker,163.0,683.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.787239,,Eye Tracker,165.0,681.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.803894,,Eye Tracker,163.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.820548,,Eye Tracker,167.0,681.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.837204,,Eye Tracker,168.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.853859,,Eye Tracker,168.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.870513,,Eye Tracker,172.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.887168,,Eye Tracker,172.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.903823,,Eye Tracker,171.0,679.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.920478,,Eye Tracker,171.0,678.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.937132,,Eye Tracker,170.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.953787,,Eye Tracker,168.0,680.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.970442,,Eye Tracker,168.0,681.0,Valid,Valid,Fixation
-2022-11-23 14:34:57.987097,,Eye Tracker,168.0,682.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.003752,,Eye Tracker,168.0,681.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.020407,,Eye Tracker,169.0,681.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.037061,,Eye Tracker,170.0,681.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.053716,,Eye Tracker,174.0,681.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.070371,,Eye Tracker,173.0,653.0,Valid,Valid,Saccade
-2022-11-23 14:34:58.087025,,Eye Tracker,164.0,593.0,Valid,Valid,Saccade
-2022-11-23 14:34:58.103680,,Eye Tracker,164.0,557.0,Valid,Valid,Saccade
-2022-11-23 14:34:58.120336,,Eye Tracker,167.0,555.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.136990,,Eye Tracker,165.0,553.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.153645,,Eye Tracker,165.0,557.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.170300,,Eye Tracker,168.0,554.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.186955,,Eye Tracker,169.0,551.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.203609,,Eye Tracker,168.0,551.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.220264,,Eye Tracker,168.0,551.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.236919,,Eye Tracker,168.0,551.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.253573,,Eye Tracker,168.0,550.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.270229,,Eye Tracker,166.0,547.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.286884,,Eye Tracker,167.0,548.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.303538,,Eye Tracker,165.0,548.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.320193,,Eye Tracker,164.0,545.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.336848,,Eye Tracker,162.0,546.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.353502,,Eye Tracker,162.0,543.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.370157,,Eye Tracker,161.0,523.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.386812,,Eye Tracker,161.0,483.0,Valid,Valid,Saccade
-2022-11-23 14:34:58.403466,,Eye Tracker,170.0,276.0,Valid,Valid,Saccade
-2022-11-23 14:34:58.420122,,Eye Tracker,170.0,260.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.436777,,Eye Tracker,170.0,257.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.453432,,Eye Tracker,167.0,250.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.470086,,Eye Tracker,167.0,252.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.486741,,Eye Tracker,166.0,251.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.503396,,Eye Tracker,165.0,245.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.520050,,Eye Tracker,165.0,243.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.536705,,Eye Tracker,161.0,243.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.553361,,Eye Tracker,158.0,238.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.570015,,Eye Tracker,160.0,238.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.586670,,Eye Tracker,159.0,239.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.603325,,Eye Tracker,157.0,241.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.619979,,Eye Tracker,158.0,242.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.636634,,Eye Tracker,156.0,240.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.653289,,Eye Tracker,156.0,236.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.669943,,Eye Tracker,153.0,232.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.686598,,Eye Tracker,153.0,232.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.703254,,Eye Tracker,163.0,230.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.719909,,Eye Tracker,160.0,223.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.736563,,Eye Tracker,155.0,227.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.753218,,Eye Tracker,155.0,229.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.769873,,Eye Tracker,160.0,228.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.786527,,Eye Tracker,163.0,232.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.803182,,Eye Tracker,151.0,231.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.819837,,Eye Tracker,149.0,228.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.836491,,Eye Tracker,146.0,223.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.853147,,Eye Tracker,144.0,219.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.869802,,Eye Tracker,148.0,222.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.886456,,Eye Tracker,144.0,222.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.903111,,Eye Tracker,134.0,213.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.919766,,Eye Tracker,130.0,208.0,Valid,Valid,Fixation
-2022-11-23 14:34:58.936420,,Eye Tracker,160.0,189.0,Valid,Valid,Saccade
-2022-11-23 14:34:58.953075,,Eye Tracker,208.0,154.0,Valid,Valid,Saccade
-2022-11-23 14:34:58.969730,,Eye Tracker,233.0,139.0,Valid,Valid,Saccade
-2022-11-23 14:34:58.986386,,Eye Tracker,234.0,133.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.003040,,Eye Tracker,234.0,134.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.019695,,Eye Tracker,234.0,134.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.036350,,Eye Tracker,233.0,133.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.053004,,Eye Tracker,234.0,132.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.069659,,Eye Tracker,234.0,132.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.086314,,Eye Tracker,231.0,132.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.102968,,Eye Tracker,233.0,130.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.119623,,Eye Tracker,228.0,128.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.136279,,Eye Tracker,227.0,124.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.152933,,Eye Tracker,225.0,118.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.169588,,Eye Tracker,226.0,114.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.186243,,Eye Tracker,228.0,115.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.202897,,Eye Tracker,228.0,121.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.219552,,Eye Tracker,227.0,118.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.236207,,Eye Tracker,229.0,115.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.252862,,Eye Tracker,234.0,122.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.269517,,Eye Tracker,237.0,124.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.286172,,Eye Tracker,234.0,117.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.302827,,Eye Tracker,230.0,113.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.319481,,Eye Tracker,228.0,112.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.336136,,Eye Tracker,230.0,110.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.352791,,Eye Tracker,232.0,111.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.369445,,Eye Tracker,235.0,112.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.386100,,Eye Tracker,233.0,107.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.402755,,Eye Tracker,236.0,106.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.419410,,Eye Tracker,238.0,107.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.436065,,Eye Tracker,237.0,108.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.452720,,Eye Tracker,237.0,118.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.469374,,Eye Tracker,235.0,119.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.486029,,Eye Tracker,235.0,123.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.502684,,Eye Tracker,234.0,125.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.519339,,Eye Tracker,236.0,120.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.535993,,Eye Tracker,237.0,118.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.552648,,Eye Tracker,235.0,114.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.569304,,Eye Tracker,238.0,109.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.585958,,Eye Tracker,236.0,112.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.602613,,Eye Tracker,236.0,110.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.619268,,Eye Tracker,240.0,107.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.635922,,Eye Tracker,239.0,105.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.652577,,Eye Tracker,243.0,109.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.669232,,Eye Tracker,246.0,110.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.685886,,Eye Tracker,249.0,110.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.702542,,Eye Tracker,250.0,112.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.719197,,Eye Tracker,289.0,94.0,Valid,Valid,Saccade
-2022-11-23 14:34:59.735851,,Eye Tracker,417.0,78.0,Valid,Valid,Saccade
-2022-11-23 14:34:59.752506,,Eye Tracker,529.0,64.0,Valid,Valid,Saccade
-2022-11-23 14:34:59.769161,,Eye Tracker,569.0,59.0,Valid,Valid,Saccade
-2022-11-23 14:34:59.785816,,Eye Tracker,585.0,61.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.802470,,Eye Tracker,589.0,63.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.819125,,Eye Tracker,588.0,56.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.835780,,Eye Tracker,593.0,59.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.852435,,Eye Tracker,597.0,65.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.869090,,Eye Tracker,592.0,69.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.885745,,Eye Tracker,596.0,52.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.902399,,Eye Tracker,597.0,56.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.919054,,Eye Tracker,597.0,67.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.935709,,Eye Tracker,601.0,62.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.952363,,Eye Tracker,604.0,64.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.969018,,Eye Tracker,603.0,65.0,Valid,Valid,Fixation
-2022-11-23 14:34:59.985673,,Eye Tracker,607.0,69.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.002328,,Eye Tracker,604.0,70.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.018983,,Eye Tracker,603.0,62.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.035638,,Eye Tracker,608.0,59.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.052293,,Eye Tracker,606.0,88.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.068947,,Eye Tracker,392.0,48.0,Valid,Valid,Saccade
-2022-11-23 14:35:00.085602,,Eye Tracker,379.0,35.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.102257,,Eye Tracker,372.0,38.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.118911,,Eye Tracker,370.0,38.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.135567,,Eye Tracker,373.0,37.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.152222,,Eye Tracker,370.0,33.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.168876,,Eye Tracker,368.0,36.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.185531,,Eye Tracker,366.0,40.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.202186,,Eye Tracker,356.0,40.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.218840,,Eye Tracker,339.0,53.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.235495,,Eye Tracker,331.0,55.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.252150,,Eye Tracker,334.0,56.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.268804,,Eye Tracker,334.0,54.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.285460,,Eye Tracker,335.0,60.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.302115,,Eye Tracker,337.0,60.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.318770,,Eye Tracker,339.0,56.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.335424,,Eye Tracker,338.0,59.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.352079,,Eye Tracker,342.0,54.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.368734,,Eye Tracker,345.0,58.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.385388,,Eye Tracker,340.0,68.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.402043,,Eye Tracker,340.0,66.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.418698,,Eye Tracker,341.0,61.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.435353,,Eye Tracker,343.0,60.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.452008,,Eye Tracker,341.0,66.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.468663,,Eye Tracker,342.0,70.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.485317,,Eye Tracker,344.0,70.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.501972,,Eye Tracker,340.0,67.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.518627,,Eye Tracker,341.0,64.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.535281,,Eye Tracker,340.0,69.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.551936,,Eye Tracker,338.0,79.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.568592,,Eye Tracker,340.0,82.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.585247,,Eye Tracker,338.0,75.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.601901,,Eye Tracker,337.0,76.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.618556,,Eye Tracker,340.0,83.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.635211,,Eye Tracker,337.0,82.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.651865,,Eye Tracker,336.0,79.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.668520,,Eye Tracker,334.0,79.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.685175,,Eye Tracker,333.0,76.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.701829,,Eye Tracker,334.0,80.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.718485,,Eye Tracker,336.0,90.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.735140,,Eye Tracker,342.0,117.0,Valid,Valid,Saccade
-2022-11-23 14:35:00.751794,,Eye Tracker,335.0,158.0,Valid,Valid,Saccade
-2022-11-23 14:35:00.768449,,Eye Tracker,287.0,175.0,Invalid,Valid,Saccade
-2022-11-23 14:35:00.785104,,Eye Tracker,281.8,175.0,Invalid,Invalid,EyesNotFound
-2022-11-23 14:35:00.801758,,Eye Tracker,276.6,175.0,Invalid,Invalid,EyesNotFound
-2022-11-23 14:35:00.818413,,Eye Tracker,271.4,175.0,Invalid,Invalid,EyesNotFound
-2022-11-23 14:35:00.835068,,Eye Tracker,266.2,175.0,Invalid,Invalid,EyesNotFound
-2022-11-23 14:35:00.851723,,Eye Tracker,261.0,175.0,Valid,Valid,Saccade
-2022-11-23 14:35:00.868378,,Eye Tracker,309.0,197.0,Valid,Valid,Saccade
-2022-11-23 14:35:00.885033,,Eye Tracker,351.0,216.0,Valid,Valid,Saccade
-2022-11-23 14:35:00.901688,,Eye Tracker,338.0,62.0,Valid,Valid,Saccade
-2022-11-23 14:35:00.918342,,Eye Tracker,332.0,57.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.934997,,Eye Tracker,332.0,61.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.951652,,Eye Tracker,330.0,60.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.968306,,Eye Tracker,332.0,62.0,Valid,Valid,Fixation
-2022-11-23 14:35:00.984961,,Eye Tracker,336.0,65.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.001617,,Eye Tracker,337.0,64.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.018271,,Eye Tracker,337.0,62.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.034926,,Eye Tracker,336.0,60.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.051581,,Eye Tracker,337.0,65.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.068235,,Eye Tracker,337.0,71.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.084890,,Eye Tracker,338.0,69.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.101545,,Eye Tracker,335.0,69.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.118200,,Eye Tracker,334.0,75.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.134854,,Eye Tracker,334.0,72.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.151510,,Eye Tracker,339.0,65.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.168165,,Eye Tracker,336.0,68.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.184819,,Eye Tracker,325.0,61.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.201474,,Eye Tracker,324.0,60.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.218129,,Eye Tracker,330.0,66.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.234783,,Eye Tracker,330.0,64.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.251438,,Eye Tracker,321.0,67.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.268093,,Eye Tracker,319.0,63.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.284747,,Eye Tracker,326.0,63.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.301403,,Eye Tracker,325.0,66.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.318058,,Eye Tracker,322.0,58.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.334712,,Eye Tracker,322.0,59.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.351367,,Eye Tracker,320.0,65.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.368022,,Eye Tracker,319.0,61.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.384677,,Eye Tracker,317.0,66.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.401331,,Eye Tracker,317.0,71.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.417986,,Eye Tracker,320.0,66.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.434642,,Eye Tracker,321.0,61.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.451296,,Eye Tracker,323.0,58.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.467951,,Eye Tracker,326.0,60.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.484606,,Eye Tracker,320.0,60.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.501260,,Eye Tracker,321.0,61.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.517915,,Eye Tracker,322.0,66.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.534570,,Eye Tracker,320.0,63.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.551224,,Eye Tracker,323.0,65.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.567879,,Eye Tracker,327.0,67.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.584535,,Eye Tracker,330.0,62.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.601189,,Eye Tracker,327.0,60.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.617844,,Eye Tracker,327.0,63.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.634499,,Eye Tracker,329.0,65.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.651154,,Eye Tracker,325.0,64.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.667808,,Eye Tracker,325.0,65.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.684463,,Eye Tracker,326.0,67.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.701118,,Eye Tracker,328.0,66.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.717772,,Eye Tracker,333.0,67.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.734428,,Eye Tracker,335.0,71.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.751083,,Eye Tracker,336.0,66.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.767737,,Eye Tracker,335.0,69.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.784392,,Eye Tracker,327.0,69.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.801047,,Eye Tracker,325.0,69.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.817701,,Eye Tracker,331.0,73.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.834356,,Eye Tracker,332.0,73.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.851011,,Eye Tracker,331.0,80.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.867665,,Eye Tracker,330.0,83.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.884320,,Eye Tracker,332.0,74.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.900975,,Eye Tracker,333.0,72.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.917630,,Eye Tracker,333.0,75.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.934284,,Eye Tracker,332.0,74.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.950939,,Eye Tracker,332.0,74.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.967594,,Eye Tracker,333.0,73.0,Valid,Valid,Fixation
-2022-11-23 14:35:01.984248,,Eye Tracker,327.0,71.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.000903,,Eye Tracker,325.0,72.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.017559,,Eye Tracker,328.0,71.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.034213,,Eye Tracker,333.0,69.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.050868,,Eye Tracker,340.0,65.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.067523,,Eye Tracker,340.0,67.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.084177,,Eye Tracker,338.0,71.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.100832,,Eye Tracker,337.0,70.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.117487,,Eye Tracker,335.0,64.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.134141,,Eye Tracker,336.0,66.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.150796,,Eye Tracker,333.0,72.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.167452,,Eye Tracker,332.0,66.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.184107,,Eye Tracker,342.0,71.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.200761,,Eye Tracker,345.0,72.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.217416,,Eye Tracker,341.0,75.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.234071,,Eye Tracker,342.0,74.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.250725,,Eye Tracker,348.0,77.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.267380,,Eye Tracker,349.0,76.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.284035,,Eye Tracker,341.0,72.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.300690,,Eye Tracker,341.0,75.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.317345,,Eye Tracker,347.0,75.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.334000,,Eye Tracker,346.0,77.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.350654,,Eye Tracker,346.0,81.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.367309,,Eye Tracker,347.0,82.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.383964,,Eye Tracker,348.0,83.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.400618,,Eye Tracker,347.0,81.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.417273,,Eye Tracker,347.0,85.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.433928,,Eye Tracker,348.0,83.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.450584,,Eye Tracker,346.0,81.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.467238,,Eye Tracker,347.0,81.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.483893,,Eye Tracker,343.0,84.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.500548,,Eye Tracker,344.0,83.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.517202,,Eye Tracker,350.0,76.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.533857,,Eye Tracker,349.0,80.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.550512,,Eye Tracker,347.0,79.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.567166,,Eye Tracker,349.0,79.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.583821,,Eye Tracker,345.0,81.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.600477,,Eye Tracker,343.0,83.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.617131,,Eye Tracker,349.0,85.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.633786,,Eye Tracker,350.0,87.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.650441,,Eye Tracker,348.0,86.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.667095,,Eye Tracker,345.0,81.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.683750,,Eye Tracker,347.0,80.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.700405,,Eye Tracker,347.0,84.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.717060,,Eye Tracker,347.0,84.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.733715,,Eye Tracker,347.0,83.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.750370,,Eye Tracker,344.0,82.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.767025,,Eye Tracker,343.0,80.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.783679,,Eye Tracker,338.0,80.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.800334,,Eye Tracker,339.0,84.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.816989,,Eye Tracker,347.0,82.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.833643,,Eye Tracker,350.0,84.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.850298,,Eye Tracker,344.0,86.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.866953,,Eye Tracker,341.0,88.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.883608,,Eye Tracker,345.0,86.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.900263,,Eye Tracker,347.0,81.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.916918,,Eye Tracker,344.0,79.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.933572,,Eye Tracker,344.0,80.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.950227,,Eye Tracker,342.0,84.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.966882,,Eye Tracker,342.0,80.0,Valid,Valid,Fixation
-2022-11-23 14:35:02.983537,,Eye Tracker,346.0,82.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.000191,,Eye Tracker,348.0,85.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.016846,,Eye Tracker,351.0,77.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.033502,,Eye Tracker,353.0,81.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.050156,,Eye Tracker,360.0,86.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.066811,,Eye Tracker,371.0,83.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.083466,,Eye Tracker,379.0,86.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.100120,,Eye Tracker,767.0,110.0,Valid,Valid,Saccade
-2022-11-23 14:35:03.116775,,Eye Tracker,818.0,93.0,Valid,Valid,Saccade
-2022-11-23 14:35:03.133430,,Eye Tracker,863.0,85.0,Valid,Valid,Saccade
-2022-11-23 14:35:03.150084,,Eye Tracker,861.0,85.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.166740,,Eye Tracker,859.0,94.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.183395,,Eye Tracker,856.0,93.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.200049,,Eye Tracker,861.0,90.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.216704,,Eye Tracker,864.0,97.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.233359,,Eye Tracker,865.0,99.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.250014,,Eye Tracker,865.0,105.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.266668,,Eye Tracker,865.0,106.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.283323,,Eye Tracker,862.0,102.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.299978,,Eye Tracker,862.0,105.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.316633,,Eye Tracker,863.0,108.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.333288,,Eye Tracker,866.0,106.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.349943,,Eye Tracker,865.0,106.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.366597,,Eye Tracker,864.0,111.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.383252,,Eye Tracker,862.0,113.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.399907,,Eye Tracker,866.0,117.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.416561,,Eye Tracker,876.0,117.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.433216,,Eye Tracker,878.0,125.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.449871,,Eye Tracker,890.0,115.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.466526,,Eye Tracker,898.0,83.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.483181,,Eye Tracker,1019.0,121.0,Valid,Valid,Saccade
-2022-11-23 14:35:03.499836,,Eye Tracker,1018.0,140.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.516491,,Eye Tracker,1024.0,141.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.533145,,Eye Tracker,1023.0,137.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.549800,,Eye Tracker,1019.0,131.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.566455,,Eye Tracker,1018.0,129.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.583109,,Eye Tracker,1025.0,128.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.599765,,Eye Tracker,1027.0,124.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.616420,,Eye Tracker,1019.0,121.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.633074,,Eye Tracker,1021.0,123.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.649729,,Eye Tracker,1027.0,122.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.666384,,Eye Tracker,1026.0,121.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.683038,,Eye Tracker,1027.0,125.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.699693,,Eye Tracker,1031.0,126.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.716348,,Eye Tracker,1029.0,117.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.733002,,Eye Tracker,1030.0,112.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.749658,,Eye Tracker,1029.0,110.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.766313,,Eye Tracker,1026.0,109.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.782968,,Eye Tracker,1033.0,112.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.799622,,Eye Tracker,1033.0,112.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.816277,,Eye Tracker,1034.0,109.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.832932,,Eye Tracker,1033.0,114.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.849586,,Eye Tracker,1030.0,124.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.866241,,Eye Tracker,1030.0,121.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.882896,,Eye Tracker,1030.0,117.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.899551,,Eye Tracker,1030.0,116.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.916206,,Eye Tracker,1028.0,118.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.932861,,Eye Tracker,1030.0,117.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.949515,,Eye Tracker,1031.0,115.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.966170,,Eye Tracker,1034.0,115.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.982825,,Eye Tracker,1032.0,120.0,Valid,Valid,Fixation
-2022-11-23 14:35:03.999479,,Eye Tracker,1034.0,121.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.016134,,Eye Tracker,1040.0,128.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.032790,,Eye Tracker,1039.0,128.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.049445,,Eye Tracker,1040.0,125.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.066099,,Eye Tracker,1041.0,122.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.082754,,Eye Tracker,1044.0,124.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.099409,,Eye Tracker,1046.0,125.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.116063,,Eye Tracker,1049.0,125.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.132718,,Eye Tracker,1050.0,128.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.149373,,Eye Tracker,1051.0,123.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.166027,,Eye Tracker,1052.0,121.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.182683,,Eye Tracker,1052.0,118.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.199338,,Eye Tracker,1053.0,116.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.215992,,Eye Tracker,1051.0,120.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.232647,,Eye Tracker,1050.0,119.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.249302,,Eye Tracker,1049.0,125.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.265956,,Eye Tracker,1045.0,126.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.282611,,Eye Tracker,1043.0,173.0,Valid,Valid,Saccade
-2022-11-23 14:35:04.299266,,Eye Tracker,1048.0,241.0,Valid,Valid,Saccade
-2022-11-23 14:35:04.315921,,Eye Tracker,1043.0,275.0,Valid,Valid,Saccade
-2022-11-23 14:35:04.332576,,Eye Tracker,1044.0,276.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.349231,,Eye Tracker,1045.0,272.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.365885,,Eye Tracker,1044.0,277.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.382539,,Eye Tracker,1048.0,288.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.399194,,Eye Tracker,1049.0,290.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.415849,,Eye Tracker,1050.0,291.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.432504,,Eye Tracker,1051.0,294.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.449159,,Eye Tracker,1052.0,292.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.465814,,Eye Tracker,1051.0,294.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.482468,,Eye Tracker,1049.0,300.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.499123,,Eye Tracker,1051.0,303.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.515778,,Eye Tracker,1052.0,301.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.532432,,Eye Tracker,1051.0,307.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.549087,,Eye Tracker,1047.0,308.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.565742,,Eye Tracker,1042.0,308.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.582398,,Eye Tracker,1042.0,309.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.599052,,Eye Tracker,1044.0,307.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.615707,,Eye Tracker,1042.0,301.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.632362,,Eye Tracker,1041.0,304.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.649016,,Eye Tracker,1045.0,304.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.665671,,Eye Tracker,1048.0,307.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.682326,,Eye Tracker,1034.0,381.0,Valid,Valid,Saccade
-2022-11-23 14:35:04.698980,,Eye Tracker,1015.0,459.0,Valid,Valid,Saccade
-2022-11-23 14:35:04.715636,,Eye Tracker,1016.0,481.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.732291,,Eye Tracker,1019.0,477.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.748945,,Eye Tracker,1016.0,469.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.765600,,Eye Tracker,1018.0,476.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.782255,,Eye Tracker,1021.0,476.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.798909,,Eye Tracker,1021.0,477.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.815564,,Eye Tracker,1021.0,474.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.832219,,Eye Tracker,1018.0,471.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.848874,,Eye Tracker,1013.0,476.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.865529,,Eye Tracker,1015.0,474.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.882184,,Eye Tracker,1017.0,474.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.898839,,Eye Tracker,1016.0,472.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.915493,,Eye Tracker,1018.0,473.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.932148,,Eye Tracker,1020.0,475.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.948803,,Eye Tracker,1021.0,472.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.965457,,Eye Tracker,1020.0,472.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.982112,,Eye Tracker,1016.0,471.0,Valid,Valid,Fixation
-2022-11-23 14:35:04.998768,,Eye Tracker,1015.0,472.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.015422,,Eye Tracker,1015.0,472.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.032077,,Eye Tracker,1016.0,473.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.048732,,Eye Tracker,1018.0,479.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.065386,,Eye Tracker,1018.0,474.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.082041,,Eye Tracker,1020.0,472.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.098696,,Eye Tracker,1020.0,477.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.115351,,Eye Tracker,1020.0,476.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.132005,,Eye Tracker,1021.0,476.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.148661,,Eye Tracker,1019.0,483.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.165316,,Eye Tracker,1018.0,483.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.181970,,Eye Tracker,1016.0,481.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.198625,,Eye Tracker,1013.0,486.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.215280,,Eye Tracker,960.0,522.0,Valid,Valid,Saccade
-2022-11-23 14:35:05.231934,,Eye Tracker,903.0,559.0,Valid,Valid,Saccade
-2022-11-23 14:35:05.248589,,Eye Tracker,898.0,568.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.265244,,Eye Tracker,896.0,569.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.281899,,Eye Tracker,891.0,564.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.298554,,Eye Tracker,893.0,561.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.315209,,Eye Tracker,902.0,568.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.331863,,Eye Tracker,897.0,571.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.348518,,Eye Tracker,890.0,571.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.365173,,Eye Tracker,892.0,573.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.381828,,Eye Tracker,897.0,572.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.398482,,Eye Tracker,899.0,571.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.415137,,Eye Tracker,895.0,574.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.431793,,Eye Tracker,897.0,575.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.448447,,Eye Tracker,894.0,573.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.465102,,Eye Tracker,892.0,573.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.481757,,Eye Tracker,902.0,574.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.498411,,Eye Tracker,903.0,576.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.515066,,Eye Tracker,899.0,577.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.531721,,Eye Tracker,898.0,580.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.548375,,Eye Tracker,893.0,583.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.565030,,Eye Tracker,893.0,585.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.581686,,Eye Tracker,892.0,584.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.598340,,Eye Tracker,892.0,588.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.614995,,Eye Tracker,897.0,590.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.631650,,Eye Tracker,893.0,589.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.648305,,Eye Tracker,890.0,587.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.664959,,Eye Tracker,891.0,587.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.681614,,Eye Tracker,888.0,590.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.698269,,Eye Tracker,885.0,590.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.714924,,Eye Tracker,885.0,589.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.731579,,Eye Tracker,887.0,584.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.748234,,Eye Tracker,889.0,582.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.764888,,Eye Tracker,888.0,583.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.781543,,Eye Tracker,886.0,586.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.798198,,Eye Tracker,886.0,587.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.814852,,Eye Tracker,882.0,585.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.831507,,Eye Tracker,876.0,593.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.848162,,Eye Tracker,869.0,607.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.864817,,Eye Tracker,866.0,606.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.881472,,Eye Tracker,867.0,604.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.898127,,Eye Tracker,862.0,608.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.914782,,Eye Tracker,863.0,610.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.931436,,Eye Tracker,860.0,611.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.948091,,Eye Tracker,858.0,608.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.964746,,Eye Tracker,856.0,609.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.981400,,Eye Tracker,856.0,607.0,Valid,Valid,Fixation
-2022-11-23 14:35:05.998056,,Eye Tracker,862.0,607.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.014711,,Eye Tracker,861.0,606.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.031365,,Eye Tracker,858.0,606.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.048020,,Eye Tracker,857.0,606.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.064675,,Eye Tracker,863.0,609.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.081329,,Eye Tracker,863.0,611.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.097984,,Eye Tracker,860.0,614.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.114639,,Eye Tracker,863.0,612.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.131293,,Eye Tracker,868.0,609.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.147949,,Eye Tracker,863.0,613.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.164604,,Eye Tracker,856.0,614.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.181259,,Eye Tracker,857.0,613.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.197913,,Eye Tracker,858.0,615.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.214568,,Eye Tracker,853.0,618.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.231223,,Eye Tracker,843.0,663.0,Valid,Valid,Saccade
-2022-11-23 14:35:06.247877,,Eye Tracker,840.0,744.0,Valid,Valid,Saccade
-2022-11-23 14:35:06.264532,,Eye Tracker,846.0,782.0,Valid,Valid,Saccade
-2022-11-23 14:35:06.281188,,Eye Tracker,840.0,787.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.297842,,Eye Tracker,838.0,798.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.314497,,Eye Tracker,844.0,803.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.331152,,Eye Tracker,844.0,802.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.347806,,Eye Tracker,844.0,805.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.364461,,Eye Tracker,842.0,815.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.381116,,Eye Tracker,845.0,814.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.397770,,Eye Tracker,845.0,813.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.414425,,Eye Tracker,842.0,815.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.431081,,Eye Tracker,837.0,816.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.447736,,Eye Tracker,834.0,823.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.464390,,Eye Tracker,837.0,825.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.481045,,Eye Tracker,838.0,830.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.497700,,Eye Tracker,835.0,832.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.514354,,Eye Tracker,834.0,833.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.531009,,Eye Tracker,832.0,837.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.547664,,Eye Tracker,832.0,839.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.564318,,Eye Tracker,835.0,839.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.580974,,Eye Tracker,840.0,840.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.597629,,Eye Tracker,838.0,841.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.614283,,Eye Tracker,856.0,863.0,Valid,Valid,Saccade
-2022-11-23 14:35:06.630938,,Eye Tracker,877.0,892.0,Valid,Valid,Saccade
-2022-11-23 14:35:06.647593,,Eye Tracker,874.0,901.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.664247,,Eye Tracker,876.0,908.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.680902,,Eye Tracker,876.0,911.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.697557,,Eye Tracker,872.0,914.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.714213,,Eye Tracker,876.0,919.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.730867,,Eye Tracker,880.0,923.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.747522,,Eye Tracker,877.0,923.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.764177,,Eye Tracker,875.0,925.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.780831,,Eye Tracker,875.0,926.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.797486,,Eye Tracker,874.0,926.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.814141,,Eye Tracker,874.0,925.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.830795,,Eye Tracker,872.0,929.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.847450,,Eye Tracker,874.0,930.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.864106,,Eye Tracker,871.0,929.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.880760,,Eye Tracker,868.0,934.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.897415,,Eye Tracker,869.0,935.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.914070,,Eye Tracker,868.0,932.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.930724,,Eye Tracker,868.0,933.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.947379,,Eye Tracker,867.0,932.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.964034,,Eye Tracker,870.0,933.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.980689,,Eye Tracker,870.0,936.0,Valid,Valid,Fixation
-2022-11-23 14:35:06.997344,,Eye Tracker,870.0,936.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.013999,,Eye Tracker,875.0,933.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.030654,,Eye Tracker,874.0,932.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.047308,,Eye Tracker,874.0,934.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.063963,,Eye Tracker,873.0,933.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.080618,,Eye Tracker,872.0,929.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.097272,,Eye Tracker,873.0,930.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.113927,,Eye Tracker,881.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.130582,,Eye Tracker,940.0,951.0,Valid,Valid,Saccade
-2022-11-23 14:35:07.147237,,Eye Tracker,984.0,953.0,Valid,Valid,Saccade
-2022-11-23 14:35:07.163892,,Eye Tracker,995.0,955.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.180547,,Eye Tracker,995.0,953.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.197201,,Eye Tracker,999.0,951.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.213856,,Eye Tracker,1003.0,950.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.230511,,Eye Tracker,1003.0,947.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.247166,,Eye Tracker,1005.0,946.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.263820,,Eye Tracker,1003.0,946.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.280475,,Eye Tracker,1003.0,944.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.297131,,Eye Tracker,1003.0,943.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.313785,,Eye Tracker,1001.0,946.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.330440,,Eye Tracker,1001.0,945.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.347095,,Eye Tracker,1001.0,946.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.363749,,Eye Tracker,1001.0,949.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.380404,,Eye Tracker,1003.0,947.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.397059,,Eye Tracker,1001.0,947.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.413713,,Eye Tracker,1001.0,946.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.430369,,Eye Tracker,1001.0,948.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.447024,,Eye Tracker,1001.0,950.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.463678,,Eye Tracker,1004.0,949.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.480333,,Eye Tracker,1000.0,952.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.496988,,Eye Tracker,988.0,1004.0,Valid,Valid,Saccade
-2022-11-23 14:35:07.513643,,Eye Tracker,992.0,1130.0,Valid,Valid,Saccade
-2022-11-23 14:35:07.530297,,Eye Tracker,1009.0,1225.0,Valid,Valid,Saccade
-2022-11-23 14:35:07.546952,,Eye Tracker,1010.0,1162.6666666666667,Invalid,Invalid,EyesNotFound
-2022-11-23 14:35:07.563607,,Eye Tracker,1011.0,1100.3333333333333,Invalid,Invalid,EyesNotFound
-2022-11-23 14:35:07.580262,,Eye Tracker,1012.0,1038.0,Invalid,Valid,Saccade
-2022-11-23 14:35:07.596917,,Eye Tracker,948.0,1091.0,Valid,Valid,Saccade
-2022-11-23 14:35:07.613572,,Eye Tracker,1016.0,1040.0,Valid,Valid,Saccade
-2022-11-23 14:35:07.630226,,Eye Tracker,1037.0,1035.0,Valid,Valid,Unclassified
-2022-11-23 14:35:07.646881,,Eye Tracker,1035.0,1015.0,Valid,Valid,Unclassified
-2022-11-23 14:35:07.663536,,Eye Tracker,1035.0,981.0,Valid,Valid,Saccade
-2022-11-23 14:35:07.680190,,Eye Tracker,1031.0,986.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.696845,,Eye Tracker,1038.0,988.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.713501,,Eye Tracker,1043.0,992.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.730155,,Eye Tracker,1041.0,985.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.746810,,Eye Tracker,1034.0,986.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.763465,,Eye Tracker,1034.0,983.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.780120,,Eye Tracker,1041.0,983.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.796774,,Eye Tracker,1044.0,982.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.813429,,Eye Tracker,1041.0,982.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.830084,,Eye Tracker,1041.0,982.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.846738,,Eye Tracker,1044.0,982.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.863394,,Eye Tracker,1053.0,977.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.880049,,Eye Tracker,1052.0,976.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.896703,,Eye Tracker,1055.0,976.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.913358,,Eye Tracker,1126.0,971.0,Valid,Valid,Saccade
-2022-11-23 14:35:07.930013,,Eye Tracker,1223.0,957.0,Valid,Valid,Saccade
-2022-11-23 14:35:07.946667,,Eye Tracker,1240.0,952.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.963322,,Eye Tracker,1246.0,952.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.979977,,Eye Tracker,1250.0,950.0,Valid,Valid,Fixation
-2022-11-23 14:35:07.996632,,Eye Tracker,1247.0,949.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.013287,,Eye Tracker,1247.0,949.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.029942,,Eye Tracker,1251.0,948.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.046597,,Eye Tracker,1252.0,946.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.063251,,Eye Tracker,1254.0,948.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.079906,,Eye Tracker,1257.0,949.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.096561,,Eye Tracker,1261.0,948.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.113215,,Eye Tracker,1262.0,948.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.129870,,Eye Tracker,1265.0,945.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.146526,,Eye Tracker,1266.0,942.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.163180,,Eye Tracker,1265.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.179835,,Eye Tracker,1266.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.196490,,Eye Tracker,1267.0,944.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.213144,,Eye Tracker,1270.0,944.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.229799,,Eye Tracker,1268.0,946.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.246454,,Eye Tracker,1268.0,951.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.263108,,Eye Tracker,1271.0,953.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.279763,,Eye Tracker,1272.0,954.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.296419,,Eye Tracker,1272.0,950.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.313074,,Eye Tracker,1273.0,950.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.329728,,Eye Tracker,1273.0,948.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.346383,,Eye Tracker,1274.0,951.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.363038,,Eye Tracker,1272.0,954.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.379692,,Eye Tracker,1273.0,953.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.396347,,Eye Tracker,1274.0,955.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.413002,,Eye Tracker,1273.0,955.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.429657,,Eye Tracker,1279.0,953.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.446312,,Eye Tracker,1281.0,949.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.462967,,Eye Tracker,1285.0,945.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.479621,,Eye Tracker,1285.0,941.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.496276,,Eye Tracker,1285.0,940.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.512931,,Eye Tracker,1291.0,937.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.529585,,Eye Tracker,1300.0,919.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.546240,,Eye Tracker,1306.0,904.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.562895,,Eye Tracker,1309.0,900.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.579551,,Eye Tracker,1308.0,906.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.596205,,Eye Tracker,1304.0,909.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.612860,,Eye Tracker,1305.0,909.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.629515,,Eye Tracker,1301.0,910.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.646169,,Eye Tracker,1301.0,909.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.662824,,Eye Tracker,1302.0,905.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.679479,,Eye Tracker,1302.0,905.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.696133,,Eye Tracker,1301.0,907.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.712789,,Eye Tracker,1303.0,905.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.729444,,Eye Tracker,1307.0,904.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.746098,,Eye Tracker,1306.0,901.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.762753,,Eye Tracker,1306.0,898.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.779408,,Eye Tracker,1309.0,900.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.796062,,Eye Tracker,1312.0,898.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.812717,,Eye Tracker,1310.0,902.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.829372,,Eye Tracker,1311.0,904.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.846027,,Eye Tracker,1308.0,898.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.862682,,Eye Tracker,1304.0,895.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.879337,,Eye Tracker,1305.0,893.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.895992,,Eye Tracker,1302.0,891.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.912646,,Eye Tracker,1308.0,889.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.929301,,Eye Tracker,1309.0,883.0,Valid,Valid,Fixation
-2022-11-23 14:35:08.945956,,Eye Tracker,1317.0,809.0,Valid,Valid,Saccade
-2022-11-23 14:35:08.962610,,Eye Tracker,1330.0,716.0,Valid,Valid,Saccade
-2022-11-23 14:35:08.979265,,Eye Tracker,1349.0,632.0,Valid,Valid,Saccade
-2022-11-23 14:35:08.995921,,Eye Tracker,1349.0,621.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.012575,,Eye Tracker,1348.0,622.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.029230,,Eye Tracker,1345.0,622.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.045885,,Eye Tracker,1340.0,618.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.062539,,Eye Tracker,1340.0,612.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.079194,,Eye Tracker,1346.0,606.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.095849,,Eye Tracker,1345.0,607.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.112504,,Eye Tracker,1342.0,609.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.129158,,Eye Tracker,1341.0,611.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.145814,,Eye Tracker,1343.0,608.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.162469,,Eye Tracker,1345.0,606.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.179123,,Eye Tracker,1343.0,608.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.195778,,Eye Tracker,1343.0,607.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.212433,,Eye Tracker,1345.0,613.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.229087,,Eye Tracker,1348.0,612.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.245742,,Eye Tracker,1348.0,591.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.262397,,Eye Tracker,1350.0,568.0,Valid,Valid,Saccade
-2022-11-23 14:35:09.279051,,Eye Tracker,1353.0,560.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.295707,,Eye Tracker,1355.0,559.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.312362,,Eye Tracker,1355.0,561.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.329016,,Eye Tracker,1353.0,562.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.345671,,Eye Tracker,1354.0,557.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.362326,,Eye Tracker,1356.0,557.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.378981,,Eye Tracker,1355.0,560.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.395635,,Eye Tracker,1356.0,561.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.412290,,Eye Tracker,1356.0,556.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.428946,,Eye Tracker,1356.0,557.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.445600,,Eye Tracker,1355.0,560.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.462255,,Eye Tracker,1355.0,555.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.478910,,Eye Tracker,1357.0,552.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.495564,,Eye Tracker,1358.0,554.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.512219,,Eye Tracker,1358.0,550.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.528874,,Eye Tracker,1357.0,548.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.545528,,Eye Tracker,1359.0,552.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.562183,,Eye Tracker,1360.0,555.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.578839,,Eye Tracker,1362.0,554.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.595493,,Eye Tracker,1363.0,550.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.612148,,Eye Tracker,1360.0,551.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.628803,,Eye Tracker,1363.0,552.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.645458,,Eye Tracker,1364.0,548.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.662112,,Eye Tracker,1364.0,549.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.678767,,Eye Tracker,1367.0,556.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.695422,,Eye Tracker,1368.0,553.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.712077,,Eye Tracker,1430.0,545.0,Valid,Valid,Saccade
-2022-11-23 14:35:09.728732,,Eye Tracker,1485.0,548.0,Valid,Valid,Saccade
-2022-11-23 14:35:09.745387,,Eye Tracker,1714.0,522.0,Valid,Valid,Saccade
-2022-11-23 14:35:09.762041,,Eye Tracker,1719.0,510.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.778696,,Eye Tracker,1727.0,498.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.795351,,Eye Tracker,1727.0,497.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.812005,,Eye Tracker,1730.0,495.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.828660,,Eye Tracker,1727.0,495.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.845315,,Eye Tracker,1721.0,493.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.861970,,Eye Tracker,1723.0,498.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.878625,,Eye Tracker,1723.0,510.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.895280,,Eye Tracker,1720.0,508.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.911935,,Eye Tracker,1716.0,502.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.928589,,Eye Tracker,1718.0,501.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.945244,,Eye Tracker,1723.0,503.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.961899,,Eye Tracker,1720.0,503.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.978553,,Eye Tracker,1718.0,499.0,Valid,Valid,Fixation
-2022-11-23 14:35:09.995209,,Eye Tracker,1716.0,500.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.011864,,Eye Tracker,1709.0,501.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.028518,,Eye Tracker,1712.0,502.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.045173,,Eye Tracker,1723.0,502.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.061828,,Eye Tracker,1721.0,506.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.078482,,Eye Tracker,1710.0,509.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.095137,,Eye Tracker,1709.0,511.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.111792,,Eye Tracker,1713.0,508.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.128446,,Eye Tracker,1712.0,511.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.145102,,Eye Tracker,1712.0,513.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.161757,,Eye Tracker,1708.0,514.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.178412,,Eye Tracker,1708.0,520.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.195066,,Eye Tracker,1709.0,517.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.211721,,Eye Tracker,1710.0,517.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.228376,,Eye Tracker,1708.0,517.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.245030,,Eye Tracker,1713.0,513.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.261685,,Eye Tracker,1714.0,517.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.278340,,Eye Tracker,1705.0,520.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.294995,,Eye Tracker,1722.0,518.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.311650,,Eye Tracker,1751.0,509.0,Valid,Valid,Saccade
-2022-11-23 14:35:10.328305,,Eye Tracker,1764.0,506.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.344959,,Eye Tracker,1764.0,506.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.361614,,Eye Tracker,1760.0,507.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.378269,,Eye Tracker,1766.0,508.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.394923,,Eye Tracker,1773.0,506.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.411578,,Eye Tracker,1765.0,509.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.428234,,Eye Tracker,1759.0,508.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.444889,,Eye Tracker,1766.0,507.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.461543,,Eye Tracker,1768.0,507.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.478198,,Eye Tracker,1771.0,505.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.494853,,Eye Tracker,1773.0,504.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.511507,,Eye Tracker,1778.0,504.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.528162,,Eye Tracker,1780.0,503.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.544817,,Eye Tracker,1778.0,499.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.561471,,Eye Tracker,1783.0,495.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.578127,,Eye Tracker,1786.0,494.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.594782,,Eye Tracker,1785.0,492.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.611436,,Eye Tracker,1786.0,491.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.628091,,Eye Tracker,1789.0,490.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.644746,,Eye Tracker,1787.0,490.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.661400,,Eye Tracker,1790.0,489.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.678055,,Eye Tracker,1791.0,487.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.694710,,Eye Tracker,1792.0,486.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.711366,,Eye Tracker,1800.0,487.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.728020,,Eye Tracker,1802.0,488.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.744675,,Eye Tracker,1794.0,483.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.761330,,Eye Tracker,1794.0,481.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.777984,,Eye Tracker,1803.0,479.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.794639,,Eye Tracker,1808.0,478.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.811294,,Eye Tracker,1803.0,480.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.827948,,Eye Tracker,1802.0,475.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.844603,,Eye Tracker,1804.0,475.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.861259,,Eye Tracker,1797.0,449.0,Valid,Valid,Saccade
-2022-11-23 14:35:10.877913,,Eye Tracker,1783.0,334.0,Valid,Valid,Saccade
-2022-11-23 14:35:10.894568,,Eye Tracker,1767.0,222.0,Valid,Valid,Saccade
-2022-11-23 14:35:10.911223,,Eye Tracker,1767.0,197.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.927877,,Eye Tracker,1765.0,197.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.944532,,Eye Tracker,1770.0,203.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.961187,,Eye Tracker,1773.0,201.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.977842,,Eye Tracker,1772.0,200.0,Valid,Valid,Fixation
-2022-11-23 14:35:10.994496,,Eye Tracker,1773.0,196.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.011152,,Eye Tracker,1772.0,194.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.027807,,Eye Tracker,1773.0,191.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.044461,,Eye Tracker,1775.0,182.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.061116,,Eye Tracker,1771.0,179.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.077771,,Eye Tracker,1772.0,178.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.094425,,Eye Tracker,1777.0,177.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.111080,,Eye Tracker,1781.0,171.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.127735,,Eye Tracker,1783.0,165.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.144390,,Eye Tracker,1786.0,162.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.161045,,Eye Tracker,1787.0,157.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.177700,,Eye Tracker,1779.0,160.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.194354,,Eye Tracker,1779.0,157.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.211009,,Eye Tracker,1779.0,156.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.227664,,Eye Tracker,1775.0,157.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.244319,,Eye Tracker,1777.0,158.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.260973,,Eye Tracker,1776.0,158.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.277628,,Eye Tracker,1771.0,159.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.294284,,Eye Tracker,1774.0,162.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.310938,,Eye Tracker,1781.0,163.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.327593,,Eye Tracker,1779.0,163.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.344248,,Eye Tracker,1777.0,160.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.360902,,Eye Tracker,1781.0,163.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.377557,,Eye Tracker,1782.0,168.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.394212,,Eye Tracker,1778.0,163.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.410866,,Eye Tracker,1776.0,167.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.427522,,Eye Tracker,1775.0,169.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.444177,,Eye Tracker,1792.0,176.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.460831,,Eye Tracker,1813.0,206.0,Valid,Valid,Saccade
-2022-11-23 14:35:11.477486,,Eye Tracker,1806.0,219.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.494141,,Eye Tracker,1803.0,222.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.510796,,Eye Tracker,1804.0,218.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.527450,,Eye Tracker,1807.0,217.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.544105,,Eye Tracker,1809.0,220.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.560760,,Eye Tracker,1807.0,225.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.577415,,Eye Tracker,1801.0,224.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.594070,,Eye Tracker,1798.0,222.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.610725,,Eye Tracker,1801.0,226.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.627379,,Eye Tracker,1799.0,230.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.644034,,Eye Tracker,1799.0,228.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.660689,,Eye Tracker,1801.0,226.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.677343,,Eye Tracker,1802.0,224.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.693998,,Eye Tracker,1801.0,227.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.710654,,Eye Tracker,1798.0,231.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.727308,,Eye Tracker,1800.0,229.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.743963,,Eye Tracker,1793.0,230.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.760618,,Eye Tracker,1790.0,228.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.777273,,Eye Tracker,1788.0,231.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.793927,,Eye Tracker,1788.0,237.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.810582,,Eye Tracker,1790.0,238.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.827237,,Eye Tracker,1785.0,241.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.843891,,Eye Tracker,1785.0,234.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.860547,,Eye Tracker,1785.0,236.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.877202,,Eye Tracker,1786.0,243.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.893856,,Eye Tracker,1784.0,239.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.910510,,Eye Tracker,1787.0,242.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.927165,,Eye Tracker,1790.0,241.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.943819,,Eye Tracker,1787.0,239.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.960474,,Eye Tracker,1786.0,240.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.977129,,Eye Tracker,1786.0,246.0,Valid,Valid,Fixation
-2022-11-23 14:35:11.993783,,Eye Tracker,1785.0,245.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.010439,,Eye Tracker,1790.0,243.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.027094,,Eye Tracker,1791.0,244.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.043749,,Eye Tracker,1790.0,243.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.060403,,Eye Tracker,1792.0,237.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.077058,,Eye Tracker,1793.0,233.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.093713,,Eye Tracker,1797.0,231.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.110367,,Eye Tracker,1807.0,225.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.127022,,Eye Tracker,1806.0,228.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.143678,,Eye Tracker,1801.0,227.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.160332,,Eye Tracker,1798.0,223.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.176987,,Eye Tracker,1804.0,212.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.193642,,Eye Tracker,1806.0,210.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.210296,,Eye Tracker,1806.0,224.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.226951,,Eye Tracker,1812.0,217.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.243606,,Eye Tracker,1813.0,207.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.260260,,Eye Tracker,1818.0,204.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.276915,,Eye Tracker,1822.0,206.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.293570,,Eye Tracker,1825.0,207.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.310225,,Eye Tracker,1824.0,205.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.326879,,Eye Tracker,1824.0,201.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.343534,,Eye Tracker,1822.0,197.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.360189,,Eye Tracker,1827.0,195.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.376843,,Eye Tracker,1833.0,191.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.393498,,Eye Tracker,1839.0,191.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.410153,,Eye Tracker,1838.0,190.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.426808,,Eye Tracker,1834.0,187.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.443463,,Eye Tracker,1832.0,186.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.460118,,Eye Tracker,1833.0,183.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.476772,,Eye Tracker,1842.0,189.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.493427,,Eye Tracker,1846.0,190.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.510082,,Eye Tracker,1841.0,183.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.526736,,Eye Tracker,1840.0,176.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.543391,,Eye Tracker,1839.0,178.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.560046,,Eye Tracker,1844.0,178.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.576702,,Eye Tracker,1844.0,180.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.593356,,Eye Tracker,1840.0,175.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.610011,,Eye Tracker,1839.0,154.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.626665,,Eye Tracker,1828.0,139.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.643319,,Eye Tracker,1824.0,134.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.659975,,Eye Tracker,1827.0,133.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.676630,,Eye Tracker,1823.0,133.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.693283,,Eye Tracker,1826.0,128.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.709939,,Eye Tracker,1828.0,129.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.726594,,Eye Tracker,1824.0,124.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.743248,,Eye Tracker,1828.0,124.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.759903,,Eye Tracker,1834.0,120.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.776558,,Eye Tracker,1837.0,113.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.793212,,Eye Tracker,1845.0,104.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.809867,,Eye Tracker,1843.0,99.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.826522,,Eye Tracker,1843.0,102.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.843177,,Eye Tracker,1850.0,103.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.859832,,Eye Tracker,1853.0,108.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.876487,,Eye Tracker,1861.0,104.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.893142,,Eye Tracker,1863.0,101.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.909796,,Eye Tracker,1856.0,101.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.926451,,Eye Tracker,1849.0,107.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.943106,,Eye Tracker,1843.0,100.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.959760,,Eye Tracker,1839.0,97.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.976415,,Eye Tracker,1837.0,108.0,Valid,Valid,Fixation
-2022-11-23 14:35:12.993070,,Eye Tracker,1831.0,115.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.009724,,Eye Tracker,1837.0,102.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.026379,,Eye Tracker,1839.0,83.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.043034,,Eye Tracker,1842.0,59.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.059688,,Eye Tracker,1844.0,61.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.076343,,Eye Tracker,1840.0,77.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.092998,,Eye Tracker,1838.0,77.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.109653,,Eye Tracker,1841.0,70.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.126307,,Eye Tracker,1839.0,73.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.142963,,Eye Tracker,1832.0,85.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.159618,,Eye Tracker,1828.0,87.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.176272,,Eye Tracker,1827.0,82.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.192927,,Eye Tracker,1824.0,86.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.209582,,Eye Tracker,1823.0,84.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.226236,,Eye Tracker,1821.0,86.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.242891,,Eye Tracker,1821.0,111.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.259546,,Eye Tracker,1817.0,131.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.276200,,Eye Tracker,1814.0,136.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.292856,,Eye Tracker,1811.0,139.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.309511,,Eye Tracker,1809.0,141.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.326165,,Eye Tracker,1807.0,143.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.342819,,Eye Tracker,1807.0,147.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.359474,,Eye Tracker,1803.0,150.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.376129,,Eye Tracker,1795.0,158.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.392783,,Eye Tracker,1790.0,161.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.409439,,Eye Tracker,1788.0,162.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.426094,,Eye Tracker,1783.0,168.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.442748,,Eye Tracker,1782.0,170.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.459403,,Eye Tracker,1783.0,176.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.476058,,Eye Tracker,1777.0,188.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.492712,,Eye Tracker,1776.0,187.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.509367,,Eye Tracker,1779.0,187.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.526022,,Eye Tracker,1771.0,190.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.542676,,Eye Tracker,1763.0,190.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.559331,,Eye Tracker,1762.0,193.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.575987,,Eye Tracker,1762.0,194.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.592641,,Eye Tracker,1761.0,197.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.609296,,Eye Tracker,1760.0,204.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.625951,,Eye Tracker,1759.0,206.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.642606,,Eye Tracker,1757.0,204.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.659260,,Eye Tracker,1753.0,208.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.675915,,Eye Tracker,1750.0,215.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.692570,,Eye Tracker,1750.0,219.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.709224,,Eye Tracker,1751.0,223.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.725879,,Eye Tracker,1749.0,224.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.742534,,Eye Tracker,1751.0,230.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.759188,,Eye Tracker,1748.0,229.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.775843,,Eye Tracker,1749.0,229.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.792498,,Eye Tracker,1747.0,230.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.809152,,Eye Tracker,1743.0,227.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.825807,,Eye Tracker,1740.0,227.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.842462,,Eye Tracker,1739.0,232.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.859117,,Eye Tracker,1738.0,233.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.875772,,Eye Tracker,1742.0,230.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.892427,,Eye Tracker,1743.0,228.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.909082,,Eye Tracker,1737.0,234.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.925736,,Eye Tracker,1733.0,233.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.942391,,Eye Tracker,1744.0,226.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.959046,,Eye Tracker,1747.0,233.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.975700,,Eye Tracker,1744.0,239.0,Valid,Valid,Fixation
-2022-11-23 14:35:13.992355,,Eye Tracker,1743.0,260.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.009011,,Eye Tracker,1783.0,360.0,Valid,Valid,Saccade
-2022-11-23 14:35:14.025665,,Eye Tracker,1798.0,371.0,Valid,Valid,Unclassified
-2022-11-23 14:35:14.042320,,Eye Tracker,1747.0,224.0,Valid,Valid,Saccade
-2022-11-23 14:35:14.058974,,Eye Tracker,1736.0,191.0,Valid,Valid,Saccade
-2022-11-23 14:35:14.075628,,Eye Tracker,1733.0,181.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.092283,,Eye Tracker,1729.0,174.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.108938,,Eye Tracker,1729.0,175.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.125592,,Eye Tracker,1731.0,173.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.142248,,Eye Tracker,1734.0,161.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.158903,,Eye Tracker,1731.0,165.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.175558,,Eye Tracker,1735.0,171.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.192212,,Eye Tracker,1741.0,171.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.208867,,Eye Tracker,1739.0,169.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.225522,,Eye Tracker,1740.0,168.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.242176,,Eye Tracker,1736.0,172.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.258831,,Eye Tracker,1737.0,166.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.275486,,Eye Tracker,1738.0,161.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.292140,,Eye Tracker,1740.0,160.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.308796,,Eye Tracker,1739.0,166.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.325451,,Eye Tracker,1737.0,167.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.342105,,Eye Tracker,1737.0,169.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.358760,,Eye Tracker,1734.0,169.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.375415,,Eye Tracker,1734.0,170.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.392069,,Eye Tracker,1734.0,170.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.408724,,Eye Tracker,1732.0,169.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.425379,,Eye Tracker,1733.0,169.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.442034,,Eye Tracker,1733.0,170.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.458688,,Eye Tracker,1732.0,175.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.475343,,Eye Tracker,1651.0,175.0,Valid,Valid,Saccade
-2022-11-23 14:35:14.491998,,Eye Tracker,1568.0,181.0,Valid,Valid,Saccade
-2022-11-23 14:35:14.508652,,Eye Tracker,1334.0,108.0,Valid,Invalid,Saccade
-2022-11-23 14:35:14.525307,,Eye Tracker,1325.0,129.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.541962,,Eye Tracker,1323.0,140.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.558616,,Eye Tracker,1327.0,134.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.575272,,Eye Tracker,1329.0,136.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.591926,,Eye Tracker,1325.0,145.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.608581,,Eye Tracker,1327.0,143.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.625236,,Eye Tracker,1328.0,145.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.641891,,Eye Tracker,1325.0,143.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.658545,,Eye Tracker,1323.0,145.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.675200,,Eye Tracker,1323.0,143.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.691855,,Eye Tracker,1322.0,142.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.708510,,Eye Tracker,1320.0,152.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.725164,,Eye Tracker,1319.0,153.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.741819,,Eye Tracker,1316.0,158.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.758475,,Eye Tracker,1311.0,161.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.775128,,Eye Tracker,1311.0,159.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.791783,,Eye Tracker,1310.0,164.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.808438,,Eye Tracker,1314.0,170.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.825092,,Eye Tracker,1311.0,172.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.841747,,Eye Tracker,1312.0,173.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.858403,,Eye Tracker,1310.0,168.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.875057,,Eye Tracker,1304.0,165.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.891712,,Eye Tracker,1302.0,168.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.908367,,Eye Tracker,1306.0,173.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.925021,,Eye Tracker,1307.0,172.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.941676,,Eye Tracker,1306.0,168.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.958331,,Eye Tracker,1307.0,163.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.974986,,Eye Tracker,1307.0,162.0,Valid,Valid,Fixation
-2022-11-23 14:35:14.991640,,Eye Tracker,1310.0,166.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.008295,,Eye Tracker,1308.0,168.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.024950,,Eye Tracker,1308.0,168.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.041604,,Eye Tracker,1295.0,175.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.058260,,Eye Tracker,1269.0,180.0,Valid,Valid,Saccade
-2022-11-23 14:35:15.074915,,Eye Tracker,1271.0,177.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.091569,,Eye Tracker,1272.0,175.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.108224,,Eye Tracker,1269.0,176.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.124878,,Eye Tracker,1271.0,175.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.141533,,Eye Tracker,1277.0,177.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.158188,,Eye Tracker,1277.0,177.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.174843,,Eye Tracker,1272.0,171.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.191497,,Eye Tracker,1275.0,169.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.208152,,Eye Tracker,1274.0,173.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.224807,,Eye Tracker,1273.0,179.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.241462,,Eye Tracker,1283.0,188.0,Valid,Valid,Fixation
-2022-11-23 14:35:15.258116,,Eye Tracker,1286.0,217.0,Valid,Valid,Saccade
-2022-11-23 14:35:15.274771,,Eye Tracker,1275.0,232.0,Valid,Valid,Unclassified
-2022-11-23 14:35:15.291426,,Eye Tracker,1262.0,242.16666666666666,Invalid,Invalid,EyesNotFound
-2022-11-23 14:35:15.308080,,Eye Tracker,1249.0,252.33333333333334,Invalid,Invalid,EyesNotFound
-2022-11-23 14:35:15.324735,,Eye Tracker,1236.0,262.5,Invalid,Invalid,EyesNotFound
-2022-11-23 14:35:15.341390,,Eye Tracker,1223.0,272.6666666666667,Invalid,Invalid,EyesNotFound
-2022-11-23 14:35:15.358045,,Eye Tracker,1210.0,282.8333333333333,Invalid,Invalid,EyesNotFound
-2022-11-23 14:35:15.374700,,Eye Tracker,1197.0,293.0,Valid,Valid,Saccade
-2022-11-23 14:35:15.391355,,Eye Tracker,1243.0,281.0,Valid,Valid,Saccade
-2022-11-23 14:35:15.408009,,Eye Tracker,1260.0,251.0,Valid,Valid,Saccade
-2022-11-23 14:35:15.424664,,Eye Tracker,1229.0,209.0,Valid,Valid,Saccade
-2022-11-23 14:35:15.441319,,Eye Tracker,1232.0,197.0,Valid,Valid,Unclassified
-2022-11-23 14:35:15.457973,,Eye Tracker,1238.0,213.0,Valid,Invalid,Unclassified
-2022-11-23 14:35:15.474628,,Eye Tracker,1211.0,210.0,Valid,Invalid,Saccade
-2022-11-23 14:35:15.491283,,Eye Tracker,1211.0,210.0,Invalid,Invalid,EyesNotFound
+1669181693.906662,,Eye Tracker,600.0,754.0,Valid,Valid,Fixation
+1669181693.923317,,Eye Tracker,608.0,758.0,Valid,Valid,Fixation
+1669181693.939971,,Eye Tracker,609.0,756.0,Valid,Valid,Fixation
+1669181693.956627,,Eye Tracker,607.0,754.0,Valid,Valid,Fixation
+1669181693.973282,,Eye Tracker,607.0,754.0,Valid,Valid,Fixation
+1669181693.989936,,Eye Tracker,607.0,757.0,Valid,Valid,Fixation
+1669181694.006591,,Eye Tracker,607.0,754.0,Valid,Valid,Fixation
+1669181694.023246,,Eye Tracker,611.0,755.0,Valid,Valid,Fixation
+1669181694.0399,,Eye Tracker,614.0,756.0,Valid,Valid,Fixation
+1669181694.056555,,Eye Tracker,590.0,767.0,Valid,Valid,Saccade
+1669181694.07321,,Eye Tracker,496.0,813.0,Valid,Valid,Saccade
+1669181694.089865,,Eye Tracker,397.0,885.0,Valid,Valid,Saccade
+1669181694.10652,,Eye Tracker,366.0,936.0,Valid,Valid,Saccade
+1669181694.123176,,Eye Tracker,362.0,944.0,Valid,Valid,Fixation
+1669181694.13983,,Eye Tracker,360.0,946.0,Valid,Valid,Fixation
+1669181694.156485,,Eye Tracker,358.0,939.0,Valid,Valid,Fixation
+1669181694.17314,,Eye Tracker,357.0,939.0,Valid,Valid,Fixation
+1669181694.189795,,Eye Tracker,355.0,943.0,Valid,Valid,Fixation
+1669181694.206449,,Eye Tracker,356.0,942.0,Valid,Valid,Fixation
+1669181694.223104,,Eye Tracker,359.0,941.0,Valid,Valid,Fixation
+1669181694.239759,,Eye Tracker,360.0,940.0,Valid,Valid,Fixation
+1669181694.256413,,Eye Tracker,360.0,934.0,Valid,Valid,Fixation
+1669181694.273068,,Eye Tracker,357.0,936.0,Valid,Valid,Fixation
+1669181694.289724,,Eye Tracker,358.0,940.0,Valid,Valid,Fixation
+1669181694.306378,,Eye Tracker,361.0,935.0,Valid,Valid,Fixation
+1669181694.323033,,Eye Tracker,364.0,936.0,Valid,Valid,Fixation
+1669181694.339688,,Eye Tracker,366.0,937.0,Valid,Valid,Fixation
+1669181694.356342,,Eye Tracker,360.0,937.0,Valid,Valid,Fixation
+1669181694.372998,,Eye Tracker,359.0,935.0,Valid,Valid,Fixation
+1669181694.389653,,Eye Tracker,360.0,938.0,Valid,Valid,Fixation
+1669181694.406307,,Eye Tracker,362.0,940.0,Valid,Valid,Fixation
+1669181694.422962,,Eye Tracker,366.0,939.0,Valid,Valid,Fixation
+1669181694.439617,,Eye Tracker,365.0,938.0,Valid,Valid,Fixation
+1669181694.456272,,Eye Tracker,367.0,938.0,Valid,Valid,Fixation
+1669181694.472926,,Eye Tracker,365.0,937.0,Valid,Valid,Fixation
+1669181694.489581,,Eye Tracker,365.0,934.0,Valid,Valid,Fixation
+1669181694.506237,,Eye Tracker,364.0,935.0,Valid,Valid,Fixation
+1669181694.522891,,Eye Tracker,364.0,932.0,Valid,Valid,Fixation
+1669181694.539546,,Eye Tracker,365.0,933.0,Valid,Valid,Fixation
+1669181694.556201,,Eye Tracker,362.0,936.0,Valid,Valid,Fixation
+1669181694.572855,,Eye Tracker,363.0,935.0,Valid,Valid,Fixation
+1669181694.589511,,Eye Tracker,369.0,935.0,Valid,Valid,Fixation
+1669181694.606166,,Eye Tracker,371.0,936.0,Valid,Valid,Fixation
+1669181694.62282,,Eye Tracker,369.0,940.0,Valid,Valid,Fixation
+1669181694.639475,,Eye Tracker,369.0,942.0,Valid,Valid,Fixation
+1669181694.65613,,Eye Tracker,367.0,940.0,Valid,Valid,Fixation
+1669181694.672785,,Eye Tracker,370.0,941.0,Valid,Valid,Fixation
+1669181694.68944,,Eye Tracker,371.0,942.0,Valid,Valid,Fixation
+1669181694.706095,,Eye Tracker,373.0,943.0,Valid,Valid,Fixation
+1669181694.72275,,Eye Tracker,378.0,941.0,Valid,Valid,Fixation
+1669181694.739404,,Eye Tracker,377.0,939.0,Valid,Valid,Fixation
+1669181694.756059,,Eye Tracker,378.0,944.0,Valid,Valid,Fixation
+1669181694.772714,,Eye Tracker,379.0,946.0,Valid,Valid,Fixation
+1669181694.789368,,Eye Tracker,376.0,942.0,Valid,Valid,Fixation
+1669181694.806024,,Eye Tracker,346.0,949.0,Valid,Valid,Saccade
+1669181694.822679,,Eye Tracker,285.0,974.0,Valid,Valid,Saccade
+1669181694.839333,,Eye Tracker,237.0,983.0,Valid,Valid,Saccade
+1669181694.855988,,Eye Tracker,234.0,981.0,Valid,Valid,Fixation
+1669181694.872643,,Eye Tracker,233.0,982.0,Valid,Valid,Fixation
+1669181694.889297,,Eye Tracker,235.0,984.0,Valid,Valid,Fixation
+1669181694.905953,,Eye Tracker,234.0,985.0,Valid,Valid,Fixation
+1669181694.922608,,Eye Tracker,229.0,984.0,Valid,Valid,Fixation
+1669181694.939262,,Eye Tracker,228.0,985.0,Valid,Valid,Fixation
+1669181694.955917,,Eye Tracker,236.0,984.0,Valid,Valid,Fixation
+1669181694.972572,,Eye Tracker,263.0,982.0,Valid,Valid,Saccade
+1669181694.989227,,Eye Tracker,274.0,986.0,Valid,Valid,Unclassified
+1669181695.005881,,Eye Tracker,554.0,933.0,Valid,Valid,Saccade
+1669181695.022537,,Eye Tracker,560.0,933.0,Valid,Valid,Fixation
+1669181695.039192,,Eye Tracker,564.0,932.0,Valid,Valid,Fixation
+1669181695.055846,,Eye Tracker,559.0,934.0,Valid,Valid,Fixation
+1669181695.072501,,Eye Tracker,558.0,936.0,Valid,Valid,Fixation
+1669181695.089157,,Eye Tracker,563.0,938.0,Valid,Valid,Fixation
+1669181695.105811,,Eye Tracker,565.0,940.0,Valid,Valid,Fixation
+1669181695.122466,,Eye Tracker,565.0,938.0,Valid,Valid,Fixation
+1669181695.139121,,Eye Tracker,565.0,938.0,Valid,Valid,Fixation
+1669181695.155775,,Eye Tracker,565.0,935.0,Valid,Valid,Fixation
+1669181695.17243,,Eye Tracker,564.0,936.0,Valid,Valid,Fixation
+1669181695.189085,,Eye Tracker,570.0,937.0,Valid,Valid,Fixation
+1669181695.205739,,Eye Tracker,570.0,937.0,Valid,Valid,Fixation
+1669181695.222394,,Eye Tracker,569.0,941.0,Valid,Valid,Fixation
+1669181695.23905,,Eye Tracker,572.0,940.0,Valid,Valid,Fixation
+1669181695.255705,,Eye Tracker,568.0,940.0,Valid,Valid,Fixation
+1669181695.272359,,Eye Tracker,568.0,941.0,Valid,Valid,Fixation
+1669181695.289014,,Eye Tracker,567.0,942.0,Valid,Valid,Fixation
+1669181695.305669,,Eye Tracker,567.0,943.0,Valid,Valid,Fixation
+1669181695.322323,,Eye Tracker,568.0,943.0,Valid,Valid,Fixation
+1669181695.338978,,Eye Tracker,566.0,946.0,Valid,Valid,Fixation
+1669181695.355633,,Eye Tracker,567.0,945.0,Valid,Valid,Fixation
+1669181695.372288,,Eye Tracker,571.0,943.0,Valid,Valid,Fixation
+1669181695.388944,,Eye Tracker,577.0,943.0,Valid,Valid,Fixation
+1669181695.405599,,Eye Tracker,573.0,943.0,Valid,Valid,Fixation
+1669181695.422253,,Eye Tracker,571.0,942.0,Valid,Valid,Fixation
+1669181695.438908,,Eye Tracker,575.0,942.0,Valid,Valid,Fixation
+1669181695.455563,,Eye Tracker,575.0,942.0,Valid,Valid,Fixation
+1669181695.472217,,Eye Tracker,575.0,941.0,Valid,Valid,Fixation
+1669181695.488872,,Eye Tracker,573.0,938.0,Valid,Valid,Fixation
+1669181695.505527,,Eye Tracker,573.0,935.0,Valid,Valid,Fixation
+1669181695.522183,,Eye Tracker,571.0,937.0,Valid,Valid,Fixation
+1669181695.538837,,Eye Tracker,570.0,938.0,Valid,Valid,Fixation
+1669181695.555492,,Eye Tracker,578.0,940.0,Valid,Valid,Fixation
+1669181695.572147,,Eye Tracker,573.0,944.0,Valid,Valid,Fixation
+1669181695.588801,,Eye Tracker,569.0,938.0,Valid,Valid,Fixation
+1669181695.605456,,Eye Tracker,571.0,939.0,Valid,Valid,Fixation
+1669181695.622111,,Eye Tracker,566.0,944.0,Valid,Valid,Fixation
+1669181695.638765,,Eye Tracker,570.0,943.0,Valid,Valid,Fixation
+1669181695.65542,,Eye Tracker,575.0,941.0,Valid,Valid,Fixation
+1669181695.672076,,Eye Tracker,576.0,942.0,Valid,Valid,Fixation
+1669181695.68873,,Eye Tracker,578.0,941.0,Valid,Valid,Fixation
+1669181695.705385,,Eye Tracker,577.0,940.0,Valid,Valid,Fixation
+1669181695.72204,,Eye Tracker,575.0,940.0,Valid,Valid,Fixation
+1669181695.738695,,Eye Tracker,577.0,936.0,Valid,Valid,Fixation
+1669181695.75535,,Eye Tracker,577.0,937.0,Valid,Valid,Fixation
+1669181695.772005,,Eye Tracker,578.0,939.0,Valid,Valid,Fixation
+1669181695.78866,,Eye Tracker,577.0,939.0,Valid,Valid,Fixation
+1669181695.805314,,Eye Tracker,575.0,939.0,Valid,Valid,Fixation
+1669181695.82197,,Eye Tracker,578.0,936.0,Valid,Valid,Fixation
+1669181695.838625,,Eye Tracker,576.0,935.0,Valid,Valid,Fixation
+1669181695.855279,,Eye Tracker,573.0,935.0,Valid,Valid,Fixation
+1669181695.871934,,Eye Tracker,577.0,934.0,Valid,Valid,Fixation
+1669181695.888589,,Eye Tracker,580.0,935.0,Valid,Valid,Fixation
+1669181695.905243,,Eye Tracker,581.0,937.0,Valid,Valid,Fixation
+1669181695.921898,,Eye Tracker,581.0,936.0,Valid,Valid,Fixation
+1669181695.938553,,Eye Tracker,579.0,937.0,Valid,Valid,Fixation
+1669181695.955208,,Eye Tracker,581.0,938.0,Valid,Valid,Fixation
+1669181695.971863,,Eye Tracker,585.0,941.0,Valid,Valid,Fixation
+1669181695.988518,,Eye Tracker,592.0,924.0,Valid,Valid,Fixation
+1669181696.005172,,Eye Tracker,590.0,886.0,Valid,Valid,Saccade
+1669181696.021827,,Eye Tracker,581.0,866.0,Valid,Valid,Fixation
+1669181696.038482,,Eye Tracker,585.0,869.0,Valid,Valid,Fixation
+1669181696.055137,,Eye Tracker,586.0,868.0,Valid,Valid,Fixation
+1669181696.071791,,Eye Tracker,585.0,864.0,Valid,Valid,Fixation
+1669181696.088446,,Eye Tracker,585.0,861.0,Valid,Valid,Fixation
+1669181696.105102,,Eye Tracker,586.0,862.0,Valid,Valid,Fixation
+1669181696.121756,,Eye Tracker,589.0,863.0,Valid,Valid,Fixation
+1669181696.138412,,Eye Tracker,590.0,864.0,Valid,Valid,Fixation
+1669181696.155067,,Eye Tracker,583.0,866.0,Valid,Valid,Fixation
+1669181696.171721,,Eye Tracker,581.0,868.0,Valid,Valid,Fixation
+1669181696.188376,,Eye Tracker,586.0,866.0,Valid,Valid,Fixation
+1669181696.205031,,Eye Tracker,585.0,861.0,Valid,Valid,Fixation
+1669181696.221685,,Eye Tracker,585.0,858.0,Valid,Valid,Fixation
+1669181696.23834,,Eye Tracker,584.0,861.0,Valid,Valid,Fixation
+1669181696.254996,,Eye Tracker,580.0,863.0,Valid,Valid,Fixation
+1669181696.27165,,Eye Tracker,582.0,863.0,Valid,Valid,Fixation
+1669181696.288305,,Eye Tracker,587.0,864.0,Valid,Valid,Fixation
+1669181696.30496,,Eye Tracker,589.0,861.0,Valid,Valid,Fixation
+1669181696.321615,,Eye Tracker,588.0,859.0,Valid,Valid,Fixation
+1669181696.338269,,Eye Tracker,574.0,810.0,Valid,Valid,Saccade
+1669181696.354924,,Eye Tracker,562.0,737.0,Valid,Valid,Saccade
+1669181696.371579,,Eye Tracker,560.0,704.0,Valid,Valid,Saccade
+1669181696.388234,,Eye Tracker,564.0,704.0,Valid,Valid,Fixation
+1669181696.404889,,Eye Tracker,564.0,702.0,Valid,Valid,Fixation
+1669181696.421544,,Eye Tracker,560.0,698.0,Valid,Valid,Fixation
+1669181696.438198,,Eye Tracker,559.0,695.0,Valid,Valid,Fixation
+1669181696.454854,,Eye Tracker,564.0,700.0,Valid,Valid,Fixation
+1669181696.471509,,Eye Tracker,566.0,700.0,Valid,Valid,Fixation
+1669181696.488163,,Eye Tracker,559.0,692.0,Valid,Valid,Fixation
+1669181696.504818,,Eye Tracker,557.0,691.0,Valid,Valid,Fixation
+1669181696.521473,,Eye Tracker,560.0,694.0,Valid,Valid,Fixation
+1669181696.538128,,Eye Tracker,561.0,695.0,Valid,Valid,Fixation
+1669181696.554783,,Eye Tracker,560.0,688.0,Valid,Valid,Fixation
+1669181696.571438,,Eye Tracker,560.0,684.0,Valid,Valid,Fixation
+1669181696.588093,,Eye Tracker,558.0,690.0,Valid,Valid,Fixation
+1669181696.604747,,Eye Tracker,556.0,691.0,Valid,Valid,Fixation
+1669181696.621402,,Eye Tracker,551.0,685.0,Valid,Valid,Fixation
+1669181696.638057,,Eye Tracker,549.0,684.0,Valid,Valid,Fixation
+1669181696.654711,,Eye Tracker,552.0,687.0,Valid,Valid,Fixation
+1669181696.671366,,Eye Tracker,555.0,686.0,Valid,Valid,Fixation
+1669181696.688022,,Eye Tracker,557.0,680.0,Valid,Valid,Fixation
+1669181696.704676,,Eye Tracker,555.0,682.0,Valid,Valid,Fixation
+1669181696.721331,,Eye Tracker,557.0,688.0,Valid,Valid,Fixation
+1669181696.737986,,Eye Tracker,556.0,686.0,Valid,Valid,Fixation
+1669181696.75464,,Eye Tracker,551.0,681.0,Valid,Valid,Fixation
+1669181696.771295,,Eye Tracker,552.0,681.0,Valid,Valid,Fixation
+1669181696.78795,,Eye Tracker,551.0,680.0,Valid,Valid,Fixation
+1669181696.804604,,Eye Tracker,553.0,679.0,Valid,Valid,Fixation
+1669181696.821261,,Eye Tracker,550.0,675.0,Valid,Valid,Fixation
+1669181696.837916,,Eye Tracker,549.0,673.0,Valid,Valid,Fixation
+1669181696.854571,,Eye Tracker,549.0,677.0,Valid,Valid,Fixation
+1669181696.871225,,Eye Tracker,547.0,680.0,Valid,Valid,Fixation
+1669181696.88788,,Eye Tracker,550.0,677.0,Valid,Valid,Fixation
+1669181696.904535,,Eye Tracker,552.0,674.0,Valid,Valid,Fixation
+1669181696.921189,,Eye Tracker,552.0,672.0,Valid,Valid,Fixation
+1669181696.937844,,Eye Tracker,554.0,671.0,Valid,Valid,Fixation
+1669181696.954499,,Eye Tracker,551.0,672.0,Valid,Valid,Fixation
+1669181696.971154,,Eye Tracker,550.0,668.0,Valid,Valid,Fixation
+1669181696.987809,,Eye Tracker,549.0,667.0,Valid,Valid,Fixation
+1669181697.004464,,Eye Tracker,550.0,673.0,Valid,Valid,Fixation
+1669181697.021118,,Eye Tracker,551.0,676.0,Valid,Valid,Fixation
+1669181697.037773,,Eye Tracker,549.0,674.0,Valid,Valid,Fixation
+1669181697.054428,,Eye Tracker,555.0,669.0,Valid,Valid,Fixation
+1669181697.071082,,Eye Tracker,525.0,664.0,Valid,Valid,Saccade
+1669181697.087737,,Eye Tracker,441.0,668.0,Valid,Valid,Saccade
+1669181697.104392,,Eye Tracker,400.0,669.0,Valid,Valid,Saccade
+1669181697.121048,,Eye Tracker,398.0,666.0,Valid,Valid,Fixation
+1669181697.137702,,Eye Tracker,397.0,664.0,Valid,Valid,Fixation
+1669181697.154357,,Eye Tracker,398.0,667.0,Valid,Valid,Fixation
+1669181697.171012,,Eye Tracker,402.0,670.0,Valid,Valid,Fixation
+1669181697.187666,,Eye Tracker,406.0,671.0,Valid,Valid,Fixation
+1669181697.204321,,Eye Tracker,405.0,667.0,Valid,Valid,Fixation
+1669181697.220976,,Eye Tracker,406.0,664.0,Valid,Valid,Fixation
+1669181697.23763,,Eye Tracker,408.0,667.0,Valid,Valid,Fixation
+1669181697.254286,,Eye Tracker,411.0,670.0,Valid,Valid,Fixation
+1669181697.270941,,Eye Tracker,411.0,670.0,Valid,Valid,Fixation
+1669181697.287595,,Eye Tracker,407.0,670.0,Valid,Valid,Fixation
+1669181697.30425,,Eye Tracker,408.0,672.0,Valid,Valid,Fixation
+1669181697.320905,,Eye Tracker,411.0,675.0,Valid,Valid,Fixation
+1669181697.337559,,Eye Tracker,409.0,672.0,Valid,Valid,Fixation
+1669181697.354214,,Eye Tracker,409.0,669.0,Valid,Valid,Fixation
+1669181697.370869,,Eye Tracker,413.0,673.0,Valid,Valid,Fixation
+1669181697.387524,,Eye Tracker,412.0,681.0,Valid,Valid,Fixation
+1669181697.404179,,Eye Tracker,411.0,683.0,Valid,Valid,Fixation
+1669181697.420834,,Eye Tracker,412.0,679.0,Valid,Valid,Fixation
+1669181697.437489,,Eye Tracker,414.0,680.0,Valid,Valid,Fixation
+1669181697.454143,,Eye Tracker,420.0,683.0,Valid,Valid,Fixation
+1669181697.470798,,Eye Tracker,420.0,685.0,Valid,Valid,Fixation
+1669181697.487453,,Eye Tracker,414.0,680.0,Valid,Valid,Fixation
+1669181697.504107,,Eye Tracker,414.0,680.0,Valid,Valid,Fixation
+1669181697.520762,,Eye Tracker,416.0,684.0,Valid,Valid,Fixation
+1669181697.537417,,Eye Tracker,417.0,687.0,Valid,Valid,Fixation
+1669181697.554072,,Eye Tracker,419.0,690.0,Valid,Valid,Fixation
+1669181697.570727,,Eye Tracker,417.0,689.0,Valid,Valid,Fixation
+1669181697.587382,,Eye Tracker,383.0,689.0,Valid,Valid,Saccade
+1669181697.604036,,Eye Tracker,276.0,693.0,Valid,Valid,Saccade
+1669181697.620691,,Eye Tracker,197.0,688.0,Valid,Valid,Saccade
+1669181697.637346,,Eye Tracker,179.0,687.0,Valid,Valid,Fixation
+1669181697.654001,,Eye Tracker,172.0,684.0,Valid,Valid,Fixation
+1669181697.670655,,Eye Tracker,165.0,682.0,Valid,Valid,Fixation
+1669181697.687311,,Eye Tracker,163.0,684.0,Valid,Valid,Fixation
+1669181697.703966,,Eye Tracker,165.0,682.0,Valid,Valid,Fixation
+1669181697.72062,,Eye Tracker,161.0,678.0,Valid,Valid,Fixation
+1669181697.737275,,Eye Tracker,164.0,680.0,Valid,Valid,Fixation
+1669181697.75393,,Eye Tracker,164.0,681.0,Valid,Valid,Fixation
+1669181697.770584,,Eye Tracker,163.0,683.0,Valid,Valid,Fixation
+1669181697.787239,,Eye Tracker,165.0,681.0,Valid,Valid,Fixation
+1669181697.803894,,Eye Tracker,163.0,680.0,Valid,Valid,Fixation
+1669181697.820548,,Eye Tracker,167.0,681.0,Valid,Valid,Fixation
+1669181697.837204,,Eye Tracker,168.0,680.0,Valid,Valid,Fixation
+1669181697.853859,,Eye Tracker,168.0,680.0,Valid,Valid,Fixation
+1669181697.870513,,Eye Tracker,172.0,680.0,Valid,Valid,Fixation
+1669181697.887168,,Eye Tracker,172.0,680.0,Valid,Valid,Fixation
+1669181697.903823,,Eye Tracker,171.0,679.0,Valid,Valid,Fixation
+1669181697.920478,,Eye Tracker,171.0,678.0,Valid,Valid,Fixation
+1669181697.937132,,Eye Tracker,170.0,680.0,Valid,Valid,Fixation
+1669181697.953787,,Eye Tracker,168.0,680.0,Valid,Valid,Fixation
+1669181697.970442,,Eye Tracker,168.0,681.0,Valid,Valid,Fixation
+1669181697.987097,,Eye Tracker,168.0,682.0,Valid,Valid,Fixation
+1669181698.003752,,Eye Tracker,168.0,681.0,Valid,Valid,Fixation
+1669181698.020407,,Eye Tracker,169.0,681.0,Valid,Valid,Fixation
+1669181698.037061,,Eye Tracker,170.0,681.0,Valid,Valid,Fixation
+1669181698.053716,,Eye Tracker,174.0,681.0,Valid,Valid,Fixation
+1669181698.070371,,Eye Tracker,173.0,653.0,Valid,Valid,Saccade
+1669181698.087025,,Eye Tracker,164.0,593.0,Valid,Valid,Saccade
+1669181698.10368,,Eye Tracker,164.0,557.0,Valid,Valid,Saccade
+1669181698.120336,,Eye Tracker,167.0,555.0,Valid,Valid,Fixation
+1669181698.13699,,Eye Tracker,165.0,553.0,Valid,Valid,Fixation
+1669181698.153645,,Eye Tracker,165.0,557.0,Valid,Valid,Fixation
+1669181698.1703,,Eye Tracker,168.0,554.0,Valid,Valid,Fixation
+1669181698.186955,,Eye Tracker,169.0,551.0,Valid,Valid,Fixation
+1669181698.203609,,Eye Tracker,168.0,551.0,Valid,Valid,Fixation
+1669181698.220264,,Eye Tracker,168.0,551.0,Valid,Valid,Fixation
+1669181698.236919,,Eye Tracker,168.0,551.0,Valid,Valid,Fixation
+1669181698.253573,,Eye Tracker,168.0,550.0,Valid,Valid,Fixation
+1669181698.270229,,Eye Tracker,166.0,547.0,Valid,Valid,Fixation
+1669181698.286884,,Eye Tracker,167.0,548.0,Valid,Valid,Fixation
+1669181698.303538,,Eye Tracker,165.0,548.0,Valid,Valid,Fixation
+1669181698.320193,,Eye Tracker,164.0,545.0,Valid,Valid,Fixation
+1669181698.336848,,Eye Tracker,162.0,546.0,Valid,Valid,Fixation
+1669181698.353502,,Eye Tracker,162.0,543.0,Valid,Valid,Fixation
+1669181698.370157,,Eye Tracker,161.0,523.0,Valid,Valid,Fixation
+1669181698.386812,,Eye Tracker,161.0,483.0,Valid,Valid,Saccade
+1669181698.403466,,Eye Tracker,170.0,276.0,Valid,Valid,Saccade
+1669181698.420122,,Eye Tracker,170.0,260.0,Valid,Valid,Fixation
+1669181698.436777,,Eye Tracker,170.0,257.0,Valid,Valid,Fixation
+1669181698.453432,,Eye Tracker,167.0,250.0,Valid,Valid,Fixation
+1669181698.470086,,Eye Tracker,167.0,252.0,Valid,Valid,Fixation
+1669181698.486741,,Eye Tracker,166.0,251.0,Valid,Valid,Fixation
+1669181698.503396,,Eye Tracker,165.0,245.0,Valid,Valid,Fixation
+1669181698.52005,,Eye Tracker,165.0,243.0,Valid,Valid,Fixation
+1669181698.536705,,Eye Tracker,161.0,243.0,Valid,Valid,Fixation
+1669181698.553361,,Eye Tracker,158.0,238.0,Valid,Valid,Fixation
+1669181698.570015,,Eye Tracker,160.0,238.0,Valid,Valid,Fixation
+1669181698.58667,,Eye Tracker,159.0,239.0,Valid,Valid,Fixation
+1669181698.603325,,Eye Tracker,157.0,241.0,Valid,Valid,Fixation
+1669181698.619979,,Eye Tracker,158.0,242.0,Valid,Valid,Fixation
+1669181698.636634,,Eye Tracker,156.0,240.0,Valid,Valid,Fixation
+1669181698.653289,,Eye Tracker,156.0,236.0,Valid,Valid,Fixation
+1669181698.669943,,Eye Tracker,153.0,232.0,Valid,Valid,Fixation
+1669181698.686598,,Eye Tracker,153.0,232.0,Valid,Valid,Fixation
+1669181698.703254,,Eye Tracker,163.0,230.0,Valid,Valid,Fixation
+1669181698.719909,,Eye Tracker,160.0,223.0,Valid,Valid,Fixation
+1669181698.736563,,Eye Tracker,155.0,227.0,Valid,Valid,Fixation
+1669181698.753218,,Eye Tracker,155.0,229.0,Valid,Valid,Fixation
+1669181698.769873,,Eye Tracker,160.0,228.0,Valid,Valid,Fixation
+1669181698.786527,,Eye Tracker,163.0,232.0,Valid,Valid,Fixation
+1669181698.803182,,Eye Tracker,151.0,231.0,Valid,Valid,Fixation
+1669181698.819837,,Eye Tracker,149.0,228.0,Valid,Valid,Fixation
+1669181698.836491,,Eye Tracker,146.0,223.0,Valid,Valid,Fixation
+1669181698.853147,,Eye Tracker,144.0,219.0,Valid,Valid,Fixation
+1669181698.869802,,Eye Tracker,148.0,222.0,Valid,Valid,Fixation
+1669181698.886456,,Eye Tracker,144.0,222.0,Valid,Valid,Fixation
+1669181698.903111,,Eye Tracker,134.0,213.0,Valid,Valid,Fixation
+1669181698.919766,,Eye Tracker,130.0,208.0,Valid,Valid,Fixation
+1669181698.93642,,Eye Tracker,160.0,189.0,Valid,Valid,Saccade
+1669181698.953075,,Eye Tracker,208.0,154.0,Valid,Valid,Saccade
+1669181698.96973,,Eye Tracker,233.0,139.0,Valid,Valid,Saccade
+1669181698.986386,,Eye Tracker,234.0,133.0,Valid,Valid,Fixation
+1669181699.00304,,Eye Tracker,234.0,134.0,Valid,Valid,Fixation
+1669181699.019695,,Eye Tracker,234.0,134.0,Valid,Valid,Fixation
+1669181699.03635,,Eye Tracker,233.0,133.0,Valid,Valid,Fixation
+1669181699.053004,,Eye Tracker,234.0,132.0,Valid,Valid,Fixation
+1669181699.069659,,Eye Tracker,234.0,132.0,Valid,Valid,Fixation
+1669181699.086314,,Eye Tracker,231.0,132.0,Valid,Valid,Fixation
+1669181699.102968,,Eye Tracker,233.0,130.0,Valid,Valid,Fixation
+1669181699.119623,,Eye Tracker,228.0,128.0,Valid,Valid,Fixation
+1669181699.136279,,Eye Tracker,227.0,124.0,Valid,Valid,Fixation
+1669181699.152933,,Eye Tracker,225.0,118.0,Valid,Valid,Fixation
+1669181699.169588,,Eye Tracker,226.0,114.0,Valid,Valid,Fixation
+1669181699.186243,,Eye Tracker,228.0,115.0,Valid,Valid,Fixation
+1669181699.202897,,Eye Tracker,228.0,121.0,Valid,Valid,Fixation
+1669181699.219552,,Eye Tracker,227.0,118.0,Valid,Valid,Fixation
+1669181699.236207,,Eye Tracker,229.0,115.0,Valid,Valid,Fixation
+1669181699.252862,,Eye Tracker,234.0,122.0,Valid,Valid,Fixation
+1669181699.269517,,Eye Tracker,237.0,124.0,Valid,Valid,Fixation
+1669181699.286172,,Eye Tracker,234.0,117.0,Valid,Valid,Fixation
+1669181699.302827,,Eye Tracker,230.0,113.0,Valid,Valid,Fixation
+1669181699.319481,,Eye Tracker,228.0,112.0,Valid,Valid,Fixation
+1669181699.336136,,Eye Tracker,230.0,110.0,Valid,Valid,Fixation
+1669181699.352791,,Eye Tracker,232.0,111.0,Valid,Valid,Fixation
+1669181699.369445,,Eye Tracker,235.0,112.0,Valid,Valid,Fixation
+1669181699.3861,,Eye Tracker,233.0,107.0,Valid,Valid,Fixation
+1669181699.402755,,Eye Tracker,236.0,106.0,Valid,Valid,Fixation
+1669181699.41941,,Eye Tracker,238.0,107.0,Valid,Valid,Fixation
+1669181699.436065,,Eye Tracker,237.0,108.0,Valid,Valid,Fixation
+1669181699.45272,,Eye Tracker,237.0,118.0,Valid,Valid,Fixation
+1669181699.469374,,Eye Tracker,235.0,119.0,Valid,Valid,Fixation
+1669181699.486029,,Eye Tracker,235.0,123.0,Valid,Valid,Fixation
+1669181699.502684,,Eye Tracker,234.0,125.0,Valid,Valid,Fixation
+1669181699.519339,,Eye Tracker,236.0,120.0,Valid,Valid,Fixation
+1669181699.535993,,Eye Tracker,237.0,118.0,Valid,Valid,Fixation
+1669181699.552648,,Eye Tracker,235.0,114.0,Valid,Valid,Fixation
+1669181699.569304,,Eye Tracker,238.0,109.0,Valid,Valid,Fixation
+1669181699.585958,,Eye Tracker,236.0,112.0,Valid,Valid,Fixation
+1669181699.602613,,Eye Tracker,236.0,110.0,Valid,Valid,Fixation
+1669181699.619268,,Eye Tracker,240.0,107.0,Valid,Valid,Fixation
+1669181699.635922,,Eye Tracker,239.0,105.0,Valid,Valid,Fixation
+1669181699.652577,,Eye Tracker,243.0,109.0,Valid,Valid,Fixation
+1669181699.669232,,Eye Tracker,246.0,110.0,Valid,Valid,Fixation
+1669181699.685886,,Eye Tracker,249.0,110.0,Valid,Valid,Fixation
+1669181699.702542,,Eye Tracker,250.0,112.0,Valid,Valid,Fixation
+1669181699.719197,,Eye Tracker,289.0,94.0,Valid,Valid,Saccade
+1669181699.735851,,Eye Tracker,417.0,78.0,Valid,Valid,Saccade
+1669181699.752506,,Eye Tracker,529.0,64.0,Valid,Valid,Saccade
+1669181699.769161,,Eye Tracker,569.0,59.0,Valid,Valid,Saccade
+1669181699.785816,,Eye Tracker,585.0,61.0,Valid,Valid,Fixation
+1669181699.80247,,Eye Tracker,589.0,63.0,Valid,Valid,Fixation
+1669181699.819125,,Eye Tracker,588.0,56.0,Valid,Valid,Fixation
+1669181699.83578,,Eye Tracker,593.0,59.0,Valid,Valid,Fixation
+1669181699.852435,,Eye Tracker,597.0,65.0,Valid,Valid,Fixation
+1669181699.86909,,Eye Tracker,592.0,69.0,Valid,Valid,Fixation
+1669181699.885745,,Eye Tracker,596.0,52.0,Valid,Valid,Fixation
+1669181699.902399,,Eye Tracker,597.0,56.0,Valid,Valid,Fixation
+1669181699.919054,,Eye Tracker,597.0,67.0,Valid,Valid,Fixation
+1669181699.935709,,Eye Tracker,601.0,62.0,Valid,Valid,Fixation
+1669181699.952363,,Eye Tracker,604.0,64.0,Valid,Valid,Fixation
+1669181699.969018,,Eye Tracker,603.0,65.0,Valid,Valid,Fixation
+1669181699.985673,,Eye Tracker,607.0,69.0,Valid,Valid,Fixation
+1669181700.002328,,Eye Tracker,604.0,70.0,Valid,Valid,Fixation
+1669181700.018983,,Eye Tracker,603.0,62.0,Valid,Valid,Fixation
+1669181700.035638,,Eye Tracker,608.0,59.0,Valid,Valid,Fixation
+1669181700.052293,,Eye Tracker,606.0,88.0,Valid,Valid,Fixation
+1669181700.068947,,Eye Tracker,392.0,48.0,Valid,Valid,Saccade
+1669181700.085602,,Eye Tracker,379.0,35.0,Valid,Valid,Fixation
+1669181700.102257,,Eye Tracker,372.0,38.0,Valid,Valid,Fixation
+1669181700.118911,,Eye Tracker,370.0,38.0,Valid,Valid,Fixation
+1669181700.135567,,Eye Tracker,373.0,37.0,Valid,Valid,Fixation
+1669181700.152222,,Eye Tracker,370.0,33.0,Valid,Valid,Fixation
+1669181700.168876,,Eye Tracker,368.0,36.0,Valid,Valid,Fixation
+1669181700.185531,,Eye Tracker,366.0,40.0,Valid,Valid,Fixation
+1669181700.202186,,Eye Tracker,356.0,40.0,Valid,Valid,Fixation
+1669181700.21884,,Eye Tracker,339.0,53.0,Valid,Valid,Fixation
+1669181700.235495,,Eye Tracker,331.0,55.0,Valid,Valid,Fixation
+1669181700.25215,,Eye Tracker,334.0,56.0,Valid,Valid,Fixation
+1669181700.268804,,Eye Tracker,334.0,54.0,Valid,Valid,Fixation
+1669181700.28546,,Eye Tracker,335.0,60.0,Valid,Valid,Fixation
+1669181700.302115,,Eye Tracker,337.0,60.0,Valid,Valid,Fixation
+1669181700.31877,,Eye Tracker,339.0,56.0,Valid,Valid,Fixation
+1669181700.335424,,Eye Tracker,338.0,59.0,Valid,Valid,Fixation
+1669181700.352079,,Eye Tracker,342.0,54.0,Valid,Valid,Fixation
+1669181700.368734,,Eye Tracker,345.0,58.0,Valid,Valid,Fixation
+1669181700.385388,,Eye Tracker,340.0,68.0,Valid,Valid,Fixation
+1669181700.402043,,Eye Tracker,340.0,66.0,Valid,Valid,Fixation
+1669181700.418698,,Eye Tracker,341.0,61.0,Valid,Valid,Fixation
+1669181700.435353,,Eye Tracker,343.0,60.0,Valid,Valid,Fixation
+1669181700.452008,,Eye Tracker,341.0,66.0,Valid,Valid,Fixation
+1669181700.468663,,Eye Tracker,342.0,70.0,Valid,Valid,Fixation
+1669181700.485317,,Eye Tracker,344.0,70.0,Valid,Valid,Fixation
+1669181700.501972,,Eye Tracker,340.0,67.0,Valid,Valid,Fixation
+1669181700.518627,,Eye Tracker,341.0,64.0,Valid,Valid,Fixation
+1669181700.535281,,Eye Tracker,340.0,69.0,Valid,Valid,Fixation
+1669181700.551936,,Eye Tracker,338.0,79.0,Valid,Valid,Fixation
+1669181700.568592,,Eye Tracker,340.0,82.0,Valid,Valid,Fixation
+1669181700.585247,,Eye Tracker,338.0,75.0,Valid,Valid,Fixation
+1669181700.601901,,Eye Tracker,337.0,76.0,Valid,Valid,Fixation
+1669181700.618556,,Eye Tracker,340.0,83.0,Valid,Valid,Fixation
+1669181700.635211,,Eye Tracker,337.0,82.0,Valid,Valid,Fixation
+1669181700.651865,,Eye Tracker,336.0,79.0,Valid,Valid,Fixation
+1669181700.66852,,Eye Tracker,334.0,79.0,Valid,Valid,Fixation
+1669181700.685175,,Eye Tracker,333.0,76.0,Valid,Valid,Fixation
+1669181700.701829,,Eye Tracker,334.0,80.0,Valid,Valid,Fixation
+1669181700.718485,,Eye Tracker,336.0,90.0,Valid,Valid,Fixation
+1669181700.73514,,Eye Tracker,342.0,117.0,Valid,Valid,Saccade
+1669181700.751794,,Eye Tracker,335.0,158.0,Valid,Valid,Saccade
+1669181700.768449,,Eye Tracker,287.0,175.0,Invalid,Valid,Saccade
+1669181700.785104,,Eye Tracker,281.8,175.0,Invalid,Invalid,EyesNotFound
+1669181700.801758,,Eye Tracker,276.6,175.0,Invalid,Invalid,EyesNotFound
+1669181700.818413,,Eye Tracker,271.4,175.0,Invalid,Invalid,EyesNotFound
+1669181700.835068,,Eye Tracker,266.2,175.0,Invalid,Invalid,EyesNotFound
+1669181700.851723,,Eye Tracker,261.0,175.0,Valid,Valid,Saccade
+1669181700.868378,,Eye Tracker,309.0,197.0,Valid,Valid,Saccade
+1669181700.885033,,Eye Tracker,351.0,216.0,Valid,Valid,Saccade
+1669181700.901688,,Eye Tracker,338.0,62.0,Valid,Valid,Saccade
+1669181700.918342,,Eye Tracker,332.0,57.0,Valid,Valid,Fixation
+1669181700.934997,,Eye Tracker,332.0,61.0,Valid,Valid,Fixation
+1669181700.951652,,Eye Tracker,330.0,60.0,Valid,Valid,Fixation
+1669181700.968306,,Eye Tracker,332.0,62.0,Valid,Valid,Fixation
+1669181700.984961,,Eye Tracker,336.0,65.0,Valid,Valid,Fixation
+1669181701.001617,,Eye Tracker,337.0,64.0,Valid,Valid,Fixation
+1669181701.018271,,Eye Tracker,337.0,62.0,Valid,Valid,Fixation
+1669181701.034926,,Eye Tracker,336.0,60.0,Valid,Valid,Fixation
+1669181701.051581,,Eye Tracker,337.0,65.0,Valid,Valid,Fixation
+1669181701.068235,,Eye Tracker,337.0,71.0,Valid,Valid,Fixation
+1669181701.08489,,Eye Tracker,338.0,69.0,Valid,Valid,Fixation
+1669181701.101545,,Eye Tracker,335.0,69.0,Valid,Valid,Fixation
+1669181701.1182,,Eye Tracker,334.0,75.0,Valid,Valid,Fixation
+1669181701.134854,,Eye Tracker,334.0,72.0,Valid,Valid,Fixation
+1669181701.15151,,Eye Tracker,339.0,65.0,Valid,Valid,Fixation
+1669181701.168165,,Eye Tracker,336.0,68.0,Valid,Valid,Fixation
+1669181701.184819,,Eye Tracker,325.0,61.0,Valid,Valid,Fixation
+1669181701.201474,,Eye Tracker,324.0,60.0,Valid,Valid,Fixation
+1669181701.218129,,Eye Tracker,330.0,66.0,Valid,Valid,Fixation
+1669181701.234783,,Eye Tracker,330.0,64.0,Valid,Valid,Fixation
+1669181701.251438,,Eye Tracker,321.0,67.0,Valid,Valid,Fixation
+1669181701.268093,,Eye Tracker,319.0,63.0,Valid,Valid,Fixation
+1669181701.284747,,Eye Tracker,326.0,63.0,Valid,Valid,Fixation
+1669181701.301403,,Eye Tracker,325.0,66.0,Valid,Valid,Fixation
+1669181701.318058,,Eye Tracker,322.0,58.0,Valid,Valid,Fixation
+1669181701.334712,,Eye Tracker,322.0,59.0,Valid,Valid,Fixation
+1669181701.351367,,Eye Tracker,320.0,65.0,Valid,Valid,Fixation
+1669181701.368022,,Eye Tracker,319.0,61.0,Valid,Valid,Fixation
+1669181701.384677,,Eye Tracker,317.0,66.0,Valid,Valid,Fixation
+1669181701.401331,,Eye Tracker,317.0,71.0,Valid,Valid,Fixation
+1669181701.417986,,Eye Tracker,320.0,66.0,Valid,Valid,Fixation
+1669181701.434642,,Eye Tracker,321.0,61.0,Valid,Valid,Fixation
+1669181701.451296,,Eye Tracker,323.0,58.0,Valid,Valid,Fixation
+1669181701.467951,,Eye Tracker,326.0,60.0,Valid,Valid,Fixation
+1669181701.484606,,Eye Tracker,320.0,60.0,Valid,Valid,Fixation
+1669181701.50126,,Eye Tracker,321.0,61.0,Valid,Valid,Fixation
+1669181701.517915,,Eye Tracker,322.0,66.0,Valid,Valid,Fixation
+1669181701.53457,,Eye Tracker,320.0,63.0,Valid,Valid,Fixation
+1669181701.551224,,Eye Tracker,323.0,65.0,Valid,Valid,Fixation
+1669181701.567879,,Eye Tracker,327.0,67.0,Valid,Valid,Fixation
+1669181701.584535,,Eye Tracker,330.0,62.0,Valid,Valid,Fixation
+1669181701.601189,,Eye Tracker,327.0,60.0,Valid,Valid,Fixation
+1669181701.617844,,Eye Tracker,327.0,63.0,Valid,Valid,Fixation
+1669181701.634499,,Eye Tracker,329.0,65.0,Valid,Valid,Fixation
+1669181701.651154,,Eye Tracker,325.0,64.0,Valid,Valid,Fixation
+1669181701.667808,,Eye Tracker,325.0,65.0,Valid,Valid,Fixation
+1669181701.684463,,Eye Tracker,326.0,67.0,Valid,Valid,Fixation
+1669181701.701118,,Eye Tracker,328.0,66.0,Valid,Valid,Fixation
+1669181701.717772,,Eye Tracker,333.0,67.0,Valid,Valid,Fixation
+1669181701.734428,,Eye Tracker,335.0,71.0,Valid,Valid,Fixation
+1669181701.751083,,Eye Tracker,336.0,66.0,Valid,Valid,Fixation
+1669181701.767737,,Eye Tracker,335.0,69.0,Valid,Valid,Fixation
+1669181701.784392,,Eye Tracker,327.0,69.0,Valid,Valid,Fixation
+1669181701.801047,,Eye Tracker,325.0,69.0,Valid,Valid,Fixation
+1669181701.817701,,Eye Tracker,331.0,73.0,Valid,Valid,Fixation
+1669181701.834356,,Eye Tracker,332.0,73.0,Valid,Valid,Fixation
+1669181701.851011,,Eye Tracker,331.0,80.0,Valid,Valid,Fixation
+1669181701.867665,,Eye Tracker,330.0,83.0,Valid,Valid,Fixation
+1669181701.88432,,Eye Tracker,332.0,74.0,Valid,Valid,Fixation
+1669181701.900975,,Eye Tracker,333.0,72.0,Valid,Valid,Fixation
+1669181701.91763,,Eye Tracker,333.0,75.0,Valid,Valid,Fixation
+1669181701.934284,,Eye Tracker,332.0,74.0,Valid,Valid,Fixation
+1669181701.950939,,Eye Tracker,332.0,74.0,Valid,Valid,Fixation
+1669181701.967594,,Eye Tracker,333.0,73.0,Valid,Valid,Fixation
+1669181701.984248,,Eye Tracker,327.0,71.0,Valid,Valid,Fixation
+1669181702.000903,,Eye Tracker,325.0,72.0,Valid,Valid,Fixation
+1669181702.017559,,Eye Tracker,328.0,71.0,Valid,Valid,Fixation
+1669181702.034213,,Eye Tracker,333.0,69.0,Valid,Valid,Fixation
+1669181702.050868,,Eye Tracker,340.0,65.0,Valid,Valid,Fixation
+1669181702.067523,,Eye Tracker,340.0,67.0,Valid,Valid,Fixation
+1669181702.084177,,Eye Tracker,338.0,71.0,Valid,Valid,Fixation
+1669181702.100832,,Eye Tracker,337.0,70.0,Valid,Valid,Fixation
+1669181702.117487,,Eye Tracker,335.0,64.0,Valid,Valid,Fixation
+1669181702.134141,,Eye Tracker,336.0,66.0,Valid,Valid,Fixation
+1669181702.150796,,Eye Tracker,333.0,72.0,Valid,Valid,Fixation
+1669181702.167452,,Eye Tracker,332.0,66.0,Valid,Valid,Fixation
+1669181702.184107,,Eye Tracker,342.0,71.0,Valid,Valid,Fixation
+1669181702.200761,,Eye Tracker,345.0,72.0,Valid,Valid,Fixation
+1669181702.217416,,Eye Tracker,341.0,75.0,Valid,Valid,Fixation
+1669181702.234071,,Eye Tracker,342.0,74.0,Valid,Valid,Fixation
+1669181702.250725,,Eye Tracker,348.0,77.0,Valid,Valid,Fixation
+1669181702.26738,,Eye Tracker,349.0,76.0,Valid,Valid,Fixation
+1669181702.284035,,Eye Tracker,341.0,72.0,Valid,Valid,Fixation
+1669181702.30069,,Eye Tracker,341.0,75.0,Valid,Valid,Fixation
+1669181702.317345,,Eye Tracker,347.0,75.0,Valid,Valid,Fixation
+1669181702.334,,Eye Tracker,346.0,77.0,Valid,Valid,Fixation
+1669181702.350654,,Eye Tracker,346.0,81.0,Valid,Valid,Fixation
+1669181702.367309,,Eye Tracker,347.0,82.0,Valid,Valid,Fixation
+1669181702.383964,,Eye Tracker,348.0,83.0,Valid,Valid,Fixation
+1669181702.400618,,Eye Tracker,347.0,81.0,Valid,Valid,Fixation
+1669181702.417273,,Eye Tracker,347.0,85.0,Valid,Valid,Fixation
+1669181702.433928,,Eye Tracker,348.0,83.0,Valid,Valid,Fixation
+1669181702.450584,,Eye Tracker,346.0,81.0,Valid,Valid,Fixation
+1669181702.467238,,Eye Tracker,347.0,81.0,Valid,Valid,Fixation
+1669181702.483893,,Eye Tracker,343.0,84.0,Valid,Valid,Fixation
+1669181702.500548,,Eye Tracker,344.0,83.0,Valid,Valid,Fixation
+1669181702.517202,,Eye Tracker,350.0,76.0,Valid,Valid,Fixation
+1669181702.533857,,Eye Tracker,349.0,80.0,Valid,Valid,Fixation
+1669181702.550512,,Eye Tracker,347.0,79.0,Valid,Valid,Fixation
+1669181702.567166,,Eye Tracker,349.0,79.0,Valid,Valid,Fixation
+1669181702.583821,,Eye Tracker,345.0,81.0,Valid,Valid,Fixation
+1669181702.600477,,Eye Tracker,343.0,83.0,Valid,Valid,Fixation
+1669181702.617131,,Eye Tracker,349.0,85.0,Valid,Valid,Fixation
+1669181702.633786,,Eye Tracker,350.0,87.0,Valid,Valid,Fixation
+1669181702.650441,,Eye Tracker,348.0,86.0,Valid,Valid,Fixation
+1669181702.667095,,Eye Tracker,345.0,81.0,Valid,Valid,Fixation
+1669181702.68375,,Eye Tracker,347.0,80.0,Valid,Valid,Fixation
+1669181702.700405,,Eye Tracker,347.0,84.0,Valid,Valid,Fixation
+1669181702.71706,,Eye Tracker,347.0,84.0,Valid,Valid,Fixation
+1669181702.733715,,Eye Tracker,347.0,83.0,Valid,Valid,Fixation
+1669181702.75037,,Eye Tracker,344.0,82.0,Valid,Valid,Fixation
+1669181702.767025,,Eye Tracker,343.0,80.0,Valid,Valid,Fixation
+1669181702.783679,,Eye Tracker,338.0,80.0,Valid,Valid,Fixation
+1669181702.800334,,Eye Tracker,339.0,84.0,Valid,Valid,Fixation
+1669181702.816989,,Eye Tracker,347.0,82.0,Valid,Valid,Fixation
+1669181702.833643,,Eye Tracker,350.0,84.0,Valid,Valid,Fixation
+1669181702.850298,,Eye Tracker,344.0,86.0,Valid,Valid,Fixation
+1669181702.866953,,Eye Tracker,341.0,88.0,Valid,Valid,Fixation
+1669181702.883608,,Eye Tracker,345.0,86.0,Valid,Valid,Fixation
+1669181702.900263,,Eye Tracker,347.0,81.0,Valid,Valid,Fixation
+1669181702.916918,,Eye Tracker,344.0,79.0,Valid,Valid,Fixation
+1669181702.933572,,Eye Tracker,344.0,80.0,Valid,Valid,Fixation
+1669181702.950227,,Eye Tracker,342.0,84.0,Valid,Valid,Fixation
+1669181702.966882,,Eye Tracker,342.0,80.0,Valid,Valid,Fixation
+1669181702.983537,,Eye Tracker,346.0,82.0,Valid,Valid,Fixation
+1669181703.000191,,Eye Tracker,348.0,85.0,Valid,Valid,Fixation
+1669181703.016846,,Eye Tracker,351.0,77.0,Valid,Valid,Fixation
+1669181703.033502,,Eye Tracker,353.0,81.0,Valid,Valid,Fixation
+1669181703.050156,,Eye Tracker,360.0,86.0,Valid,Valid,Fixation
+1669181703.066811,,Eye Tracker,371.0,83.0,Valid,Valid,Fixation
+1669181703.083466,,Eye Tracker,379.0,86.0,Valid,Valid,Fixation
+1669181703.10012,,Eye Tracker,767.0,110.0,Valid,Valid,Saccade
+1669181703.116775,,Eye Tracker,818.0,93.0,Valid,Valid,Saccade
+1669181703.13343,,Eye Tracker,863.0,85.0,Valid,Valid,Saccade
+1669181703.150084,,Eye Tracker,861.0,85.0,Valid,Valid,Fixation
+1669181703.16674,,Eye Tracker,859.0,94.0,Valid,Valid,Fixation
+1669181703.183395,,Eye Tracker,856.0,93.0,Valid,Valid,Fixation
+1669181703.200049,,Eye Tracker,861.0,90.0,Valid,Valid,Fixation
+1669181703.216704,,Eye Tracker,864.0,97.0,Valid,Valid,Fixation
+1669181703.233359,,Eye Tracker,865.0,99.0,Valid,Valid,Fixation
+1669181703.250014,,Eye Tracker,865.0,105.0,Valid,Valid,Fixation
+1669181703.266668,,Eye Tracker,865.0,106.0,Valid,Valid,Fixation
+1669181703.283323,,Eye Tracker,862.0,102.0,Valid,Valid,Fixation
+1669181703.299978,,Eye Tracker,862.0,105.0,Valid,Valid,Fixation
+1669181703.316633,,Eye Tracker,863.0,108.0,Valid,Valid,Fixation
+1669181703.333288,,Eye Tracker,866.0,106.0,Valid,Valid,Fixation
+1669181703.349943,,Eye Tracker,865.0,106.0,Valid,Valid,Fixation
+1669181703.366597,,Eye Tracker,864.0,111.0,Valid,Valid,Fixation
+1669181703.383252,,Eye Tracker,862.0,113.0,Valid,Valid,Fixation
+1669181703.399907,,Eye Tracker,866.0,117.0,Valid,Valid,Fixation
+1669181703.416561,,Eye Tracker,876.0,117.0,Valid,Valid,Fixation
+1669181703.433216,,Eye Tracker,878.0,125.0,Valid,Valid,Fixation
+1669181703.449871,,Eye Tracker,890.0,115.0,Valid,Valid,Fixation
+1669181703.466526,,Eye Tracker,898.0,83.0,Valid,Valid,Fixation
+1669181703.483181,,Eye Tracker,1019.0,121.0,Valid,Valid,Saccade
+1669181703.499836,,Eye Tracker,1018.0,140.0,Valid,Valid,Fixation
+1669181703.516491,,Eye Tracker,1024.0,141.0,Valid,Valid,Fixation
+1669181703.533145,,Eye Tracker,1023.0,137.0,Valid,Valid,Fixation
+1669181703.5498,,Eye Tracker,1019.0,131.0,Valid,Valid,Fixation
+1669181703.566455,,Eye Tracker,1018.0,129.0,Valid,Valid,Fixation
+1669181703.583109,,Eye Tracker,1025.0,128.0,Valid,Valid,Fixation
+1669181703.599765,,Eye Tracker,1027.0,124.0,Valid,Valid,Fixation
+1669181703.61642,,Eye Tracker,1019.0,121.0,Valid,Valid,Fixation
+1669181703.633074,,Eye Tracker,1021.0,123.0,Valid,Valid,Fixation
+1669181703.649729,,Eye Tracker,1027.0,122.0,Valid,Valid,Fixation
+1669181703.666384,,Eye Tracker,1026.0,121.0,Valid,Valid,Fixation
+1669181703.683038,,Eye Tracker,1027.0,125.0,Valid,Valid,Fixation
+1669181703.699693,,Eye Tracker,1031.0,126.0,Valid,Valid,Fixation
+1669181703.716348,,Eye Tracker,1029.0,117.0,Valid,Valid,Fixation
+1669181703.733002,,Eye Tracker,1030.0,112.0,Valid,Valid,Fixation
+1669181703.749658,,Eye Tracker,1029.0,110.0,Valid,Valid,Fixation
+1669181703.766313,,Eye Tracker,1026.0,109.0,Valid,Valid,Fixation
+1669181703.782968,,Eye Tracker,1033.0,112.0,Valid,Valid,Fixation
+1669181703.799622,,Eye Tracker,1033.0,112.0,Valid,Valid,Fixation
+1669181703.816277,,Eye Tracker,1034.0,109.0,Valid,Valid,Fixation
+1669181703.832932,,Eye Tracker,1033.0,114.0,Valid,Valid,Fixation
+1669181703.849586,,Eye Tracker,1030.0,124.0,Valid,Valid,Fixation
+1669181703.866241,,Eye Tracker,1030.0,121.0,Valid,Valid,Fixation
+1669181703.882896,,Eye Tracker,1030.0,117.0,Valid,Valid,Fixation
+1669181703.899551,,Eye Tracker,1030.0,116.0,Valid,Valid,Fixation
+1669181703.916206,,Eye Tracker,1028.0,118.0,Valid,Valid,Fixation
+1669181703.932861,,Eye Tracker,1030.0,117.0,Valid,Valid,Fixation
+1669181703.949515,,Eye Tracker,1031.0,115.0,Valid,Valid,Fixation
+1669181703.96617,,Eye Tracker,1034.0,115.0,Valid,Valid,Fixation
+1669181703.982825,,Eye Tracker,1032.0,120.0,Valid,Valid,Fixation
+1669181703.999479,,Eye Tracker,1034.0,121.0,Valid,Valid,Fixation
+1669181704.016134,,Eye Tracker,1040.0,128.0,Valid,Valid,Fixation
+1669181704.03279,,Eye Tracker,1039.0,128.0,Valid,Valid,Fixation
+1669181704.049445,,Eye Tracker,1040.0,125.0,Valid,Valid,Fixation
+1669181704.066099,,Eye Tracker,1041.0,122.0,Valid,Valid,Fixation
+1669181704.082754,,Eye Tracker,1044.0,124.0,Valid,Valid,Fixation
+1669181704.099409,,Eye Tracker,1046.0,125.0,Valid,Valid,Fixation
+1669181704.116063,,Eye Tracker,1049.0,125.0,Valid,Valid,Fixation
+1669181704.132718,,Eye Tracker,1050.0,128.0,Valid,Valid,Fixation
+1669181704.149373,,Eye Tracker,1051.0,123.0,Valid,Valid,Fixation
+1669181704.166027,,Eye Tracker,1052.0,121.0,Valid,Valid,Fixation
+1669181704.182683,,Eye Tracker,1052.0,118.0,Valid,Valid,Fixation
+1669181704.199338,,Eye Tracker,1053.0,116.0,Valid,Valid,Fixation
+1669181704.215992,,Eye Tracker,1051.0,120.0,Valid,Valid,Fixation
+1669181704.232647,,Eye Tracker,1050.0,119.0,Valid,Valid,Fixation
+1669181704.249302,,Eye Tracker,1049.0,125.0,Valid,Valid,Fixation
+1669181704.265956,,Eye Tracker,1045.0,126.0,Valid,Valid,Fixation
+1669181704.282611,,Eye Tracker,1043.0,173.0,Valid,Valid,Saccade
+1669181704.299266,,Eye Tracker,1048.0,241.0,Valid,Valid,Saccade
+1669181704.315921,,Eye Tracker,1043.0,275.0,Valid,Valid,Saccade
+1669181704.332576,,Eye Tracker,1044.0,276.0,Valid,Valid,Fixation
+1669181704.349231,,Eye Tracker,1045.0,272.0,Valid,Valid,Fixation
+1669181704.365885,,Eye Tracker,1044.0,277.0,Valid,Valid,Fixation
+1669181704.382539,,Eye Tracker,1048.0,288.0,Valid,Valid,Fixation
+1669181704.399194,,Eye Tracker,1049.0,290.0,Valid,Valid,Fixation
+1669181704.415849,,Eye Tracker,1050.0,291.0,Valid,Valid,Fixation
+1669181704.432504,,Eye Tracker,1051.0,294.0,Valid,Valid,Fixation
+1669181704.449159,,Eye Tracker,1052.0,292.0,Valid,Valid,Fixation
+1669181704.465814,,Eye Tracker,1051.0,294.0,Valid,Valid,Fixation
+1669181704.482468,,Eye Tracker,1049.0,300.0,Valid,Valid,Fixation
+1669181704.499123,,Eye Tracker,1051.0,303.0,Valid,Valid,Fixation
+1669181704.515778,,Eye Tracker,1052.0,301.0,Valid,Valid,Fixation
+1669181704.532432,,Eye Tracker,1051.0,307.0,Valid,Valid,Fixation
+1669181704.549087,,Eye Tracker,1047.0,308.0,Valid,Valid,Fixation
+1669181704.565742,,Eye Tracker,1042.0,308.0,Valid,Valid,Fixation
+1669181704.582398,,Eye Tracker,1042.0,309.0,Valid,Valid,Fixation
+1669181704.599052,,Eye Tracker,1044.0,307.0,Valid,Valid,Fixation
+1669181704.615707,,Eye Tracker,1042.0,301.0,Valid,Valid,Fixation
+1669181704.632362,,Eye Tracker,1041.0,304.0,Valid,Valid,Fixation
+1669181704.649016,,Eye Tracker,1045.0,304.0,Valid,Valid,Fixation
+1669181704.665671,,Eye Tracker,1048.0,307.0,Valid,Valid,Fixation
+1669181704.682326,,Eye Tracker,1034.0,381.0,Valid,Valid,Saccade
+1669181704.69898,,Eye Tracker,1015.0,459.0,Valid,Valid,Saccade
+1669181704.715636,,Eye Tracker,1016.0,481.0,Valid,Valid,Fixation
+1669181704.732291,,Eye Tracker,1019.0,477.0,Valid,Valid,Fixation
+1669181704.748945,,Eye Tracker,1016.0,469.0,Valid,Valid,Fixation
+1669181704.7656,,Eye Tracker,1018.0,476.0,Valid,Valid,Fixation
+1669181704.782255,,Eye Tracker,1021.0,476.0,Valid,Valid,Fixation
+1669181704.798909,,Eye Tracker,1021.0,477.0,Valid,Valid,Fixation
+1669181704.815564,,Eye Tracker,1021.0,474.0,Valid,Valid,Fixation
+1669181704.832219,,Eye Tracker,1018.0,471.0,Valid,Valid,Fixation
+1669181704.848874,,Eye Tracker,1013.0,476.0,Valid,Valid,Fixation
+1669181704.865529,,Eye Tracker,1015.0,474.0,Valid,Valid,Fixation
+1669181704.882184,,Eye Tracker,1017.0,474.0,Valid,Valid,Fixation
+1669181704.898839,,Eye Tracker,1016.0,472.0,Valid,Valid,Fixation
+1669181704.915493,,Eye Tracker,1018.0,473.0,Valid,Valid,Fixation
+1669181704.932148,,Eye Tracker,1020.0,475.0,Valid,Valid,Fixation
+1669181704.948803,,Eye Tracker,1021.0,472.0,Valid,Valid,Fixation
+1669181704.965457,,Eye Tracker,1020.0,472.0,Valid,Valid,Fixation
+1669181704.982112,,Eye Tracker,1016.0,471.0,Valid,Valid,Fixation
+1669181704.998768,,Eye Tracker,1015.0,472.0,Valid,Valid,Fixation
+1669181705.015422,,Eye Tracker,1015.0,472.0,Valid,Valid,Fixation
+1669181705.032077,,Eye Tracker,1016.0,473.0,Valid,Valid,Fixation
+1669181705.048732,,Eye Tracker,1018.0,479.0,Valid,Valid,Fixation
+1669181705.065386,,Eye Tracker,1018.0,474.0,Valid,Valid,Fixation
+1669181705.082041,,Eye Tracker,1020.0,472.0,Valid,Valid,Fixation
+1669181705.098696,,Eye Tracker,1020.0,477.0,Valid,Valid,Fixation
+1669181705.115351,,Eye Tracker,1020.0,476.0,Valid,Valid,Fixation
+1669181705.132005,,Eye Tracker,1021.0,476.0,Valid,Valid,Fixation
+1669181705.148661,,Eye Tracker,1019.0,483.0,Valid,Valid,Fixation
+1669181705.165316,,Eye Tracker,1018.0,483.0,Valid,Valid,Fixation
+1669181705.18197,,Eye Tracker,1016.0,481.0,Valid,Valid,Fixation
+1669181705.198625,,Eye Tracker,1013.0,486.0,Valid,Valid,Fixation
+1669181705.21528,,Eye Tracker,960.0,522.0,Valid,Valid,Saccade
+1669181705.231934,,Eye Tracker,903.0,559.0,Valid,Valid,Saccade
+1669181705.248589,,Eye Tracker,898.0,568.0,Valid,Valid,Fixation
+1669181705.265244,,Eye Tracker,896.0,569.0,Valid,Valid,Fixation
+1669181705.281899,,Eye Tracker,891.0,564.0,Valid,Valid,Fixation
+1669181705.298554,,Eye Tracker,893.0,561.0,Valid,Valid,Fixation
+1669181705.315209,,Eye Tracker,902.0,568.0,Valid,Valid,Fixation
+1669181705.331863,,Eye Tracker,897.0,571.0,Valid,Valid,Fixation
+1669181705.348518,,Eye Tracker,890.0,571.0,Valid,Valid,Fixation
+1669181705.365173,,Eye Tracker,892.0,573.0,Valid,Valid,Fixation
+1669181705.381828,,Eye Tracker,897.0,572.0,Valid,Valid,Fixation
+1669181705.398482,,Eye Tracker,899.0,571.0,Valid,Valid,Fixation
+1669181705.415137,,Eye Tracker,895.0,574.0,Valid,Valid,Fixation
+1669181705.431793,,Eye Tracker,897.0,575.0,Valid,Valid,Fixation
+1669181705.448447,,Eye Tracker,894.0,573.0,Valid,Valid,Fixation
+1669181705.465102,,Eye Tracker,892.0,573.0,Valid,Valid,Fixation
+1669181705.481757,,Eye Tracker,902.0,574.0,Valid,Valid,Fixation
+1669181705.498411,,Eye Tracker,903.0,576.0,Valid,Valid,Fixation
+1669181705.515066,,Eye Tracker,899.0,577.0,Valid,Valid,Fixation
+1669181705.531721,,Eye Tracker,898.0,580.0,Valid,Valid,Fixation
+1669181705.548375,,Eye Tracker,893.0,583.0,Valid,Valid,Fixation
+1669181705.56503,,Eye Tracker,893.0,585.0,Valid,Valid,Fixation
+1669181705.581686,,Eye Tracker,892.0,584.0,Valid,Valid,Fixation
+1669181705.59834,,Eye Tracker,892.0,588.0,Valid,Valid,Fixation
+1669181705.614995,,Eye Tracker,897.0,590.0,Valid,Valid,Fixation
+1669181705.63165,,Eye Tracker,893.0,589.0,Valid,Valid,Fixation
+1669181705.648305,,Eye Tracker,890.0,587.0,Valid,Valid,Fixation
+1669181705.664959,,Eye Tracker,891.0,587.0,Valid,Valid,Fixation
+1669181705.681614,,Eye Tracker,888.0,590.0,Valid,Valid,Fixation
+1669181705.698269,,Eye Tracker,885.0,590.0,Valid,Valid,Fixation
+1669181705.714924,,Eye Tracker,885.0,589.0,Valid,Valid,Fixation
+1669181705.731579,,Eye Tracker,887.0,584.0,Valid,Valid,Fixation
+1669181705.748234,,Eye Tracker,889.0,582.0,Valid,Valid,Fixation
+1669181705.764888,,Eye Tracker,888.0,583.0,Valid,Valid,Fixation
+1669181705.781543,,Eye Tracker,886.0,586.0,Valid,Valid,Fixation
+1669181705.798198,,Eye Tracker,886.0,587.0,Valid,Valid,Fixation
+1669181705.814852,,Eye Tracker,882.0,585.0,Valid,Valid,Fixation
+1669181705.831507,,Eye Tracker,876.0,593.0,Valid,Valid,Fixation
+1669181705.848162,,Eye Tracker,869.0,607.0,Valid,Valid,Fixation
+1669181705.864817,,Eye Tracker,866.0,606.0,Valid,Valid,Fixation
+1669181705.881472,,Eye Tracker,867.0,604.0,Valid,Valid,Fixation
+1669181705.898127,,Eye Tracker,862.0,608.0,Valid,Valid,Fixation
+1669181705.914782,,Eye Tracker,863.0,610.0,Valid,Valid,Fixation
+1669181705.931436,,Eye Tracker,860.0,611.0,Valid,Valid,Fixation
+1669181705.948091,,Eye Tracker,858.0,608.0,Valid,Valid,Fixation
+1669181705.964746,,Eye Tracker,856.0,609.0,Valid,Valid,Fixation
+1669181705.9814,,Eye Tracker,856.0,607.0,Valid,Valid,Fixation
+1669181705.998056,,Eye Tracker,862.0,607.0,Valid,Valid,Fixation
+1669181706.014711,,Eye Tracker,861.0,606.0,Valid,Valid,Fixation
+1669181706.031365,,Eye Tracker,858.0,606.0,Valid,Valid,Fixation
+1669181706.04802,,Eye Tracker,857.0,606.0,Valid,Valid,Fixation
+1669181706.064675,,Eye Tracker,863.0,609.0,Valid,Valid,Fixation
+1669181706.081329,,Eye Tracker,863.0,611.0,Valid,Valid,Fixation
+1669181706.097984,,Eye Tracker,860.0,614.0,Valid,Valid,Fixation
+1669181706.114639,,Eye Tracker,863.0,612.0,Valid,Valid,Fixation
+1669181706.131293,,Eye Tracker,868.0,609.0,Valid,Valid,Fixation
+1669181706.147949,,Eye Tracker,863.0,613.0,Valid,Valid,Fixation
+1669181706.164604,,Eye Tracker,856.0,614.0,Valid,Valid,Fixation
+1669181706.181259,,Eye Tracker,857.0,613.0,Valid,Valid,Fixation
+1669181706.197913,,Eye Tracker,858.0,615.0,Valid,Valid,Fixation
+1669181706.214568,,Eye Tracker,853.0,618.0,Valid,Valid,Fixation
+1669181706.231223,,Eye Tracker,843.0,663.0,Valid,Valid,Saccade
+1669181706.247877,,Eye Tracker,840.0,744.0,Valid,Valid,Saccade
+1669181706.264532,,Eye Tracker,846.0,782.0,Valid,Valid,Saccade
+1669181706.281188,,Eye Tracker,840.0,787.0,Valid,Valid,Fixation
+1669181706.297842,,Eye Tracker,838.0,798.0,Valid,Valid,Fixation
+1669181706.314497,,Eye Tracker,844.0,803.0,Valid,Valid,Fixation
+1669181706.331152,,Eye Tracker,844.0,802.0,Valid,Valid,Fixation
+1669181706.347806,,Eye Tracker,844.0,805.0,Valid,Valid,Fixation
+1669181706.364461,,Eye Tracker,842.0,815.0,Valid,Valid,Fixation
+1669181706.381116,,Eye Tracker,845.0,814.0,Valid,Valid,Fixation
+1669181706.39777,,Eye Tracker,845.0,813.0,Valid,Valid,Fixation
+1669181706.414425,,Eye Tracker,842.0,815.0,Valid,Valid,Fixation
+1669181706.431081,,Eye Tracker,837.0,816.0,Valid,Valid,Fixation
+1669181706.447736,,Eye Tracker,834.0,823.0,Valid,Valid,Fixation
+1669181706.46439,,Eye Tracker,837.0,825.0,Valid,Valid,Fixation
+1669181706.481045,,Eye Tracker,838.0,830.0,Valid,Valid,Fixation
+1669181706.4977,,Eye Tracker,835.0,832.0,Valid,Valid,Fixation
+1669181706.514354,,Eye Tracker,834.0,833.0,Valid,Valid,Fixation
+1669181706.531009,,Eye Tracker,832.0,837.0,Valid,Valid,Fixation
+1669181706.547664,,Eye Tracker,832.0,839.0,Valid,Valid,Fixation
+1669181706.564318,,Eye Tracker,835.0,839.0,Valid,Valid,Fixation
+1669181706.580974,,Eye Tracker,840.0,840.0,Valid,Valid,Fixation
+1669181706.597629,,Eye Tracker,838.0,841.0,Valid,Valid,Fixation
+1669181706.614283,,Eye Tracker,856.0,863.0,Valid,Valid,Saccade
+1669181706.630938,,Eye Tracker,877.0,892.0,Valid,Valid,Saccade
+1669181706.647593,,Eye Tracker,874.0,901.0,Valid,Valid,Fixation
+1669181706.664247,,Eye Tracker,876.0,908.0,Valid,Valid,Fixation
+1669181706.680902,,Eye Tracker,876.0,911.0,Valid,Valid,Fixation
+1669181706.697557,,Eye Tracker,872.0,914.0,Valid,Valid,Fixation
+1669181706.714213,,Eye Tracker,876.0,919.0,Valid,Valid,Fixation
+1669181706.730867,,Eye Tracker,880.0,923.0,Valid,Valid,Fixation
+1669181706.747522,,Eye Tracker,877.0,923.0,Valid,Valid,Fixation
+1669181706.764177,,Eye Tracker,875.0,925.0,Valid,Valid,Fixation
+1669181706.780831,,Eye Tracker,875.0,926.0,Valid,Valid,Fixation
+1669181706.797486,,Eye Tracker,874.0,926.0,Valid,Valid,Fixation
+1669181706.814141,,Eye Tracker,874.0,925.0,Valid,Valid,Fixation
+1669181706.830795,,Eye Tracker,872.0,929.0,Valid,Valid,Fixation
+1669181706.84745,,Eye Tracker,874.0,930.0,Valid,Valid,Fixation
+1669181706.864106,,Eye Tracker,871.0,929.0,Valid,Valid,Fixation
+1669181706.88076,,Eye Tracker,868.0,934.0,Valid,Valid,Fixation
+1669181706.897415,,Eye Tracker,869.0,935.0,Valid,Valid,Fixation
+1669181706.91407,,Eye Tracker,868.0,932.0,Valid,Valid,Fixation
+1669181706.930724,,Eye Tracker,868.0,933.0,Valid,Valid,Fixation
+1669181706.947379,,Eye Tracker,867.0,932.0,Valid,Valid,Fixation
+1669181706.964034,,Eye Tracker,870.0,933.0,Valid,Valid,Fixation
+1669181706.980689,,Eye Tracker,870.0,936.0,Valid,Valid,Fixation
+1669181706.997344,,Eye Tracker,870.0,936.0,Valid,Valid,Fixation
+1669181707.013999,,Eye Tracker,875.0,933.0,Valid,Valid,Fixation
+1669181707.030654,,Eye Tracker,874.0,932.0,Valid,Valid,Fixation
+1669181707.047308,,Eye Tracker,874.0,934.0,Valid,Valid,Fixation
+1669181707.063963,,Eye Tracker,873.0,933.0,Valid,Valid,Fixation
+1669181707.080618,,Eye Tracker,872.0,929.0,Valid,Valid,Fixation
+1669181707.097272,,Eye Tracker,873.0,930.0,Valid,Valid,Fixation
+1669181707.113927,,Eye Tracker,881.0,941.0,Valid,Valid,Fixation
+1669181707.130582,,Eye Tracker,940.0,951.0,Valid,Valid,Saccade
+1669181707.147237,,Eye Tracker,984.0,953.0,Valid,Valid,Saccade
+1669181707.163892,,Eye Tracker,995.0,955.0,Valid,Valid,Fixation
+1669181707.180547,,Eye Tracker,995.0,953.0,Valid,Valid,Fixation
+1669181707.197201,,Eye Tracker,999.0,951.0,Valid,Valid,Fixation
+1669181707.213856,,Eye Tracker,1003.0,950.0,Valid,Valid,Fixation
+1669181707.230511,,Eye Tracker,1003.0,947.0,Valid,Valid,Fixation
+1669181707.247166,,Eye Tracker,1005.0,946.0,Valid,Valid,Fixation
+1669181707.26382,,Eye Tracker,1003.0,946.0,Valid,Valid,Fixation
+1669181707.280475,,Eye Tracker,1003.0,944.0,Valid,Valid,Fixation
+1669181707.297131,,Eye Tracker,1003.0,943.0,Valid,Valid,Fixation
+1669181707.313785,,Eye Tracker,1001.0,946.0,Valid,Valid,Fixation
+1669181707.33044,,Eye Tracker,1001.0,945.0,Valid,Valid,Fixation
+1669181707.347095,,Eye Tracker,1001.0,946.0,Valid,Valid,Fixation
+1669181707.363749,,Eye Tracker,1001.0,949.0,Valid,Valid,Fixation
+1669181707.380404,,Eye Tracker,1003.0,947.0,Valid,Valid,Fixation
+1669181707.397059,,Eye Tracker,1001.0,947.0,Valid,Valid,Fixation
+1669181707.413713,,Eye Tracker,1001.0,946.0,Valid,Valid,Fixation
+1669181707.430369,,Eye Tracker,1001.0,948.0,Valid,Valid,Fixation
+1669181707.447024,,Eye Tracker,1001.0,950.0,Valid,Valid,Fixation
+1669181707.463678,,Eye Tracker,1004.0,949.0,Valid,Valid,Fixation
+1669181707.480333,,Eye Tracker,1000.0,952.0,Valid,Valid,Fixation
+1669181707.496988,,Eye Tracker,988.0,1004.0,Valid,Valid,Saccade
+1669181707.513643,,Eye Tracker,992.0,1130.0,Valid,Valid,Saccade
+1669181707.530297,,Eye Tracker,1009.0,1225.0,Valid,Valid,Saccade
+1669181707.546952,,Eye Tracker,1010.0,1162.6666666666667,Invalid,Invalid,EyesNotFound
+1669181707.563607,,Eye Tracker,1011.0,1100.3333333333333,Invalid,Invalid,EyesNotFound
+1669181707.580262,,Eye Tracker,1012.0,1038.0,Invalid,Valid,Saccade
+1669181707.596917,,Eye Tracker,948.0,1091.0,Valid,Valid,Saccade
+1669181707.613572,,Eye Tracker,1016.0,1040.0,Valid,Valid,Saccade
+1669181707.630226,,Eye Tracker,1037.0,1035.0,Valid,Valid,Unclassified
+1669181707.646881,,Eye Tracker,1035.0,1015.0,Valid,Valid,Unclassified
+1669181707.663536,,Eye Tracker,1035.0,981.0,Valid,Valid,Saccade
+1669181707.68019,,Eye Tracker,1031.0,986.0,Valid,Valid,Fixation
+1669181707.696845,,Eye Tracker,1038.0,988.0,Valid,Valid,Fixation
+1669181707.713501,,Eye Tracker,1043.0,992.0,Valid,Valid,Fixation
+1669181707.730155,,Eye Tracker,1041.0,985.0,Valid,Valid,Fixation
+1669181707.74681,,Eye Tracker,1034.0,986.0,Valid,Valid,Fixation
+1669181707.763465,,Eye Tracker,1034.0,983.0,Valid,Valid,Fixation
+1669181707.78012,,Eye Tracker,1041.0,983.0,Valid,Valid,Fixation
+1669181707.796774,,Eye Tracker,1044.0,982.0,Valid,Valid,Fixation
+1669181707.813429,,Eye Tracker,1041.0,982.0,Valid,Valid,Fixation
+1669181707.830084,,Eye Tracker,1041.0,982.0,Valid,Valid,Fixation
+1669181707.846738,,Eye Tracker,1044.0,982.0,Valid,Valid,Fixation
+1669181707.863394,,Eye Tracker,1053.0,977.0,Valid,Valid,Fixation
+1669181707.880049,,Eye Tracker,1052.0,976.0,Valid,Valid,Fixation
+1669181707.896703,,Eye Tracker,1055.0,976.0,Valid,Valid,Fixation
+1669181707.913358,,Eye Tracker,1126.0,971.0,Valid,Valid,Saccade
+1669181707.930013,,Eye Tracker,1223.0,957.0,Valid,Valid,Saccade
+1669181707.946667,,Eye Tracker,1240.0,952.0,Valid,Valid,Fixation
+1669181707.963322,,Eye Tracker,1246.0,952.0,Valid,Valid,Fixation
+1669181707.979977,,Eye Tracker,1250.0,950.0,Valid,Valid,Fixation
+1669181707.996632,,Eye Tracker,1247.0,949.0,Valid,Valid,Fixation
+1669181708.013287,,Eye Tracker,1247.0,949.0,Valid,Valid,Fixation
+1669181708.029942,,Eye Tracker,1251.0,948.0,Valid,Valid,Fixation
+1669181708.046597,,Eye Tracker,1252.0,946.0,Valid,Valid,Fixation
+1669181708.063251,,Eye Tracker,1254.0,948.0,Valid,Valid,Fixation
+1669181708.079906,,Eye Tracker,1257.0,949.0,Valid,Valid,Fixation
+1669181708.096561,,Eye Tracker,1261.0,948.0,Valid,Valid,Fixation
+1669181708.113215,,Eye Tracker,1262.0,948.0,Valid,Valid,Fixation
+1669181708.12987,,Eye Tracker,1265.0,945.0,Valid,Valid,Fixation
+1669181708.146526,,Eye Tracker,1266.0,942.0,Valid,Valid,Fixation
+1669181708.16318,,Eye Tracker,1265.0,941.0,Valid,Valid,Fixation
+1669181708.179835,,Eye Tracker,1266.0,941.0,Valid,Valid,Fixation
+1669181708.19649,,Eye Tracker,1267.0,944.0,Valid,Valid,Fixation
+1669181708.213144,,Eye Tracker,1270.0,944.0,Valid,Valid,Fixation
+1669181708.229799,,Eye Tracker,1268.0,946.0,Valid,Valid,Fixation
+1669181708.246454,,Eye Tracker,1268.0,951.0,Valid,Valid,Fixation
+1669181708.263108,,Eye Tracker,1271.0,953.0,Valid,Valid,Fixation
+1669181708.279763,,Eye Tracker,1272.0,954.0,Valid,Valid,Fixation
+1669181708.296419,,Eye Tracker,1272.0,950.0,Valid,Valid,Fixation
+1669181708.313074,,Eye Tracker,1273.0,950.0,Valid,Valid,Fixation
+1669181708.329728,,Eye Tracker,1273.0,948.0,Valid,Valid,Fixation
+1669181708.346383,,Eye Tracker,1274.0,951.0,Valid,Valid,Fixation
+1669181708.363038,,Eye Tracker,1272.0,954.0,Valid,Valid,Fixation
+1669181708.379692,,Eye Tracker,1273.0,953.0,Valid,Valid,Fixation
+1669181708.396347,,Eye Tracker,1274.0,955.0,Valid,Valid,Fixation
+1669181708.413002,,Eye Tracker,1273.0,955.0,Valid,Valid,Fixation
+1669181708.429657,,Eye Tracker,1279.0,953.0,Valid,Valid,Fixation
+1669181708.446312,,Eye Tracker,1281.0,949.0,Valid,Valid,Fixation
+1669181708.462967,,Eye Tracker,1285.0,945.0,Valid,Valid,Fixation
+1669181708.479621,,Eye Tracker,1285.0,941.0,Valid,Valid,Fixation
+1669181708.496276,,Eye Tracker,1285.0,940.0,Valid,Valid,Fixation
+1669181708.512931,,Eye Tracker,1291.0,937.0,Valid,Valid,Fixation
+1669181708.529585,,Eye Tracker,1300.0,919.0,Valid,Valid,Fixation
+1669181708.54624,,Eye Tracker,1306.0,904.0,Valid,Valid,Fixation
+1669181708.562895,,Eye Tracker,1309.0,900.0,Valid,Valid,Fixation
+1669181708.579551,,Eye Tracker,1308.0,906.0,Valid,Valid,Fixation
+1669181708.596205,,Eye Tracker,1304.0,909.0,Valid,Valid,Fixation
+1669181708.61286,,Eye Tracker,1305.0,909.0,Valid,Valid,Fixation
+1669181708.629515,,Eye Tracker,1301.0,910.0,Valid,Valid,Fixation
+1669181708.646169,,Eye Tracker,1301.0,909.0,Valid,Valid,Fixation
+1669181708.662824,,Eye Tracker,1302.0,905.0,Valid,Valid,Fixation
+1669181708.679479,,Eye Tracker,1302.0,905.0,Valid,Valid,Fixation
+1669181708.696133,,Eye Tracker,1301.0,907.0,Valid,Valid,Fixation
+1669181708.712789,,Eye Tracker,1303.0,905.0,Valid,Valid,Fixation
+1669181708.729444,,Eye Tracker,1307.0,904.0,Valid,Valid,Fixation
+1669181708.746098,,Eye Tracker,1306.0,901.0,Valid,Valid,Fixation
+1669181708.762753,,Eye Tracker,1306.0,898.0,Valid,Valid,Fixation
+1669181708.779408,,Eye Tracker,1309.0,900.0,Valid,Valid,Fixation
+1669181708.796062,,Eye Tracker,1312.0,898.0,Valid,Valid,Fixation
+1669181708.812717,,Eye Tracker,1310.0,902.0,Valid,Valid,Fixation
+1669181708.829372,,Eye Tracker,1311.0,904.0,Valid,Valid,Fixation
+1669181708.846027,,Eye Tracker,1308.0,898.0,Valid,Valid,Fixation
+1669181708.862682,,Eye Tracker,1304.0,895.0,Valid,Valid,Fixation
+1669181708.879337,,Eye Tracker,1305.0,893.0,Valid,Valid,Fixation
+1669181708.895992,,Eye Tracker,1302.0,891.0,Valid,Valid,Fixation
+1669181708.912646,,Eye Tracker,1308.0,889.0,Valid,Valid,Fixation
+1669181708.929301,,Eye Tracker,1309.0,883.0,Valid,Valid,Fixation
+1669181708.945956,,Eye Tracker,1317.0,809.0,Valid,Valid,Saccade
+1669181708.96261,,Eye Tracker,1330.0,716.0,Valid,Valid,Saccade
+1669181708.979265,,Eye Tracker,1349.0,632.0,Valid,Valid,Saccade
+1669181708.995921,,Eye Tracker,1349.0,621.0,Valid,Valid,Fixation
+1669181709.012575,,Eye Tracker,1348.0,622.0,Valid,Valid,Fixation
+1669181709.02923,,Eye Tracker,1345.0,622.0,Valid,Valid,Fixation
+1669181709.045885,,Eye Tracker,1340.0,618.0,Valid,Valid,Fixation
+1669181709.062539,,Eye Tracker,1340.0,612.0,Valid,Valid,Fixation
+1669181709.079194,,Eye Tracker,1346.0,606.0,Valid,Valid,Fixation
+1669181709.095849,,Eye Tracker,1345.0,607.0,Valid,Valid,Fixation
+1669181709.112504,,Eye Tracker,1342.0,609.0,Valid,Valid,Fixation
+1669181709.129158,,Eye Tracker,1341.0,611.0,Valid,Valid,Fixation
+1669181709.145814,,Eye Tracker,1343.0,608.0,Valid,Valid,Fixation
+1669181709.162469,,Eye Tracker,1345.0,606.0,Valid,Valid,Fixation
+1669181709.179123,,Eye Tracker,1343.0,608.0,Valid,Valid,Fixation
+1669181709.195778,,Eye Tracker,1343.0,607.0,Valid,Valid,Fixation
+1669181709.212433,,Eye Tracker,1345.0,613.0,Valid,Valid,Fixation
+1669181709.229087,,Eye Tracker,1348.0,612.0,Valid,Valid,Fixation
+1669181709.245742,,Eye Tracker,1348.0,591.0,Valid,Valid,Fixation
+1669181709.262397,,Eye Tracker,1350.0,568.0,Valid,Valid,Saccade
+1669181709.279051,,Eye Tracker,1353.0,560.0,Valid,Valid,Fixation
+1669181709.295707,,Eye Tracker,1355.0,559.0,Valid,Valid,Fixation
+1669181709.312362,,Eye Tracker,1355.0,561.0,Valid,Valid,Fixation
+1669181709.329016,,Eye Tracker,1353.0,562.0,Valid,Valid,Fixation
+1669181709.345671,,Eye Tracker,1354.0,557.0,Valid,Valid,Fixation
+1669181709.362326,,Eye Tracker,1356.0,557.0,Valid,Valid,Fixation
+1669181709.378981,,Eye Tracker,1355.0,560.0,Valid,Valid,Fixation
+1669181709.395635,,Eye Tracker,1356.0,561.0,Valid,Valid,Fixation
+1669181709.41229,,Eye Tracker,1356.0,556.0,Valid,Valid,Fixation
+1669181709.428946,,Eye Tracker,1356.0,557.0,Valid,Valid,Fixation
+1669181709.4456,,Eye Tracker,1355.0,560.0,Valid,Valid,Fixation
+1669181709.462255,,Eye Tracker,1355.0,555.0,Valid,Valid,Fixation
+1669181709.47891,,Eye Tracker,1357.0,552.0,Valid,Valid,Fixation
+1669181709.495564,,Eye Tracker,1358.0,554.0,Valid,Valid,Fixation
+1669181709.512219,,Eye Tracker,1358.0,550.0,Valid,Valid,Fixation
+1669181709.528874,,Eye Tracker,1357.0,548.0,Valid,Valid,Fixation
+1669181709.545528,,Eye Tracker,1359.0,552.0,Valid,Valid,Fixation
+1669181709.562183,,Eye Tracker,1360.0,555.0,Valid,Valid,Fixation
+1669181709.578839,,Eye Tracker,1362.0,554.0,Valid,Valid,Fixation
+1669181709.595493,,Eye Tracker,1363.0,550.0,Valid,Valid,Fixation
+1669181709.612148,,Eye Tracker,1360.0,551.0,Valid,Valid,Fixation
+1669181709.628803,,Eye Tracker,1363.0,552.0,Valid,Valid,Fixation
+1669181709.645458,,Eye Tracker,1364.0,548.0,Valid,Valid,Fixation
+1669181709.662112,,Eye Tracker,1364.0,549.0,Valid,Valid,Fixation
+1669181709.678767,,Eye Tracker,1367.0,556.0,Valid,Valid,Fixation
+1669181709.695422,,Eye Tracker,1368.0,553.0,Valid,Valid,Fixation
+1669181709.712077,,Eye Tracker,1430.0,545.0,Valid,Valid,Saccade
+1669181709.728732,,Eye Tracker,1485.0,548.0,Valid,Valid,Saccade
+1669181709.745387,,Eye Tracker,1714.0,522.0,Valid,Valid,Saccade
+1669181709.762041,,Eye Tracker,1719.0,510.0,Valid,Valid,Fixation
+1669181709.778696,,Eye Tracker,1727.0,498.0,Valid,Valid,Fixation
+1669181709.795351,,Eye Tracker,1727.0,497.0,Valid,Valid,Fixation
+1669181709.812005,,Eye Tracker,1730.0,495.0,Valid,Valid,Fixation
+1669181709.82866,,Eye Tracker,1727.0,495.0,Valid,Valid,Fixation
+1669181709.845315,,Eye Tracker,1721.0,493.0,Valid,Valid,Fixation
+1669181709.86197,,Eye Tracker,1723.0,498.0,Valid,Valid,Fixation
+1669181709.878625,,Eye Tracker,1723.0,510.0,Valid,Valid,Fixation
+1669181709.89528,,Eye Tracker,1720.0,508.0,Valid,Valid,Fixation
+1669181709.911935,,Eye Tracker,1716.0,502.0,Valid,Valid,Fixation
+1669181709.928589,,Eye Tracker,1718.0,501.0,Valid,Valid,Fixation
+1669181709.945244,,Eye Tracker,1723.0,503.0,Valid,Valid,Fixation
+1669181709.961899,,Eye Tracker,1720.0,503.0,Valid,Valid,Fixation
+1669181709.978553,,Eye Tracker,1718.0,499.0,Valid,Valid,Fixation
+1669181709.995209,,Eye Tracker,1716.0,500.0,Valid,Valid,Fixation
+1669181710.011864,,Eye Tracker,1709.0,501.0,Valid,Valid,Fixation
+1669181710.028518,,Eye Tracker,1712.0,502.0,Valid,Valid,Fixation
+1669181710.045173,,Eye Tracker,1723.0,502.0,Valid,Valid,Fixation
+1669181710.061828,,Eye Tracker,1721.0,506.0,Valid,Valid,Fixation
+1669181710.078482,,Eye Tracker,1710.0,509.0,Valid,Valid,Fixation
+1669181710.095137,,Eye Tracker,1709.0,511.0,Valid,Valid,Fixation
+1669181710.111792,,Eye Tracker,1713.0,508.0,Valid,Valid,Fixation
+1669181710.128446,,Eye Tracker,1712.0,511.0,Valid,Valid,Fixation
+1669181710.145102,,Eye Tracker,1712.0,513.0,Valid,Valid,Fixation
+1669181710.161757,,Eye Tracker,1708.0,514.0,Valid,Valid,Fixation
+1669181710.178412,,Eye Tracker,1708.0,520.0,Valid,Valid,Fixation
+1669181710.195066,,Eye Tracker,1709.0,517.0,Valid,Valid,Fixation
+1669181710.211721,,Eye Tracker,1710.0,517.0,Valid,Valid,Fixation
+1669181710.228376,,Eye Tracker,1708.0,517.0,Valid,Valid,Fixation
+1669181710.24503,,Eye Tracker,1713.0,513.0,Valid,Valid,Fixation
+1669181710.261685,,Eye Tracker,1714.0,517.0,Valid,Valid,Fixation
+1669181710.27834,,Eye Tracker,1705.0,520.0,Valid,Valid,Fixation
+1669181710.294995,,Eye Tracker,1722.0,518.0,Valid,Valid,Fixation
+1669181710.31165,,Eye Tracker,1751.0,509.0,Valid,Valid,Saccade
+1669181710.328305,,Eye Tracker,1764.0,506.0,Valid,Valid,Fixation
+1669181710.344959,,Eye Tracker,1764.0,506.0,Valid,Valid,Fixation
+1669181710.361614,,Eye Tracker,1760.0,507.0,Valid,Valid,Fixation
+1669181710.378269,,Eye Tracker,1766.0,508.0,Valid,Valid,Fixation
+1669181710.394923,,Eye Tracker,1773.0,506.0,Valid,Valid,Fixation
+1669181710.411578,,Eye Tracker,1765.0,509.0,Valid,Valid,Fixation
+1669181710.428234,,Eye Tracker,1759.0,508.0,Valid,Valid,Fixation
+1669181710.444889,,Eye Tracker,1766.0,507.0,Valid,Valid,Fixation
+1669181710.461543,,Eye Tracker,1768.0,507.0,Valid,Valid,Fixation
+1669181710.478198,,Eye Tracker,1771.0,505.0,Valid,Valid,Fixation
+1669181710.494853,,Eye Tracker,1773.0,504.0,Valid,Valid,Fixation
+1669181710.511507,,Eye Tracker,1778.0,504.0,Valid,Valid,Fixation
+1669181710.528162,,Eye Tracker,1780.0,503.0,Valid,Valid,Fixation
+1669181710.544817,,Eye Tracker,1778.0,499.0,Valid,Valid,Fixation
+1669181710.561471,,Eye Tracker,1783.0,495.0,Valid,Valid,Fixation
+1669181710.578127,,Eye Tracker,1786.0,494.0,Valid,Valid,Fixation
+1669181710.594782,,Eye Tracker,1785.0,492.0,Valid,Valid,Fixation
+1669181710.611436,,Eye Tracker,1786.0,491.0,Valid,Valid,Fixation
+1669181710.628091,,Eye Tracker,1789.0,490.0,Valid,Valid,Fixation
+1669181710.644746,,Eye Tracker,1787.0,490.0,Valid,Valid,Fixation
+1669181710.6614,,Eye Tracker,1790.0,489.0,Valid,Valid,Fixation
+1669181710.678055,,Eye Tracker,1791.0,487.0,Valid,Valid,Fixation
+1669181710.69471,,Eye Tracker,1792.0,486.0,Valid,Valid,Fixation
+1669181710.711366,,Eye Tracker,1800.0,487.0,Valid,Valid,Fixation
+1669181710.72802,,Eye Tracker,1802.0,488.0,Valid,Valid,Fixation
+1669181710.744675,,Eye Tracker,1794.0,483.0,Valid,Valid,Fixation
+1669181710.76133,,Eye Tracker,1794.0,481.0,Valid,Valid,Fixation
+1669181710.777984,,Eye Tracker,1803.0,479.0,Valid,Valid,Fixation
+1669181710.794639,,Eye Tracker,1808.0,478.0,Valid,Valid,Fixation
+1669181710.811294,,Eye Tracker,1803.0,480.0,Valid,Valid,Fixation
+1669181710.827948,,Eye Tracker,1802.0,475.0,Valid,Valid,Fixation
+1669181710.844603,,Eye Tracker,1804.0,475.0,Valid,Valid,Fixation
+1669181710.861259,,Eye Tracker,1797.0,449.0,Valid,Valid,Saccade
+1669181710.877913,,Eye Tracker,1783.0,334.0,Valid,Valid,Saccade
+1669181710.894568,,Eye Tracker,1767.0,222.0,Valid,Valid,Saccade
+1669181710.911223,,Eye Tracker,1767.0,197.0,Valid,Valid,Fixation
+1669181710.927877,,Eye Tracker,1765.0,197.0,Valid,Valid,Fixation
+1669181710.944532,,Eye Tracker,1770.0,203.0,Valid,Valid,Fixation
+1669181710.961187,,Eye Tracker,1773.0,201.0,Valid,Valid,Fixation
+1669181710.977842,,Eye Tracker,1772.0,200.0,Valid,Valid,Fixation
+1669181710.994496,,Eye Tracker,1773.0,196.0,Valid,Valid,Fixation
+1669181711.011152,,Eye Tracker,1772.0,194.0,Valid,Valid,Fixation
+1669181711.027807,,Eye Tracker,1773.0,191.0,Valid,Valid,Fixation
+1669181711.044461,,Eye Tracker,1775.0,182.0,Valid,Valid,Fixation
+1669181711.061116,,Eye Tracker,1771.0,179.0,Valid,Valid,Fixation
+1669181711.077771,,Eye Tracker,1772.0,178.0,Valid,Valid,Fixation
+1669181711.094425,,Eye Tracker,1777.0,177.0,Valid,Valid,Fixation
+1669181711.11108,,Eye Tracker,1781.0,171.0,Valid,Valid,Fixation
+1669181711.127735,,Eye Tracker,1783.0,165.0,Valid,Valid,Fixation
+1669181711.14439,,Eye Tracker,1786.0,162.0,Valid,Valid,Fixation
+1669181711.161045,,Eye Tracker,1787.0,157.0,Valid,Valid,Fixation
+1669181711.1777,,Eye Tracker,1779.0,160.0,Valid,Valid,Fixation
+1669181711.194354,,Eye Tracker,1779.0,157.0,Valid,Valid,Fixation
+1669181711.211009,,Eye Tracker,1779.0,156.0,Valid,Valid,Fixation
+1669181711.227664,,Eye Tracker,1775.0,157.0,Valid,Valid,Fixation
+1669181711.244319,,Eye Tracker,1777.0,158.0,Valid,Valid,Fixation
+1669181711.260973,,Eye Tracker,1776.0,158.0,Valid,Valid,Fixation
+1669181711.277628,,Eye Tracker,1771.0,159.0,Valid,Valid,Fixation
+1669181711.294284,,Eye Tracker,1774.0,162.0,Valid,Valid,Fixation
+1669181711.310938,,Eye Tracker,1781.0,163.0,Valid,Valid,Fixation
+1669181711.327593,,Eye Tracker,1779.0,163.0,Valid,Valid,Fixation
+1669181711.344248,,Eye Tracker,1777.0,160.0,Valid,Valid,Fixation
+1669181711.360902,,Eye Tracker,1781.0,163.0,Valid,Valid,Fixation
+1669181711.377557,,Eye Tracker,1782.0,168.0,Valid,Valid,Fixation
+1669181711.394212,,Eye Tracker,1778.0,163.0,Valid,Valid,Fixation
+1669181711.410866,,Eye Tracker,1776.0,167.0,Valid,Valid,Fixation
+1669181711.427522,,Eye Tracker,1775.0,169.0,Valid,Valid,Fixation
+1669181711.444177,,Eye Tracker,1792.0,176.0,Valid,Valid,Fixation
+1669181711.460831,,Eye Tracker,1813.0,206.0,Valid,Valid,Saccade
+1669181711.477486,,Eye Tracker,1806.0,219.0,Valid,Valid,Fixation
+1669181711.494141,,Eye Tracker,1803.0,222.0,Valid,Valid,Fixation
+1669181711.510796,,Eye Tracker,1804.0,218.0,Valid,Valid,Fixation
+1669181711.52745,,Eye Tracker,1807.0,217.0,Valid,Valid,Fixation
+1669181711.544105,,Eye Tracker,1809.0,220.0,Valid,Valid,Fixation
+1669181711.56076,,Eye Tracker,1807.0,225.0,Valid,Valid,Fixation
+1669181711.577415,,Eye Tracker,1801.0,224.0,Valid,Valid,Fixation
+1669181711.59407,,Eye Tracker,1798.0,222.0,Valid,Valid,Fixation
+1669181711.610725,,Eye Tracker,1801.0,226.0,Valid,Valid,Fixation
+1669181711.627379,,Eye Tracker,1799.0,230.0,Valid,Valid,Fixation
+1669181711.644034,,Eye Tracker,1799.0,228.0,Valid,Valid,Fixation
+1669181711.660689,,Eye Tracker,1801.0,226.0,Valid,Valid,Fixation
+1669181711.677343,,Eye Tracker,1802.0,224.0,Valid,Valid,Fixation
+1669181711.693998,,Eye Tracker,1801.0,227.0,Valid,Valid,Fixation
+1669181711.710654,,Eye Tracker,1798.0,231.0,Valid,Valid,Fixation
+1669181711.727308,,Eye Tracker,1800.0,229.0,Valid,Valid,Fixation
+1669181711.743963,,Eye Tracker,1793.0,230.0,Valid,Valid,Fixation
+1669181711.760618,,Eye Tracker,1790.0,228.0,Valid,Valid,Fixation
+1669181711.777273,,Eye Tracker,1788.0,231.0,Valid,Valid,Fixation
+1669181711.793927,,Eye Tracker,1788.0,237.0,Valid,Valid,Fixation
+1669181711.810582,,Eye Tracker,1790.0,238.0,Valid,Valid,Fixation
+1669181711.827237,,Eye Tracker,1785.0,241.0,Valid,Valid,Fixation
+1669181711.843891,,Eye Tracker,1785.0,234.0,Valid,Valid,Fixation
+1669181711.860547,,Eye Tracker,1785.0,236.0,Valid,Valid,Fixation
+1669181711.877202,,Eye Tracker,1786.0,243.0,Valid,Valid,Fixation
+1669181711.893856,,Eye Tracker,1784.0,239.0,Valid,Valid,Fixation
+1669181711.91051,,Eye Tracker,1787.0,242.0,Valid,Valid,Fixation
+1669181711.927165,,Eye Tracker,1790.0,241.0,Valid,Valid,Fixation
+1669181711.943819,,Eye Tracker,1787.0,239.0,Valid,Valid,Fixation
+1669181711.960474,,Eye Tracker,1786.0,240.0,Valid,Valid,Fixation
+1669181711.977129,,Eye Tracker,1786.0,246.0,Valid,Valid,Fixation
+1669181711.993783,,Eye Tracker,1785.0,245.0,Valid,Valid,Fixation
+1669181712.010439,,Eye Tracker,1790.0,243.0,Valid,Valid,Fixation
+1669181712.027094,,Eye Tracker,1791.0,244.0,Valid,Valid,Fixation
+1669181712.043749,,Eye Tracker,1790.0,243.0,Valid,Valid,Fixation
+1669181712.060403,,Eye Tracker,1792.0,237.0,Valid,Valid,Fixation
+1669181712.077058,,Eye Tracker,1793.0,233.0,Valid,Valid,Fixation
+1669181712.093713,,Eye Tracker,1797.0,231.0,Valid,Valid,Fixation
+1669181712.110367,,Eye Tracker,1807.0,225.0,Valid,Valid,Fixation
+1669181712.127022,,Eye Tracker,1806.0,228.0,Valid,Valid,Fixation
+1669181712.143678,,Eye Tracker,1801.0,227.0,Valid,Valid,Fixation
+1669181712.160332,,Eye Tracker,1798.0,223.0,Valid,Valid,Fixation
+1669181712.176987,,Eye Tracker,1804.0,212.0,Valid,Valid,Fixation
+1669181712.193642,,Eye Tracker,1806.0,210.0,Valid,Valid,Fixation
+1669181712.210296,,Eye Tracker,1806.0,224.0,Valid,Valid,Fixation
+1669181712.226951,,Eye Tracker,1812.0,217.0,Valid,Valid,Fixation
+1669181712.243606,,Eye Tracker,1813.0,207.0,Valid,Valid,Fixation
+1669181712.26026,,Eye Tracker,1818.0,204.0,Valid,Valid,Fixation
+1669181712.276915,,Eye Tracker,1822.0,206.0,Valid,Valid,Fixation
+1669181712.29357,,Eye Tracker,1825.0,207.0,Valid,Valid,Fixation
+1669181712.310225,,Eye Tracker,1824.0,205.0,Valid,Valid,Fixation
+1669181712.326879,,Eye Tracker,1824.0,201.0,Valid,Valid,Fixation
+1669181712.343534,,Eye Tracker,1822.0,197.0,Valid,Valid,Fixation
+1669181712.360189,,Eye Tracker,1827.0,195.0,Valid,Valid,Fixation
+1669181712.376843,,Eye Tracker,1833.0,191.0,Valid,Valid,Fixation
+1669181712.393498,,Eye Tracker,1839.0,191.0,Valid,Valid,Fixation
+1669181712.410153,,Eye Tracker,1838.0,190.0,Valid,Valid,Fixation
+1669181712.426808,,Eye Tracker,1834.0,187.0,Valid,Valid,Fixation
+1669181712.443463,,Eye Tracker,1832.0,186.0,Valid,Valid,Fixation
+1669181712.460118,,Eye Tracker,1833.0,183.0,Valid,Valid,Fixation
+1669181712.476772,,Eye Tracker,1842.0,189.0,Valid,Valid,Fixation
+1669181712.493427,,Eye Tracker,1846.0,190.0,Valid,Valid,Fixation
+1669181712.510082,,Eye Tracker,1841.0,183.0,Valid,Valid,Fixation
+1669181712.526736,,Eye Tracker,1840.0,176.0,Valid,Valid,Fixation
+1669181712.543391,,Eye Tracker,1839.0,178.0,Valid,Valid,Fixation
+1669181712.560046,,Eye Tracker,1844.0,178.0,Valid,Valid,Fixation
+1669181712.576702,,Eye Tracker,1844.0,180.0,Valid,Valid,Fixation
+1669181712.593356,,Eye Tracker,1840.0,175.0,Valid,Valid,Fixation
+1669181712.610011,,Eye Tracker,1839.0,154.0,Valid,Valid,Fixation
+1669181712.626665,,Eye Tracker,1828.0,139.0,Valid,Valid,Fixation
+1669181712.643319,,Eye Tracker,1824.0,134.0,Valid,Valid,Fixation
+1669181712.659975,,Eye Tracker,1827.0,133.0,Valid,Valid,Fixation
+1669181712.67663,,Eye Tracker,1823.0,133.0,Valid,Valid,Fixation
+1669181712.693283,,Eye Tracker,1826.0,128.0,Valid,Valid,Fixation
+1669181712.709939,,Eye Tracker,1828.0,129.0,Valid,Valid,Fixation
+1669181712.726594,,Eye Tracker,1824.0,124.0,Valid,Valid,Fixation
+1669181712.743248,,Eye Tracker,1828.0,124.0,Valid,Valid,Fixation
+1669181712.759903,,Eye Tracker,1834.0,120.0,Valid,Valid,Fixation
+1669181712.776558,,Eye Tracker,1837.0,113.0,Valid,Valid,Fixation
+1669181712.793212,,Eye Tracker,1845.0,104.0,Valid,Valid,Fixation
+1669181712.809867,,Eye Tracker,1843.0,99.0,Valid,Valid,Fixation
+1669181712.826522,,Eye Tracker,1843.0,102.0,Valid,Valid,Fixation
+1669181712.843177,,Eye Tracker,1850.0,103.0,Valid,Valid,Fixation
+1669181712.859832,,Eye Tracker,1853.0,108.0,Valid,Valid,Fixation
+1669181712.876487,,Eye Tracker,1861.0,104.0,Valid,Valid,Fixation
+1669181712.893142,,Eye Tracker,1863.0,101.0,Valid,Valid,Fixation
+1669181712.909796,,Eye Tracker,1856.0,101.0,Valid,Valid,Fixation
+1669181712.926451,,Eye Tracker,1849.0,107.0,Valid,Valid,Fixation
+1669181712.943106,,Eye Tracker,1843.0,100.0,Valid,Valid,Fixation
+1669181712.95976,,Eye Tracker,1839.0,97.0,Valid,Valid,Fixation
+1669181712.976415,,Eye Tracker,1837.0,108.0,Valid,Valid,Fixation
+1669181712.99307,,Eye Tracker,1831.0,115.0,Valid,Valid,Fixation
+1669181713.009724,,Eye Tracker,1837.0,102.0,Valid,Valid,Fixation
+1669181713.026379,,Eye Tracker,1839.0,83.0,Valid,Valid,Fixation
+1669181713.043034,,Eye Tracker,1842.0,59.0,Valid,Valid,Fixation
+1669181713.059688,,Eye Tracker,1844.0,61.0,Valid,Valid,Fixation
+1669181713.076343,,Eye Tracker,1840.0,77.0,Valid,Valid,Fixation
+1669181713.092998,,Eye Tracker,1838.0,77.0,Valid,Valid,Fixation
+1669181713.109653,,Eye Tracker,1841.0,70.0,Valid,Valid,Fixation
+1669181713.126307,,Eye Tracker,1839.0,73.0,Valid,Valid,Fixation
+1669181713.142963,,Eye Tracker,1832.0,85.0,Valid,Valid,Fixation
+1669181713.159618,,Eye Tracker,1828.0,87.0,Valid,Valid,Fixation
+1669181713.176272,,Eye Tracker,1827.0,82.0,Valid,Valid,Fixation
+1669181713.192927,,Eye Tracker,1824.0,86.0,Valid,Valid,Fixation
+1669181713.209582,,Eye Tracker,1823.0,84.0,Valid,Valid,Fixation
+1669181713.226236,,Eye Tracker,1821.0,86.0,Valid,Valid,Fixation
+1669181713.242891,,Eye Tracker,1821.0,111.0,Valid,Valid,Fixation
+1669181713.259546,,Eye Tracker,1817.0,131.0,Valid,Valid,Fixation
+1669181713.2762,,Eye Tracker,1814.0,136.0,Valid,Valid,Fixation
+1669181713.292856,,Eye Tracker,1811.0,139.0,Valid,Valid,Fixation
+1669181713.309511,,Eye Tracker,1809.0,141.0,Valid,Valid,Fixation
+1669181713.326165,,Eye Tracker,1807.0,143.0,Valid,Valid,Fixation
+1669181713.342819,,Eye Tracker,1807.0,147.0,Valid,Valid,Fixation
+1669181713.359474,,Eye Tracker,1803.0,150.0,Valid,Valid,Fixation
+1669181713.376129,,Eye Tracker,1795.0,158.0,Valid,Valid,Fixation
+1669181713.392783,,Eye Tracker,1790.0,161.0,Valid,Valid,Fixation
+1669181713.409439,,Eye Tracker,1788.0,162.0,Valid,Valid,Fixation
+1669181713.426094,,Eye Tracker,1783.0,168.0,Valid,Valid,Fixation
+1669181713.442748,,Eye Tracker,1782.0,170.0,Valid,Valid,Fixation
+1669181713.459403,,Eye Tracker,1783.0,176.0,Valid,Valid,Fixation
+1669181713.476058,,Eye Tracker,1777.0,188.0,Valid,Valid,Fixation
+1669181713.492712,,Eye Tracker,1776.0,187.0,Valid,Valid,Fixation
+1669181713.509367,,Eye Tracker,1779.0,187.0,Valid,Valid,Fixation
+1669181713.526022,,Eye Tracker,1771.0,190.0,Valid,Valid,Fixation
+1669181713.542676,,Eye Tracker,1763.0,190.0,Valid,Valid,Fixation
+1669181713.559331,,Eye Tracker,1762.0,193.0,Valid,Valid,Fixation
+1669181713.575987,,Eye Tracker,1762.0,194.0,Valid,Valid,Fixation
+1669181713.592641,,Eye Tracker,1761.0,197.0,Valid,Valid,Fixation
+1669181713.609296,,Eye Tracker,1760.0,204.0,Valid,Valid,Fixation
+1669181713.625951,,Eye Tracker,1759.0,206.0,Valid,Valid,Fixation
+1669181713.642606,,Eye Tracker,1757.0,204.0,Valid,Valid,Fixation
+1669181713.65926,,Eye Tracker,1753.0,208.0,Valid,Valid,Fixation
+1669181713.675915,,Eye Tracker,1750.0,215.0,Valid,Valid,Fixation
+1669181713.69257,,Eye Tracker,1750.0,219.0,Valid,Valid,Fixation
+1669181713.709224,,Eye Tracker,1751.0,223.0,Valid,Valid,Fixation
+1669181713.725879,,Eye Tracker,1749.0,224.0,Valid,Valid,Fixation
+1669181713.742534,,Eye Tracker,1751.0,230.0,Valid,Valid,Fixation
+1669181713.759188,,Eye Tracker,1748.0,229.0,Valid,Valid,Fixation
+1669181713.775843,,Eye Tracker,1749.0,229.0,Valid,Valid,Fixation
+1669181713.792498,,Eye Tracker,1747.0,230.0,Valid,Valid,Fixation
+1669181713.809152,,Eye Tracker,1743.0,227.0,Valid,Valid,Fixation
+1669181713.825807,,Eye Tracker,1740.0,227.0,Valid,Valid,Fixation
+1669181713.842462,,Eye Tracker,1739.0,232.0,Valid,Valid,Fixation
+1669181713.859117,,Eye Tracker,1738.0,233.0,Valid,Valid,Fixation
+1669181713.875772,,Eye Tracker,1742.0,230.0,Valid,Valid,Fixation
+1669181713.892427,,Eye Tracker,1743.0,228.0,Valid,Valid,Fixation
+1669181713.909082,,Eye Tracker,1737.0,234.0,Valid,Valid,Fixation
+1669181713.925736,,Eye Tracker,1733.0,233.0,Valid,Valid,Fixation
+1669181713.942391,,Eye Tracker,1744.0,226.0,Valid,Valid,Fixation
+1669181713.959046,,Eye Tracker,1747.0,233.0,Valid,Valid,Fixation
+1669181713.9757,,Eye Tracker,1744.0,239.0,Valid,Valid,Fixation
+1669181713.992355,,Eye Tracker,1743.0,260.0,Valid,Valid,Fixation
+1669181714.009011,,Eye Tracker,1783.0,360.0,Valid,Valid,Saccade
+1669181714.025665,,Eye Tracker,1798.0,371.0,Valid,Valid,Unclassified
+1669181714.04232,,Eye Tracker,1747.0,224.0,Valid,Valid,Saccade
+1669181714.058974,,Eye Tracker,1736.0,191.0,Valid,Valid,Saccade
+1669181714.075628,,Eye Tracker,1733.0,181.0,Valid,Valid,Fixation
+1669181714.092283,,Eye Tracker,1729.0,174.0,Valid,Valid,Fixation
+1669181714.108938,,Eye Tracker,1729.0,175.0,Valid,Valid,Fixation
+1669181714.125592,,Eye Tracker,1731.0,173.0,Valid,Valid,Fixation
+1669181714.142248,,Eye Tracker,1734.0,161.0,Valid,Valid,Fixation
+1669181714.158903,,Eye Tracker,1731.0,165.0,Valid,Valid,Fixation
+1669181714.175558,,Eye Tracker,1735.0,171.0,Valid,Valid,Fixation
+1669181714.192212,,Eye Tracker,1741.0,171.0,Valid,Valid,Fixation
+1669181714.208867,,Eye Tracker,1739.0,169.0,Valid,Valid,Fixation
+1669181714.225522,,Eye Tracker,1740.0,168.0,Valid,Valid,Fixation
+1669181714.242176,,Eye Tracker,1736.0,172.0,Valid,Valid,Fixation
+1669181714.258831,,Eye Tracker,1737.0,166.0,Valid,Valid,Fixation
+1669181714.275486,,Eye Tracker,1738.0,161.0,Valid,Valid,Fixation
+1669181714.29214,,Eye Tracker,1740.0,160.0,Valid,Valid,Fixation
+1669181714.308796,,Eye Tracker,1739.0,166.0,Valid,Valid,Fixation
+1669181714.325451,,Eye Tracker,1737.0,167.0,Valid,Valid,Fixation
+1669181714.342105,,Eye Tracker,1737.0,169.0,Valid,Valid,Fixation
+1669181714.35876,,Eye Tracker,1734.0,169.0,Valid,Valid,Fixation
+1669181714.375415,,Eye Tracker,1734.0,170.0,Valid,Valid,Fixation
+1669181714.392069,,Eye Tracker,1734.0,170.0,Valid,Valid,Fixation
+1669181714.408724,,Eye Tracker,1732.0,169.0,Valid,Valid,Fixation
+1669181714.425379,,Eye Tracker,1733.0,169.0,Valid,Valid,Fixation
+1669181714.442034,,Eye Tracker,1733.0,170.0,Valid,Valid,Fixation
+1669181714.458688,,Eye Tracker,1732.0,175.0,Valid,Valid,Fixation
+1669181714.475343,,Eye Tracker,1651.0,175.0,Valid,Valid,Saccade
+1669181714.491998,,Eye Tracker,1568.0,181.0,Valid,Valid,Saccade
+1669181714.508652,,Eye Tracker,1334.0,108.0,Valid,Invalid,Saccade
+1669181714.525307,,Eye Tracker,1325.0,129.0,Valid,Valid,Fixation
+1669181714.541962,,Eye Tracker,1323.0,140.0,Valid,Valid,Fixation
+1669181714.558616,,Eye Tracker,1327.0,134.0,Valid,Valid,Fixation
+1669181714.575272,,Eye Tracker,1329.0,136.0,Valid,Valid,Fixation
+1669181714.591926,,Eye Tracker,1325.0,145.0,Valid,Valid,Fixation
+1669181714.608581,,Eye Tracker,1327.0,143.0,Valid,Valid,Fixation
+1669181714.625236,,Eye Tracker,1328.0,145.0,Valid,Valid,Fixation
+1669181714.641891,,Eye Tracker,1325.0,143.0,Valid,Valid,Fixation
+1669181714.658545,,Eye Tracker,1323.0,145.0,Valid,Valid,Fixation
+1669181714.6752,,Eye Tracker,1323.0,143.0,Valid,Valid,Fixation
+1669181714.691855,,Eye Tracker,1322.0,142.0,Valid,Valid,Fixation
+1669181714.70851,,Eye Tracker,1320.0,152.0,Valid,Valid,Fixation
+1669181714.725164,,Eye Tracker,1319.0,153.0,Valid,Valid,Fixation
+1669181714.741819,,Eye Tracker,1316.0,158.0,Valid,Valid,Fixation
+1669181714.758475,,Eye Tracker,1311.0,161.0,Valid,Valid,Fixation
+1669181714.775128,,Eye Tracker,1311.0,159.0,Valid,Valid,Fixation
+1669181714.791783,,Eye Tracker,1310.0,164.0,Valid,Valid,Fixation
+1669181714.808438,,Eye Tracker,1314.0,170.0,Valid,Valid,Fixation
+1669181714.825092,,Eye Tracker,1311.0,172.0,Valid,Valid,Fixation
+1669181714.841747,,Eye Tracker,1312.0,173.0,Valid,Valid,Fixation
+1669181714.858403,,Eye Tracker,1310.0,168.0,Valid,Valid,Fixation
+1669181714.875057,,Eye Tracker,1304.0,165.0,Valid,Valid,Fixation
+1669181714.891712,,Eye Tracker,1302.0,168.0,Valid,Valid,Fixation
+1669181714.908367,,Eye Tracker,1306.0,173.0,Valid,Valid,Fixation
+1669181714.925021,,Eye Tracker,1307.0,172.0,Valid,Valid,Fixation
+1669181714.941676,,Eye Tracker,1306.0,168.0,Valid,Valid,Fixation
+1669181714.958331,,Eye Tracker,1307.0,163.0,Valid,Valid,Fixation
+1669181714.974986,,Eye Tracker,1307.0,162.0,Valid,Valid,Fixation
+1669181714.99164,,Eye Tracker,1310.0,166.0,Valid,Valid,Fixation
+1669181715.008295,,Eye Tracker,1308.0,168.0,Valid,Valid,Fixation
+1669181715.02495,,Eye Tracker,1308.0,168.0,Valid,Valid,Fixation
+1669181715.041604,,Eye Tracker,1295.0,175.0,Valid,Valid,Fixation
+1669181715.05826,,Eye Tracker,1269.0,180.0,Valid,Valid,Saccade
+1669181715.074915,,Eye Tracker,1271.0,177.0,Valid,Valid,Fixation
+1669181715.091569,,Eye Tracker,1272.0,175.0,Valid,Valid,Fixation
+1669181715.108224,,Eye Tracker,1269.0,176.0,Valid,Valid,Fixation
+1669181715.124878,,Eye Tracker,1271.0,175.0,Valid,Valid,Fixation
+1669181715.141533,,Eye Tracker,1277.0,177.0,Valid,Valid,Fixation
+1669181715.158188,,Eye Tracker,1277.0,177.0,Valid,Valid,Fixation
+1669181715.174843,,Eye Tracker,1272.0,171.0,Valid,Valid,Fixation
+1669181715.191497,,Eye Tracker,1275.0,169.0,Valid,Valid,Fixation
+1669181715.208152,,Eye Tracker,1274.0,173.0,Valid,Valid,Fixation
+1669181715.224807,,Eye Tracker,1273.0,179.0,Valid,Valid,Fixation
+1669181715.241462,,Eye Tracker,1283.0,188.0,Valid,Valid,Fixation
+1669181715.258116,,Eye Tracker,1286.0,217.0,Valid,Valid,Saccade
+1669181715.274771,,Eye Tracker,1275.0,232.0,Valid,Valid,Unclassified
+1669181715.291426,,Eye Tracker,1262.0,242.16666666666666,Invalid,Invalid,EyesNotFound
+1669181715.30808,,Eye Tracker,1249.0,252.33333333333334,Invalid,Invalid,EyesNotFound
+1669181715.324735,,Eye Tracker,1236.0,262.5,Invalid,Invalid,EyesNotFound
+1669181715.34139,,Eye Tracker,1223.0,272.6666666666667,Invalid,Invalid,EyesNotFound
+1669181715.358045,,Eye Tracker,1210.0,282.8333333333333,Invalid,Invalid,EyesNotFound
+1669181715.3747,,Eye Tracker,1197.0,293.0,Valid,Valid,Saccade
+1669181715.391355,,Eye Tracker,1243.0,281.0,Valid,Valid,Saccade
+1669181715.408009,,Eye Tracker,1260.0,251.0,Valid,Valid,Saccade
+1669181715.424664,,Eye Tracker,1229.0,209.0,Valid,Valid,Saccade
+1669181715.441319,,Eye Tracker,1232.0,197.0,Valid,Valid,Unclassified
+1669181715.457973,,Eye Tracker,1238.0,213.0,Valid,Invalid,Unclassified
+1669181715.474628,,Eye Tracker,1211.0,210.0,Valid,Invalid,Saccade
+1669181715.491283,,Eye Tracker,1211.0,210.0,Invalid,Invalid,EyesNotFound
