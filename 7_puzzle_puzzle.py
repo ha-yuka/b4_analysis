@@ -32,22 +32,6 @@ day = ['01', '02']
 pre=[]
 post=[]
 col_name=['Recording timestamp','pre_area','post_area']
-area=180
-wide=1880
-high=1040
-aoi_1=[20+wide/3-area,0,20+wide/3,0+area]
-aoi_2=[20+wide/3-area,20+high/2,20+wide/3,20+high/2+area]
-aoi_3=[]
-aoi_4=[]
-aoi_5=[]
-aoi_6=[]
-aoi_7=[]
-aoi_8=[]
-aoi_9=[]
-aoi_10=[]
-aoi_11=[]
-aoi_12=[]
-aoi_13=[]
 
 time_gap=[]
 #========================アンケート結果読み込み=====================#
@@ -79,6 +63,7 @@ for sm in someone:
             input_obj=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'obj.csv', index_col=None)#オブジェクト操作データ
             #input_obj.columns=['Recording timestamp','Obj_num','Position X','Position Y']
             for i in range(0,len(input_obj)-1):#オブジェクトの位置1行ずつ見ていく
+                obj=input_obj.loc[i,'Obj num']
                 if input_obj.loc[i,'Position X']>1050:
                     t_obj=2 #右にある
                 elif 850<=input_obj.loc[i,'Position X']<=1050:
@@ -86,6 +71,7 @@ for sm in someone:
                 elif input_obj.loc[i,'Position X']<850:
                     t_obj=0 #左にある
 
+                obj_1=input_obj.loc[i+1,'Obj num']
                 if input_obj.loc[i+1,'Position X']>1050:
                     t_1_obj=2 #右にある
                 elif 850<=input_obj.loc[i+1,'Position X']<=1050:
@@ -93,7 +79,7 @@ for sm in someone:
                 elif input_obj.loc[i+1,'Position X']<850:
                     t_1_obj=0 #左にある
 
-                if abs(t_obj-t_1_obj)==1:
+                if abs(t_obj-t_1_obj)==1 and obj==obj_1:
                     mouse_t.append([input_obj.loc[i,'Recording timestamp'],t_obj,t_1_obj])
                     #print(obj, obj_1,t_obj,t_1_obj)
             mouse_df=pd.DataFrame(mouse_t,columns=col_name)
@@ -140,15 +126,18 @@ for sm in someone:
                 pre_a=mouse_df.loc[i,'pre_area']
                 post_a=mouse_df.loc[i,'post_area']
                 t=mouse_df.loc[i,'Recording timestamp']
-                if pre_a==2 and post_a==1:#2→1
-                    near=two_one_df['Recording timestamp'].sub(t).abs().idxmin()
-                    u=two_one_df.loc[near,'Recording timestamp']
+                if (pre_a==2 and post_a==1) or (pre_a==0 and post_a==1):#2→1,0→1
+                    inear_1=two_one_df['Recording timestamp'].sub(t).abs().idxmin()
+                    inear_2=zero_one_df['Recording timestamp'].sub(t).abs().idxmin()
+                    near_1=two_one_df.loc[inear_1,'Recording timestamp']
+                    near_2=zero_one_df.loc[inear_2,'Recording timestamp']
+                    if abs(t-near_1)<(t-near_2):
+                        u=near_1
+                    else:
+                        u=near_2
                 elif pre_a==1 and post_a==0:#1→0
                     near=one_zero_df['Recording timestamp'].sub(t).abs().idxmin()
                     u=one_zero_df.loc[near,'Recording timestamp']
-                elif pre_a==0 and post_a==1:#0→1
-                    near=zero_one_df['Recording timestamp'].sub(t).abs().idxmin()
-                    u=zero_one_df.loc[near,'Recording timestamp']
                 else:#1→2
                     near=one_two_df['Recording timestamp'].sub(t).abs().idxmin()
                     u=one_two_df.loc[near,'Recording timestamp']
