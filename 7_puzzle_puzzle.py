@@ -25,10 +25,9 @@ def outlier_2s(li):
 
     return li
 
-someone = ['yashiro']#'tamura',,,,,'kawamura','kawasaki','kobayashi','maeda','motoyama','tamaru','nomura','ota','shigenawa','suzuki','tabata','yashiro','watanabe''imahashi'
-#file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
+someone = ['kawamura','kawasaki','kobayashi','maeda','nomura','tamaru','ota','shigenawa','suzuki','tabata','yashiro','imahashi']#'watanabe','tamura',['motoyama',
 file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
-day = ['01', '02']
+day = ['02']#, '02'
 pre=[]
 post=[]
 col_name=['Recording timestamp','pre_area','post_area']
@@ -61,6 +60,8 @@ for sm in someone:
             #===============================================#
             #========================オブジェクトの移動======================#
             input_obj=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'obj.csv', index_col=None)#オブジェクト操作データ
+            t_obj=-2
+            t_1_obj=-2
             #input_obj.columns=['Recording timestamp','Obj_num','Position X','Position Y']
             for i in range(0,len(input_obj)-1):#オブジェクトの位置1行ずつ見ていく
                 obj=input_obj.loc[i,'Obj num']
@@ -141,11 +142,13 @@ for sm in someone:
                 else:#1→2
                     near=one_two_df['Recording timestamp'].sub(t).abs().idxmin()
                     u=one_two_df.loc[near,'Recording timestamp']
-                sub_gap.append(t-u)          
-            sub_gap_out=outlier_2s(sub_gap) 
-            print(sub_gap,sum(sub_gap_out)/len(sub_gap_out))
-            #print(sm,dy,fn)            
-            time_gap.append(sum(sub_gap_out)/len(sub_gap_out))  # 平均サッカード距離
+                if abs(t-u)<=1:
+                    sub_gap.append(t-u)          
+            #sub_gap=outlier_2s(sub_gap) #外れ値処理
+            #print(sub_gap,sum(sub_gap)/len(sub_gap))
+            print(sm,dy,fn)            
+            time_gap.append(sum(sub_gap)/len(sub_gap))  # 平均時間差
+            
 
 print("-------------------pre--------------------")
 plt.scatter(time_gap,pre)

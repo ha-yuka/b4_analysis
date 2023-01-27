@@ -6,7 +6,7 @@ from sklearn import linear_model
 
 #接触時間とアンケート
 
-someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','motoyama','tamaru','nomura','ota','shigenawa','suzuki','tabata','yashiro']#'tamura',,'watanabe',,
+someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','motoyama','tamaru','ota','shigenawa','suzuki','tabata','yashiro']#,'nomura',
 file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
 #file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
 day = ['01', '02']
