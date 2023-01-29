@@ -65,19 +65,19 @@ for sm in someone:
             #input_obj.columns=['Recording timestamp','Obj_num','Position X','Position Y']
             for i in range(0,len(input_obj)-1):#オブジェクトの位置1行ずつ見ていく
                 obj=input_obj.loc[i,'Obj num']
-                if input_obj.loc[i,'Position X']>1050:
+                if input_obj.loc[i,'Position X']>1920/2+100:
                     t_obj=2 #右にある
-                elif 850<=input_obj.loc[i,'Position X']<=1050:
+                elif 1920/2-100<=input_obj.loc[i,'Position X']<=1920/2+100:
                     t_obj=1 #中央にある
-                elif input_obj.loc[i,'Position X']<850:
+                elif input_obj.loc[i,'Position X']<1920/2-100:
                     t_obj=0 #左にある
 
                 obj_1=input_obj.loc[i+1,'Obj num']
-                if input_obj.loc[i+1,'Position X']>1050:
+                if input_obj.loc[i+1,'Position X']>1920/2+100:
                     t_1_obj=2 #右にある
-                elif 850<=input_obj.loc[i+1,'Position X']<=1050:
+                elif 1920/2-100<=input_obj.loc[i+1,'Position X']<=1920/2+100:
                     t_1_obj=1 #中央にある
-                elif input_obj.loc[i+1,'Position X']<850:
+                elif input_obj.loc[i+1,'Position X']<1920/2-100:
                     t_1_obj=0 #左にある
 
                 if abs(t_obj-t_1_obj)==1 and obj==obj_1:
@@ -90,18 +90,18 @@ for sm in someone:
             #['Recording timestamp','Event','Sensor','Gaze point X','Gaze point Y','Validity left','Validity right','Eye movement type']
             for i in range(0,len(input_eye)-1):#オブジェクトの位置1行ずつ見ていく
                 #if input_eye.loc[i,'Gaze point X']==
-                if input_eye.loc[i,'Gaze point X']>1050:
+                if input_eye.loc[i,'Gaze point X']>1920/2+100:
                     t_eye=2 #右にある
-                elif 850<=input_eye.loc[i,'Gaze point X']<=1050:
+                elif 1920/2-100<=input_eye.loc[i,'Gaze point X']<=1920/2+100:
                     t_eye=1 #中央にある
-                elif input_eye.loc[i,'Gaze point X']<850:
+                elif input_eye.loc[i,'Gaze point X']<1920/2-100:
                     t_eye=0 #左にある
 
-                if input_eye.loc[i+1,'Gaze point X']>1050:
+                if input_eye.loc[i+1,'Gaze point X']>1920/2+100:
                     t_1_eye=2 #右にある
-                elif 850<=input_eye.loc[i+1,'Gaze point X']<=1050:
+                elif 1920/2-100<=input_eye.loc[i+1,'Gaze point X']<=1920/2+100:
                     t_1_eye=1 #中央にある
-                elif input_eye.loc[i+1,'Gaze point X']<850:
+                elif input_eye.loc[i+1,'Gaze point X']<1920/2-100:
                     t_1_eye=0 #左にある
 
                 if abs(t_eye-t_1_eye)==1:
