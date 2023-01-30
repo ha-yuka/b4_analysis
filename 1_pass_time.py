@@ -7,10 +7,10 @@ import datetime as dt
 
 #経過時間とアンケート
 
-someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','motoyama','tamaru','ota','shigenawa','suzuki','tabata','yashiro']#'nomura',
-file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
-#file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
-day = ['01', '02']
+someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','motoyama','tamaru','ota','shigenawa','suzuki','tabata','yashiro','nomura','tamura','watanabe']#
+#file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
+file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
+day = ['02']#, '02'
 pre=[]
 post=[]
 
@@ -45,37 +45,37 @@ for sm in someone:
 
             end_unix = input_mouse.iloc[-1,0] #UNIX時間に
             pass_time.append(end_unix-start_unix)
-            #print((look_100/total)*100)
+            print(sm,dy,fn)
 
-someone=['watanabe'] #,'tamura'
-day=['02']           
-for sm in someone:
-    for dy in day:
-        for fn in file_name:
-            #=================アンケートの結果=================
-            if dy=='01':
-                index=(task01.index[task01['被験者']==sm])[0]
-                pre_q=fn+'_pre'
-                post_q=fn+'_post'
-                pre.append(task01.loc[index,pre_q])
-                post.append(task01.loc[index,post_q])
-            else:
-                index=(task02.index[task02['被験者']==sm])[0]
-                pre_q=fn+'_pre'
-                post_q=fn+'_post'
-                pre.append(task02.loc[index,pre_q])
-                post.append(task02.loc[index,post_q])
-            #print(index)
-            #================================================
-            eye_index=0
+# someone=['watanabe','tamura'] #
+# day=['02']           
+# for sm in someone:
+#     for dy in day:
+#         for fn in file_name:
+#             #=================アンケートの結果=================
+#             if dy=='01':
+#                 index=(task01.index[task01['被験者']==sm])[0]
+#                 pre_q=fn+'_pre'
+#                 post_q=fn+'_post'
+#                 pre.append(task01.loc[index,pre_q])
+#                 post.append(task01.loc[index,post_q])
+#             else:
+#                 index=(task02.index[task02['被験者']==sm])[0]
+#                 pre_q=fn+'_pre'
+#                 post_q=fn+'_post'
+#                 pre.append(task02.loc[index,pre_q])
+#                 post.append(task02.loc[index,post_q])
+#             #print(index)
+#             #================================================
+#             eye_index=0
 
-            #各マウスデータについて，その時刻の直前に見ていた点とのユークリッド距離を算出
-            input_mouse=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'mouse.csv', index_col=None)#マウスデータ読み込み
-            start_unix=input_mouse.iloc[0,0] #UNIX時間に
+#             #各マウスデータについて，その時刻の直前に見ていた点とのユークリッド距離を算出
+#             input_mouse=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'mouse.csv', index_col=None)#マウスデータ読み込み
+#             start_unix=input_mouse.iloc[0,0] #UNIX時間に
 
-            end_unix = input_mouse.iloc[-1,0] #UNIX時間に
-            pass_time.append(end_unix-start_unix)
-            #print((look_100/total)*100)
+#             end_unix = input_mouse.iloc[-1,0] #UNIX時間に
+#             pass_time.append(end_unix-start_unix)
+#             #print((look_100/total)*100)
 
 
 print("-------------------pre--------------------")
@@ -96,7 +96,7 @@ print("切片= ", clf.intercept_)
 print("決定係数= ", clf.score(X2, pre))
 s1=pd.Series(pass_time)
 s2=pd.Series(pre)
-print(s1.corr(s2))
+print("相関係数=",s1.corr(s2))
 
 print("----------------post----------------")
 plt.scatter(pass_time,post)
@@ -114,4 +114,4 @@ print("切片= ", clf.intercept_)
 print("決定係数= ", clf.score(X2, post))
 s1=pd.Series(pass_time)
 s2=pd.Series(post)
-print(s1.corr(s2))
+print("相関係数=",s1.corr(s2))

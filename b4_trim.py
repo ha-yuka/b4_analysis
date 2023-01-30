@@ -2,7 +2,7 @@ import pandas as pd
 import datetime as dt
 from decimal import *
 
-someone = ['tamura']#'imahashi','kawamura','kawasaki','kobayashi','maeda','motoyama','nomura','ota','shigenawa','suzuki','tabata','tamaru','watanabe','yashiro'
+someone = ['tamura','imahashi','kawamura','kawasaki','kobayashi','maeda','motoyama','nomura','ota','shigenawa','suzuki','tabata','tamaru','watanabe','yashiro']#
 file_name = ['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']#,
 day = ['02']#'01'
 for sm in someone:
@@ -11,7 +11,6 @@ for sm in someone:
         for fn in file_name:            
             ################csvファイルから必要な時間の抽出#################
             input_obj=pd.read_csv('exp_data/' + sm+ dy +'/'+sm+dy+'_obj/'+ fn+'.csv',header=None)#ファイルの読み込み
-
             start=input_obj.iloc[0,0] #○○○○‐○○‐○○ ○○:○○:○○,○○○○
             start_dt=dt.datetime.strptime(start,'%Y-%m-%d %H:%M:%S.%f') #datetime型に
             start_unix=start_dt.timestamp() #UNIX時間に
@@ -51,39 +50,30 @@ for sm in someone:
                     end_index=i
                     break
 
+            print('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'eye_all.csv')
+            output_eye = input_data.copy()  # 補間の必要がない列を保持するため，とりあえず全部コピーしておく
+            output_eye['Gaze point X'] = input_data['Gaze point X'].interpolate().tolist() #補間
+            output_eye['Gaze point Y'] = input_data['Gaze point Y'].interpolate().tolist() #補間
 
-            input_data=input_data.drop(range(end_index,len(input_data)))#最後の余分な部分削除
-            input_data= input_data.drop([i for i in range(start_index)])#最初の余分な部分削除
-            input_data = input_data.loc[:,['Recording timestamp','Event','Sensor','Gaze point X','Gaze point Y','Validity left','Validity right','Eye movement type','Mouse position X','Mouse position Y','Event value']]
-            input_data = input_data.reset_index(drop=True)#インデックス振り直し
+            output_eye=output_eye.drop(range(end_index,len(input_data)))#最後の余分な部分削除
+            output_eye= output_eye.drop([i for i in range(start_index)])#最初の余分な部分削除
+            output_eye = output_eye.loc[:,['Recording timestamp','Event','Sensor','Gaze point X','Gaze point Y','Validity left','Validity right','Eye movement type']]
+            output_eye = output_eye.reset_index(drop=True)#インデックス振り直し
 
-            for i in range(len(input_data)):#時間の書き換え
+            for i in range(len(output_eye)):#時間の書き換え
                 t_stamp=input_data.iloc[i,0]
                 new_unix=round(t_stamp*0.000001,6)+recording_st_unix
-                new_dt = dt.datetime.fromtimestamp(new_unix)
-                input_data.iloc[i,0]=new_dt
+                output_eye.iloc[i,0]=new_unix
             
-            pass_time=input_data.iloc[-1,0]-input_data.iloc[0,0]
-            l_sm.append(pass_time)
             #print(pass_time)
+            output_eye.to_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'lerp.csv',  index=False)#ファイルに出力
 
-            eyetracker_df=input_data#コピー
-            drop_index=eyetracker_df.index[eyetracker_df['Sensor']!='Eye Tracker']
-            eyetracker_df=eyetracker_df.drop(drop_index)
-            eyetracker_df = eyetracker_df.reset_index(drop=True)
-            eyetracker_df = eyetracker_df.loc[:,['Recording timestamp','Event','Sensor','Gaze point X','Gaze point Y','Validity left','Validity right','Eye movement type']]
-            eyetracker_df.to_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'eye_all.csv',  index=False)#視線データ（invalidあり）ファイルに出力
 
-            drop_index=eyetracker_df.index[((eyetracker_df['Validity left']=='Invalid') & (eyetracker_df['Validity right']=='Invalid'))]
-            eyetracker_df=eyetracker_df.drop(drop_index)
-            eyetracker_df = eyetracker_df.reset_index(drop=True)
-            eyetracker_df.to_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'eye_valid.csv',  index=False)#ファイルに出力（invalidなし）
-
-            ################マウスデータ出力#######################
-            drop_index=input_data.index[((input_data['Event']!='MouseEvent')&(input_data['Sensor']!='Mouse'))]
-            input_data=input_data.drop(drop_index)
-            input_data = input_data.reset_index(drop=True)
-            input_data = input_data.loc[:,['Recording timestamp','Sensor','Mouse position X','Mouse position Y','Event','Event value']]
-            input_data.to_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'mouse.csv',  index=False)#ファイルに出力
-            print(sm+dy+fn)
+            # ################マウスデータ出力#######################
+            # drop_index=input_data.index[((input_data['Event']!='MouseEvent')&(input_data['Sensor']!='Mouse'))]
+            # input_data=input_data.drop(drop_index)
+            # input_data = input_data.reset_index(drop=True)
+            # input_data = input_data.loc[:,['Recording timestamp','Sensor','Mouse position X','Mouse position Y','Event','Event value']]
+            # input_data.to_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'mouse.csv',  index=False)#ファイルに出力
+            # print(sm+dy+fn)
             
