@@ -11,7 +11,7 @@ someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','tamaru','nomura
 file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
 #file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
 #ryoma=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle3-1','puzzle4-1','puzzle4-2']#ira4-1
-day = ['01']
+day=['02']
 pre=[]
 post=[]
 
@@ -51,37 +51,6 @@ for sm in someone:
                     saccade=saccade+1
             saccade_pers.append(saccade/pass_time)
 
-someone=['imahashi','kawamura','kawasaki','kobayashi','maeda','tamaru','nomura','ota','shigenawa','suzuki','tabata','yashiro','tamura','watanabe']
-day=['02']           
-for sm in someone:
-    for dy in day:
-        for fn in file_name:
-            print(sm,dy,fn)
-            #=================アンケートの結果=================
-            if dy=='01':
-                index=(task01.index[task01['被験者']==sm])[0]
-                pre_q=fn+'_pre'
-                post_q=fn+'_post'
-                pre.append(task01.loc[index,pre_q])
-                post.append(task01.loc[index,post_q])
-            else:
-                index=(task02.index[task02['被験者']==sm])[0]
-                pre_q=fn+'_pre'
-                post_q=fn+'_post'
-                pre.append(task02.loc[index,pre_q])
-                post.append(task02.loc[index,post_q])
-            #print(index)
-            #================================================
-            input_mouse=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'eye_all.csv', index_col=None)#マウスデータ読み込み
-            #===============================================
-            start_unix=input_eye.iloc[0,0] 
-            end_unix=input_eye.iloc[-1,0]
-            pass_time=(end_unix-start_unix)
-            #================================================
-            for i in range(len(input_eye)-1):
-                if input_eye.loc[i,'Eye movement type']=='Saccade':
-                    saccade=saccade+1
-            saccade_pers.append(saccade/pass_time)
 
 print("-------------------pre--------------------")
 plt.scatter(saccade_pers,pre)
