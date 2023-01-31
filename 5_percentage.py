@@ -4,11 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import linear_model
 
-someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','motoyama','tamaru','nomura','ota','shigenawa','suzuki','tabata','yashiro']#'tamura',,'watanabe',,
-file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
-#file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
-day = ['01']
-
+someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','nomura','ota','shigenawa','suzuki','tabata','tamaru','tamura','watanabe','yashiro']#,,'motoyama'
+file_name = ['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2','n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
+day = ['02']
+output_df=pd.DataFrame(columns=someone,index=file_name)
 around_30=[]
 around_50=[]
 around_100=[]
@@ -17,13 +16,11 @@ around_200=[]
 around_250=[]
 pre=[]
 post=[]
-
+output_df=pd.DataFrame(columns=someone,index=file_name)
 #========================アンケート結果読み込み=====================#
 task01=pd.read_excel('task01.xlsx',index_col=None)#ファイルの読み込み
 task02=pd.read_excel('task02.xlsx',index_col=None)#ファイルの読み込み
-#=================================================================#
-someone=['imahashi','kawamura','kawasaki','kobayashi','maeda','tamaru','nomura','ota','shigenawa','suzuki','tabata','yashiro','tamura','watanabe']
-day=['02']           
+#=================================================================#      
 for sm in someone:
     for dy in day:
         for fn in file_name:
@@ -107,6 +104,9 @@ for sm in someone:
             around_200.append((look_200/total)*100)
             around_250.append((look_250/total)*100)
             #print((look_100/total)*100)
+            output_df.loc[fn,sm]=saccade_kyori
+
+output_df.to_excel("./sac_kyori.xlsx")
 
 plt.scatter(around_100,pre)
 plt.xlim(0,100)

@@ -7,14 +7,13 @@ import datetime as dt
 
 #クリック直後の視線とマウスの動く角度
 
-someone = ['motoyama','kawamura','kawasaki','kobayashi','maeda','tamaru','nomura','ota','shigenawa','suzuki','tabata','yashiro','imahashi']#,
-file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
-#file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
-day = ['01']#'01',
+someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','nomura','ota','shigenawa','suzuki','tabata','tamaru','tamura','watanabe','yashiro']#,
+file_name = ['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2','n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
+day = ['02']#'01',
 pre=[]
 post=[]
 after=16
-
+output_df=pd.DataFrame(columns=someone,index=file_name)
 kakudo=[]
 #========================アンケート結果読み込み=====================#
 task01=pd.read_excel('task01.xlsx',index_col=None)#ファイルの読み込み
@@ -138,6 +137,9 @@ for sm in someone:
                 post_q=fn+'_post'
                 pre.append(task02.loc[index,pre_q])
                 post.append(task02.loc[index,post_q])
+            output_df.loc[fn,sm]=sum(k_list)/len(k_list)
+
+output_df.to_excel("./kakudo.xlsx")
 
             
 print("-------pre------")

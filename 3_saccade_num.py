@@ -7,14 +7,12 @@ import datetime as dt
 
 #サッカード回数
 
-someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','tamaru','nomura','ota','shigenawa','suzuki','tabata','yashiro','motoyama']#01,02'motoyama'
-file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
-#file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
-#ryoma=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle3-1','puzzle4-1','puzzle4-2']#ira4-1
+someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','nomura','ota','shigenawa','suzuki','tabata','tamaru','tamura','watanabe','yashiro']#01,02'motoyama'
+file_name = ['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2','n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
 day=['02']
 pre=[]
 post=[]
-
+output_df=pd.DataFrame(columns=someone,index=file_name)
 saccade_pers=[]
 #========================アンケート結果読み込み=====================#
 task01=pd.read_excel('task01.xlsx',index_col=None)#ファイルの読み込み
@@ -46,10 +44,27 @@ for sm in someone:
             end_unix=input_eye.iloc[-1,0]
             pass_time=(end_unix-start_unix)
             #===========================サッカード回数計算==============================
-            for i in range(len(input_eye)-1):
-                if input_eye.loc[i,'Eye movement type']=='Saccade':
+            sac_index = input_eye.index[((input_eye['Eye movement type'] == 'Saccade') | (input_eye['Eye movement type'] == 'Unclassified'))].tolist()# ウィンドウ内の
+            if sac_index[0]==0:
+                #print("1")
+                saccade=saccade+1
+
+            for k in range(1, len(sac_index) - 1):
+                #print("2")
+                if sac_index[k - 1] + 1 != sac_index[k]:
+                    #print("a")
                     saccade=saccade+1
+                    
+            if (sac_index[-2] + 1 != sac_index[-1]):
+               #print("3")
+               saccade=saccade+1
+            #print(saccade)
+            
             saccade_pers.append(saccade/pass_time)
+            #print(saccade_pers)
+            output_df.loc[fn,sm]=saccade/pass_time
+
+output_df.to_excel("./sac_num.xlsx")
 
 
 print("-------------------pre--------------------")

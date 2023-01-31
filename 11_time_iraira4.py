@@ -25,13 +25,13 @@ def outlier_2s(li):
 
     return li
 
-someone = ['yashiro','kawamura','kawasaki','kobayashi','maeda','tamaru','nomura','ota','shigenawa','suzuki','tabata','imahashi','tamura','watanabe']
-file_name = ['n_iraira4','iraira4-1','iraira4-2']#'n_iraira5''iraira5-1','iraira5-2'
+someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','nomura','ota','shigenawa','suzuki','tabata','tamaru','tamura','watanabe','yashiro']
+file_name = ['n_iraira4','iraira4-1','iraira4-2']
 day = ['02']
 pre=[]
 post=[]
 col_name=['Recording timestamp','pre_area','post_area']
-
+output_df=pd.DataFrame(columns=someone,index=file_name)
 area=75
 wide=1880
 high=1040
