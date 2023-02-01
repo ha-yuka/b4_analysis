@@ -39,74 +39,28 @@ for sm in someone:
             
             # mevent_index = input_mouse.index[(input_mouse['Event value'] != 'Down, Left') & (input_mouse['Event value'] != 'Down, Left')].tolist()#マウスイベントインデックス取得
             input_eye=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'lerp.csv', index_col=None)#視線データ読み込み
-            input_eye=input_eye.fillna('')
             if len(click_index)==0:
                 break
             if len(click_index)>=2:
                 for i in range(1,len(click_index)):
                     if click_index[i]-click_index[i-1]<=after:
                         pop_index.append(i-1)
+            if click_index[-1]+after>len(input_mouse)-1:
+                pop_index.append(len(pop_index)-1)
             for i in range(0, len(pop_index)):#近すぎるクリックインデックス消す
                 click_index.pop(pop_index[len(pop_index)-1-i])
 
-            if len(click_index)>=2:
-                for i in range(0,len(click_index)-1):
-                    if (input_mouse.loc[click_index[i]+1,'Event'] == ''):
-                        break
-                    a = input_mouse.at[input_mouse.index[click_index[i]+1], 'Mouse position X']  # 視点のx座標
-                    b = input_mouse.at[input_mouse.index[click_index[i]+1], 'Mouse position Y']  # 視点のy座標
-                    mouse_start=[a, b]
-                    if (input_mouse.loc[click_index[i]+after,'Event'] == ''):
-                        break
-                        #print("none")
-                    c = input_mouse.at[input_mouse.index[click_index[i]+after], 'Mouse position X']  # 視点のx座標
-                    d = input_mouse.at[input_mouse.index[click_index[i]+after], 'Mouse position Y']  # 視点のy座標
-                    # else:
-                    #     c = input_mouse.at[input_mouse.index[click_index[i]-1+after], 'Mouse position X']  # 視点のx座標
-                    #     d = input_mouse.at[input_mouse.index[click_index[i]-1+after], 'Mouse position Y']  # 視点のy座標
-                    mouse_end=[c, d]
-                    mouse_vec=np.array([c-a,d-b])                                            
+            print(click_index)
 
-                    click_start = input_mouse.at[input_mouse.index[click_index[i]+1], 'Recording timestamp']  # クリック点
-                    ind=input_eye['Recording timestamp'].sub(click_start).abs().idxmin()#最も近い時間の値
-
-                    if (input_eye.loc[ind,'Gaze point X'] == ''):
-                        break
-                    e = input_eye.at[input_eye.index[ind], 'Gaze point X']  # 視点のx座標
-                    f = input_eye.at[input_eye.index[ind], 'Gaze point Y']  # 視点のy座標
-                        #print("none")
-                    if (input_eye.loc[ind+after,'Gaze point X'] == ''):
-                        break
-                    g = input_eye.at[input_eye.index[ind], 'Gaze point X']  # 視点のx座標
-                    h = input_eye.at[input_eye.index[ind], 'Gaze point Y']  # 視点のy座標
-                    eye_start=[e, f]
-                    eye_vec=np.array([g-e,h-f])
-
-                    naiseki=np.dot(eye_vec,mouse_vec)
-                    l_eye=(np.linalg.norm(eye_vec))
-                    l_mouse=(np.linalg.norm(mouse_vec))
-
-                    if l_eye==0 or l_mouse==0:#0割り防止
-                        break
-                    theta=np.arccos(naiseki/(l_eye*l_mouse))
-                        #print(fn,click_index[i]+after,mouse_start,mouse_end,mouse_vec,naiseki,theta)
-                    k_list.append(theta)
-    
-            if click_index[-1]+after<len(input_mouse)-1:
-                    a = input_mouse.at[input_mouse.index[click_index[-1]+1], 'Mouse position X']  # 視点のx座標
-                    b = input_mouse.at[input_mouse.index[click_index[-1]+1], 'Mouse position Y']  # 視点のy座標
-                    mouse_start=[a, b]
-                    if (input_mouse.loc[click_index[-1]+after,'Event'] == ''):
-                        #print("none")
-                        c = input_mouse.at[input_mouse.index[click_index[-1]+after], 'Mouse position X']  # 視点のx座標
-                        d = input_mouse.at[input_mouse.index[click_index[-1]+after], 'Mouse position Y']  # 視点のy座標
-                    else:
-                        c = input_mouse.at[input_mouse.index[click_index[-1]-1+after], 'Mouse position X']  # 視点のx座標
-                        d = input_mouse.at[input_mouse.index[click_index[-1]-1+after], 'Mouse position Y']  # 視点のy座標
-                    mouse_end=[c, d]
-                    mouse_vec=np.array([c-a,d-b])
-                    sac_start = input_mouse.at[input_mouse.index[click_index[-1]], 'Recording timestamp']  # サッカード開始時刻
-                    ind=input_eye['Recording timestamp'].sub(sac_start).abs().idxmin()#最も近い時間の値
+            if len(click_index)==1:
+                a = input_mouse.at[input_mouse.index[click_index[0]+1], 'Mouse position X']  # 視点のx座標
+                b = input_mouse.at[input_mouse.index[click_index[0]+1], 'Mouse position Y']  # 視点のy座標
+                c = input_mouse.at[input_mouse.index[click_index[0]+after], 'Mouse position X']  # 視点のx座標
+                d = input_mouse.at[input_mouse.index[click_index[0]+after], 'Mouse position Y']  # 視点のy座標
+                mouse_vec=np.array([c-a,d-b])
+                click_start = input_mouse.at[input_mouse.index[click_index[0]+1], 'Recording timestamp']  # クリック点
+                ind=input_eye['Recording timestamp'].sub(click_start).abs().idxmin()#最も近い時間の値
+                if (ind+after)<len(input_eye)-1:
                     e = input_eye.at[input_eye.index[ind], 'Gaze point X']  # 視点のx座標
                     f = input_eye.at[input_eye.index[ind], 'Gaze point Y']  # 視点のy座標
                     eye_start=[e, f]
@@ -115,13 +69,65 @@ for sm in someone:
                     eye_end=[g, h]
                     eye_vec=np.array([g-e,h-f])
                     naiseki=np.inner(eye_vec,mouse_vec)
-                    if (np.linalg.norm(eye_vec)*np.linalg.norm(mouse_vec))==0:#0割り防止
-                        break
                     theta=np.arccos(naiseki/(np.linalg.norm(eye_vec)*np.linalg.norm(mouse_vec)))
                     k_list.append(theta)
-                    #print(theta)
-            if len(k_list)==0:
-                break
+                else:
+                    break
+
+            elif len(click_index)>=2:
+                for i in range(0,len(click_index)-1):
+                    a = input_mouse.at[input_mouse.index[click_index[i]+1], 'Mouse position X']  # マウスのx座標
+                    b = input_mouse.at[input_mouse.index[click_index[i]+1], 'Mouse position Y']  # マウスのy座標
+                    mouse_start=[a, b]
+                    if input_mouse.at[input_mouse.index[click_index[i]+after], 'Mouse position X']!='':
+                        c = input_mouse.at[input_mouse.index[click_index[i]+after], 'Mouse position X']  
+                        d = input_mouse.at[input_mouse.index[click_index[i]+after], 'Mouse position Y']  
+                    else:
+                        c = input_mouse.at[input_mouse.index[click_index[i]-1+after], 'Mouse position X'] 
+                        d = input_mouse.at[input_mouse.index[click_index[i]-1+after], 'Mouse position Y']  
+
+                    mouse_end=[c, d]
+                    mouse_vec=np.array([c-a,d-b])                                            
+
+                    click_start = input_mouse.at[input_mouse.index[click_index[i]+1], 'Recording timestamp']  # クリック点
+                    ind=input_eye['Recording timestamp'].sub(click_start).abs().idxmin()#最も近い時間の値
+                    
+                    e = input_eye.at[input_eye.index[ind], 'Gaze point X']  # 視点のx座標
+                    f = input_eye.at[input_eye.index[ind], 'Gaze point Y']  # 視点のy座標
+                    eye_start=[e, f]
+                    print(click_start,input_eye.at[input_eye.index[ind],'Recording timestamp'])
+                    print(click_index[i],ind)
+                    g = input_eye.at[input_eye.index[ind+after], 'Gaze point X']  # 視点のx座標
+                    h = input_eye.at[input_eye.index[ind+after], 'Gaze point Y']  # 視点のy座標
+                    eye_end=[g, h]
+                    eye_vec=np.array([g-e,h-f])
+                    naiseki=np.inner(eye_vec,mouse_vec)
+                    theta=np.arccos(naiseki/(np.linalg.norm(eye_vec)*np.linalg.norm(mouse_vec)))   
+                    # if l_eye==0 or l_mouse==0:#0割り防止
+                    #     theta=0
+                    k_list.append(theta)
+    
+                if click_index[-1]+after<len(input_mouse)-1:
+                    a = input_mouse.at[input_mouse.index[click_index[-1]+1], 'Mouse position X']  # 視点のx座標
+                    b = input_mouse.at[input_mouse.index[click_index[-1]+1], 'Mouse position Y']  # 視点のy座標
+                    mouse_start=[a, b]
+                    c = input_mouse.at[input_mouse.index[click_index[-1]+after], 'Mouse position X']  # 視点のx座標
+                    d = input_mouse.at[input_mouse.index[click_index[-1]+after], 'Mouse position Y']  # 視点のy座標
+                    mouse_end=[c, d]
+                    mouse_vec=np.array([c-a,d-b])
+                    sac_start = input_mouse.at[input_mouse.index[click_index[-1]+1], 'Recording timestamp']  # サッカード開始時刻
+                    ind=input_eye['Recording timestamp'].sub(sac_start).abs().idxmin()#最も近い時間の値
+                    if (ind+after)<len(input_eye)-1:
+                        e = input_eye.at[input_eye.index[ind], 'Gaze point X']  # 視点のx座標
+                        f = input_eye.at[input_eye.index[ind], 'Gaze point Y']  # 視点のy座標
+                        eye_start=[e, f]
+                        g = input_eye.at[input_eye.index[ind+after], 'Gaze point X']  # 視点のx座標
+                        h = input_eye.at[input_eye.index[ind+after], 'Gaze point Y']  # 視点のy座標
+                        eye_end=[g, h]
+                        eye_vec=np.array([g-e,h-f])
+                        naiseki=np.inner(eye_vec,mouse_vec)
+                        theta=np.arccos(naiseki/(np.linalg.norm(eye_vec)*np.linalg.norm(mouse_vec)))
+                        k_list.append(theta)
             print(sum(k_list)/len(k_list))
             kakudo.append(sum(k_list)/len(k_list))
 
@@ -137,7 +143,7 @@ for sm in someone:
                 post_q=fn+'_post'
                 pre.append(task02.loc[index,pre_q])
                 post.append(task02.loc[index,post_q])
-            output_df.loc[fn,sm]=sum(k_list)/len(k_list)
+            output_df.loc[fn,sm]=(sum(k_list)/len(k_list))
 
 output_df.to_excel("./kakudo.xlsx")
 

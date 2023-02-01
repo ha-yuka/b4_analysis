@@ -36,7 +36,7 @@ for sm in someone:
                 post_q=fn+'_post'
                 pre.append(task02.loc[index,pre_q])
                 post.append(task02.loc[index,post_q])
-            print(index)
+            #print(index)
             #===============================================
             input_df=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'lerp.csv', index_col=None)#視線データ
 
@@ -48,8 +48,6 @@ for sm in someone:
             drt_list_s = []  # ウィンドウ内のサッカード時間を格納
 
             sac_index = input_df.index[((input_df['Eye movement type'] == 'Saccade') | (input_df['Eye movement type'] == 'Unclassified'))].tolist()# ウィンドウ内の
-            print(sac_index)
-            #saccadeに該当するindexを格納
             if sac_index[0]==0:
                 x = input_df.at[input_df.index[0], 'Gaze point X']  # 視点のx座標
                 y = input_df.at[input_df.index[0], 'Gaze point Y']  # 視点のy座標
@@ -84,11 +82,8 @@ for sm in someone:
                         y = input_df.at[input_df.index[sac_index[k] + 1], 'Gaze point Y']  # 視点のy座標
                         p_end = [x, y]
                         P_END.append(sac_index[k])
-                        if not (np.isnan(p_start).any() or np.isnan(p_end).any()):
-                            amp_list.append(np.linalg.norm(p_end-p_start))
-                            amp_list.append(distance.euclidean(p_start, p_end))  # サッカード振幅を計算
-                        else:
-                           amp_list.append(np.nan)
+                        amp_list.append(distance.euclidean(p_start, p_end))  # サッカード振幅を計算
+            
 
             if (sac_index[-2] + 1 != sac_index[-1]) and (sac_index[-1] < len(input_df)-1):#ケツが連続でないかつ末尾でない
                 x = input_df.at[input_df.index[sac_index[-1] - 1], 'Gaze point X']  # 視点のx座標
@@ -128,12 +123,9 @@ for sm in someone:
             
             print("#===========================#")
             print('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'eye_all.csv')
-            if len(P_START)-len(P_END)!=0:
                 
-                print(P_START, P_END)
-                print(len(P_START),len(P_END))
             saccade_kyori.append(sum(amp_list)/len(amp_list))  # 平均サッカード距離
-            output_df.loc[fn,sm]=saccade_kyori
+            output_df.loc[fn,sm]=sum(amp_list)/len(amp_list)
 
 output_df.to_excel("./sac_kyori.xlsx")
 
