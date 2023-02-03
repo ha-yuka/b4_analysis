@@ -6,10 +6,10 @@ from sklearn import linear_model
 
 #接触時間とアンケート
 
-someone =  ['imahashi','kawamura','kawasaki','kobayashi','maeda','motoyama','tamaru','ota','shigenawa','suzuki','tabata','yashiro','nomura']#,'tamura','watanabe'
-#file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
-file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
-day = ['01','02']#, '02'
+someone =  ['imahashi','kawamura','kawasaki','kobayashi','maeda','tamura','watanabe','tamaru','ota','shigenawa','suzuki','tabata','yashiro','nomura']#,
+file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
+#file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
+day = ['02']#, '02'
 
 touch=[]
 puzzle_pre=[]
@@ -85,12 +85,12 @@ clf = linear_model.LinearRegression()
 X2 = [[x] for x in touch]
 clf.fit(X2, puzzle_pre) # 予測モデルを作成
 plt.plot(X2, clf.predict(X2))
-plt.xlabel("接触回数", fontname="MS Gothic")
-plt.ylabel("事前自己効力感", fontname="MS Gothic")
+plt.xlabel("接触回数", fontname="MS Gothic",fontsize=12)
+plt.ylabel("事前自己効力感", fontname="MS Gothic",fontsize=12)
 plt.show()
 print("回帰係数=", '{:.3f}'.format (clf.coef_[0]))
 print("切片= ", '{:.3f}'.format (clf.intercept_))
-print("決定係数= ", '{:.3f}'.format (clf.score(X2, puzzle_post)))
+print("決定係数= ", '{:.3f}'.format (clf.score(X2, puzzle_pre)))
 s1=pd.Series(touch)
 s2=pd.Series(puzzle_pre)
 print("相関係数= ",'{:.3f}'.format (s1.corr(s2)))
@@ -103,8 +103,8 @@ clf = linear_model.LinearRegression()
 X2 = [[x] for x in touch]
 clf.fit(X2, puzzle_post) # 予測モデルを作成
 plt.plot(X2, clf.predict(X2))
-plt.xlabel("接触回数", fontname="MS Gothic")
-plt.ylabel("事後自己効力感", fontname="MS Gothic")
+plt.xlabel("接触回数", fontname="MS Gothic",fontsize=12)
+plt.ylabel("事後自己効力感", fontname="MS Gothic",fontsize=12)
 plt.show()
 print("回帰係数=", '{:.3f}'.format (clf.coef_[0]))
 print("切片= ", '{:.3f}'.format (clf.intercept_))

@@ -31,7 +31,8 @@ day = ['02']#, '02'
 pre=[]
 post=[]
 col_name=['Recording timestamp','pre_area','post_area']
-output_df=pd.DataFrame(columns=someone,index=file_name)
+
+output_df=pd.read_excel("./time_gap.xlsx", index_col=0)
 area=125
 wide=1880
 high=1040
@@ -216,8 +217,11 @@ for sm in someone:
             #print(sub_gap,sum(sub_gap)/len(sub_gap))
             #print(sm,dy,fn)            
             time_gap.append(sum(sub_gap)/len(sub_gap))  # 平均時間差
+            output_df.loc[fn,sm]=sum(sub_gap)/len(sub_gap)
+
+output_df.to_excel("./time_gap.xlsx")
 
 
-dnarray = np.array([time_gap,pre,post])
-df=pd.DataFrame(dnarray)
-df.to_csv("./timegap.csv",mode='a',header=False,index=False)
+# dnarray = np.array([time_gap,pre,post])
+# df=pd.DataFrame(dnarray)
+# df.to_csv("./timegap.csv",mode='a',header=False,index=False)

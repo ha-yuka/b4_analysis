@@ -8,8 +8,8 @@ import datetime as dt
 #経過時間とアンケート
 
 someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','motoyama','tamaru','ota','shigenawa','suzuki','tabata','yashiro','nomura','tamura','watanabe']#
-#file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
-file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
+file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
+#file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
 day = ['02']#, '02'
 pre=[]
 post=[]
@@ -88,8 +88,8 @@ clf.fit(X2, pre) # 予測モデルを作成
 plt.plot(X2, clf.predict(X2))
 #ax.text(19.0, 0.6, '$ R^{2} $=' + str(round(r2_lin, 4)))
 #plt.plot(df_x, y_lin_fit, color = '#000000', linewidth=0.5)
-plt.xlabel("実行時間", fontname="MS Gothic")
-plt.ylabel("事前自己効力感", fontname="MS Gothic")
+plt.xlabel("実行時間", fontname="MS Gothic",fontsize=12)
+plt.ylabel("事前自己効力感", fontname="MS Gothic",fontsize=12)
 plt.show()
 print("回帰係数= ", clf.coef_)
 print("切片= ", clf.intercept_)
@@ -106,8 +106,8 @@ clf = linear_model.LinearRegression()
 X2 = [[x] for x in pass_time]
 clf.fit(X2, post) # 予測モデルを作成
 plt.plot(X2, clf.predict(X2))
-plt.xlabel("実行時間", fontname="MS Gothic")
-plt.ylabel("事後自己効力感", fontname="MS Gothic")
+plt.xlabel("実行時間", fontname="MS Gothic",fontsize=12)
+plt.ylabel("事後自己効力感", fontname="MS Gothic",fontsize=12)
 plt.show()
 print("回帰係数= ", clf.coef_)
 print("切片= ", clf.intercept_)

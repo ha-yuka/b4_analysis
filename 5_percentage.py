@@ -7,7 +7,6 @@ from sklearn import linear_model
 someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','nomura','ota','shigenawa','suzuki','tabata','tamaru','tamura','watanabe','yashiro']#,,'motoyama'
 file_name = ['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2','n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
 day = ['02']
-output_df=pd.DataFrame(columns=someone,index=file_name)
 around_30=[]
 around_50=[]
 around_100=[]
@@ -47,7 +46,6 @@ for sm in someone:
             look_100=0
             look_150=0
             look_200=0
-            look_250=0
             eye_index=0
 
             #各マウスデータについて，その時刻の直前に見ていた点とのユークリッド距離を算出
@@ -57,7 +55,7 @@ for sm in someone:
             input_mouse=input_mouse.drop(drop_index)
             input_mouse = input_mouse.reset_index(drop=True)
 
-            input_eye=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'eye_all.csv', index_col=None)#視視線データ読み込み
+            input_eye=pd.read_csv('exp_data/'+sm+dy+'/remove/' + fn+'_'+ 'lerp.csv', index_col=None)#視視線データ読み込み
             for data in input_mouse.itertuples():
                 timestamp=data[1]#タイムスタンプ
                 mouse_x=data[3]#マウスのx座標
@@ -92,8 +90,8 @@ for sm in someone:
                     look_150=look_150+1
                 if dist<=200:
                     look_200=look_200+1
-                if dist<=250:
-                    look_250=look_250+1
+                # if dist<=250:
+                #     look_250=look_250+1
                 
             
             #print(fn,'percentage=',look/total)
@@ -102,11 +100,11 @@ for sm in someone:
             around_100.append((look_100/total)*100)
             around_150.append((look_150/total)*100)
             around_200.append((look_200/total)*100)
-            around_250.append((look_250/total)*100)
+            #around_250.append((look_250/total)*100)
             #print((look_100/total)*100)
-            output_df.loc[fn,sm]=(look_200/total)*100
+            output_df.loc[fn,sm]=(look_30/total)*100
 
-output_df.to_excel("./around_200.xlsx")
+output_df.to_excel("./around_30.xlsx")
 
 # plt.scatter(around_100,pre)
 # plt.xlim(0,100)

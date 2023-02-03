@@ -26,12 +26,13 @@ def outlier_2s(li):
     return li
 
 someone = ['imahashi','kawamura','kawasaki','kobayashi','maeda','nomura','ota','shigenawa','suzuki','tabata','tamaru','tamura','watanabe','yashiro']#,'motoyama'
-file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
+file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2','n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
 day = ['02']#, '02'
 pre=[]
 post=[]
 col_name=['Recording timestamp','pre_area','post_area']
 output_df=pd.DataFrame(columns=someone,index=file_name)
+file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
 time_gap=[]
 #========================アンケート結果読み込み=====================#
 task01=pd.read_excel('task01.xlsx',index_col=None)#ファイルの読み込み
@@ -137,15 +138,15 @@ for sm in someone:
                 else:#1→2
                     near=one_two_df['Recording timestamp'].sub(t).abs().idxmin()
                     u=one_two_df.loc[near,'Recording timestamp']
-                # if abs(t-u)<=1:
-                #     sub_gap.append(t-u)
-                sub_gap.append(t-u)          
+                if abs(t-u)<=1:
+                    sub_gap.append(t-u)
+                #sub_gap.append(t-u)          
             #sub_gap=outlier_2s(sub_gap) #外れ値処理
             #print(sub_gap,sum(sub_gap)/len(sub_gap))
             print(sm,dy,fn)   
             print(sub_gap)         
             time_gap.append(sum(sub_gap)/len(sub_gap))  # 平均時間差
-            output_df.loc[fn,sm]=time_gap
+            output_df.loc[fn,sm]=(sum(sub_gap)/len(sub_gap))
 
 output_df.to_excel("./time_gap.xlsx")
 
