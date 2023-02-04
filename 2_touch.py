@@ -6,9 +6,10 @@ from sklearn import linear_model
 
 #接触時間とアンケート
 
-someone =  ['imahashi','kawamura','kawasaki','kobayashi','maeda','tamura','watanabe','tamaru','ota','shigenawa','suzuki','tabata','yashiro','nomura']#,
-file_name = ['n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
-#file_name=['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2']
+someone =  ['imahashi','kawamura','kawasaki','kobayashi','maeda','nomura','ota','shigenawa','suzuki','tabata','tamaru','tamura','watanabe','yashiro']#,
+file_name = ['n_puzzle1', 'n_puzzle2', 'n_puzzle3','n_puzzle4','n_puzzle5','puzzle1-1','puzzle1-2','puzzle2-1','puzzle2-2','puzzle3-1','puzzle3-2','puzzle4-1','puzzle4-2','puzzle5-1','puzzle5-2','n_iraira1','n_iraira2','n_iraira3','n_iraira4','n_iraira5','iraira1-1','iraira1-2','iraira2-1','iraira2-2','iraira3-1','iraira3-2','iraira4-1','iraira4-2','iraira5-1','iraira5-2']
+#file_name=[]
+output_df=pd.DataFrame(columns=someone,index=file_name)
 day = ['02']#, '02'
 
 touch=[]
@@ -43,39 +44,10 @@ for sm in someone:
             print(sm,dy,fn,index)
 
             num=input_touch.loc[index,2]
-
             touch.append(num)
-
-someone=['watanabe','tamura'] #
-day=['02'] 
-for sm in someone:
-    for dy in day:
-        for fn in file_name:
-            #=================アンケートの結果=================
-            if dy=='01':
-                index=(task01.index[task01['被験者']==sm])[0]
-                pre=fn+'_pre'
-                post=fn+'_post'
-                puzzle_pre.append(task01.loc[index,pre])
-                puzzle_post.append(task01.loc[index,post])
-            else:
-                index=(task02.index[task02['被験者']==sm])[0]
-                pre=fn+'_pre'
-                post=fn+'_post'
-                puzzle_pre.append(task02.loc[index,pre])
-                puzzle_post.append(task02.loc[index,post])
-            #================================================
-            total=0 #視線データの数
-            eye_index=0
-
-            input_touch=pd.read_csv('exp_data/'+sm+dy+'/'+sm+dy+'_obj/touch.csv', index_col=None,header=None)#接触回数データ読み込み
-            index=(input_touch.index[input_touch[1]==fn])[0]
-            print(sm,dy,fn,index)
-
-            num=input_touch.loc[index,2]
-
-            touch.append(num)
-
+            output_df.loc[fn,sm]=num
+            
+output_df.to_excel("./touch.xlsx")
 
 print("-------------------pre--------------------")
 plt.scatter(touch,puzzle_pre)
