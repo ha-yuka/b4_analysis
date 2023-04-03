@@ -127,7 +127,7 @@ for sm in someone:
             saccade_kyori.append(sum(amp_list)/len(amp_list))  # 平均サッカード距離
             output_df.loc[fn,sm]=sum(amp_list)/len(amp_list)
 
-output_df.to_excel("./sac_kyori.xlsx")
+output_df.to_excel("./sac_kyori_pre.xlsx")
 
 
 print("-------------pre-----------")
